@@ -432,44 +432,6 @@
     "nume_lung": "Aer Conditionat Clivet Stelvio — Split Inverter R-32 Premium pentru Încălzire (9000-12000 BTU)"
   },
   {
-    "nr": 19,
-    "slug": "boiler-acm-cu-serpentina-clivet-acs-200-300-500-1000l",
-    "nume": "Boiler ACM cu serpentină Clivet ACS (200/300/500/1000L)",
-    "sku": "CLV-ACS",
-    "categorie": "boilere",
-    "pret_tip": "variante",
-    "pret_de_la": null,
-    "variante": [
-      {
-        "nume": "ACS200X — 200 litri",
-        "pret": 4896.08,
-        "sku": "CLV-ACS-200X"
-      },
-      {
-        "nume": "ACS300X — 300 litri",
-        "pret": 5133.93,
-        "sku": "CLV-ACS-300X"
-      },
-      {
-        "nume": "ACS500X — 500 litri",
-        "pret": 7073.83,
-        "sku": "CLV-ACS-500X"
-      },
-      {
-        "nume": "ACS1000X — 1000 litri",
-        "pret": 11673.36,
-        "sku": "CLV-ACS-1000X"
-      }
-    ],
-    "descriere": "data/descrieri/19.html",
-    "poza": "poze/p19.jpg",
-    "seo_title": "Boiler ACM Clivet ACS cu Serpentină 200-1000L | RIXAIR",
-    "seo_meta": "Boiler de apă caldă menajeră Clivet ACS cu serpentină, 200/300/500/1000 litri, pentru cuplare cu pompă de căldură. RIXAIR Timișoara.",
-    "nota_interna": "pe Gomag de redenumit (apare ca EDGE F)",
-    "cat": "productie-apa-calda",
-    "nume_lung": "Boiler ACM cu serpentină Clivet ACS (200 / 300 / 500 / 1000 litri)"
-  },
-  {
     "nr": 23,
     "slug": "caseta-industriala-elfospace-box3-007-0-041-0-inverter",
     "nume": "Casetă industrială ELFOSpace BOX3 007.0–041.0 INVERTER",
