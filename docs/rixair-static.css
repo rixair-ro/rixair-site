@@ -119,3 +119,11 @@ body.rx-cos #shoppingcart p{font-size:15px}
 .rx-qty b{min-width:26px;text-align:center;font-size:15px}
 .rx-qty .rx-x{font-size:16px;padding:2px 8px;line-height:1}
 body.rx-cos table.rx-t td:nth-child(5){white-space:nowrap}
+
+/* === carduri produs uniformi (carusel homepage + listari): inaltime auto + imagine fixa + continut sus === */
+.carousel-slide .owl-wrapper,.product-listing .product{-webkit-box-align:start!important;-ms-flex-align:start!important;align-items:flex-start!important}
+.carousel-slide .owl-item,.carousel-slide .product-box-h,.carousel-slide .product-box,.carousel-slide .product-box .box-holder,.product-listing .product-box,.product-listing .product-box .box-holder{height:auto!important;min-height:0!important}
+.carousel-slide .product-box .image,.product-listing .product-box .image{height:200px!important;min-height:200px!important;max-height:200px!important}
+.carousel-slide .product-box .image img,.product-listing .product-box .image img{max-height:200px!important;object-fit:contain}
+.carousel-slide .product-box .box-holder .top-side-box,.product-listing .product-box .box-holder .top-side-box{-webkit-box-flex:0!important;-ms-flex:0 0 auto!important;flex:0 0 auto!important}
+.carousel-slide .product-box .box-holder .bottom-side-box,.product-listing .product-box .box-holder .bottom-side-box{-ms-flex-item-align:start!important;align-self:flex-start!important;margin-top:0!important}

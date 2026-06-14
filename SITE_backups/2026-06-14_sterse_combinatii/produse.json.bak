@@ -1,0 +1,1833 @@
+[
+  {
+    "nr": 1,
+    "slug": "pompa-de-caldura-monobloc-edge-evo-2-0-exc-r-32-wisan-yme-2-1-8-1",
+    "nume": "Pompă de căldură monobloc Edge EVO 2.0 EXC R-32 (WiSAN-YME) 2.1–8.1",
+    "sku": "CLV-EDGE-EVO-EXC",
+    "categorie": "pompe",
+    "pret_tip": "variante",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "2.1 — 4.2 kW heating (Edge EVO EXC monofazic)",
+        "pret": 13786.24,
+        "sku": "CLV-EDGE-EVO-EXC-2-1-220M"
+      },
+      {
+        "nume": "3.1 — 5.4 kW heating (Edge EVO EXC monofazic)",
+        "pret": 15855.89,
+        "sku": "CLV-EDGE-EVO-EXC-3-1-220M"
+      },
+      {
+        "nume": "4.1 — 6.5 kW heating (Edge EVO EXC monofazic)",
+        "pret": 17236.67,
+        "sku": "CLV-EDGE-EVO-EXC-4-1-220M"
+      },
+      {
+        "nume": "5.1 — 7.5 kW heating (Edge EVO EXC monofazic)",
+        "pret": 19621.38,
+        "sku": "CLV-EDGE-EVO-EXC-5-1-220M"
+      },
+      {
+        "nume": "6.1 — 10.6 kW heating (Edge EVO EXC monofazic)",
+        "pret": 22265.57,
+        "sku": "CLV-EDGE-EVO-EXC-6-1-220M"
+      },
+      {
+        "nume": "7.1 — 12.0 kW heating (Edge EVO EXC monofazic)",
+        "pret": 24508.2,
+        "sku": "CLV-EDGE-EVO-EXC-7-1-220M"
+      },
+      {
+        "nume": "8.1 — 14.0 kW heating (Edge EVO EXC monofazic)",
+        "pret": 25583.18,
+        "sku": "CLV-EDGE-EVO-EXC-8-1-220M"
+      }
+    ],
+    "descriere": "data/descrieri/01.html",
+    "poza": "poze/p01.jpg",
+    "seo_title": "Pompă de Căldură Clivet Edge EVO 2.0 EXC Monobloc R-32 | RIXAIR",
+    "seo_meta": "Pompă de căldură monobloc aer-apă Clivet Edge EVO 2.0 EXC, R-32, fără freon în interior, A+++. Variante 2.1-8.1. Stoc Timișoara, RIXAIR.",
+    "nota_interna": "",
+    "cat": "monobloc",
+    "nume_lung": "Pompă de Căldură Clivet Edge EVO 2.0 EXC — Monobloc R-32 (WiSAN-YME 2.1 → 8.1)"
+  },
+  {
+    "nr": 2,
+    "slug": "pompa-de-caldura-monobloc-edge-evo-xl-trifazic-r-32-wisan-yme-6-1t-14-",
+    "nume": "Pompă de căldură monobloc Edge EVO XL / Trifazic R-32 (WiSAN-YME) 6.1T–14.1",
+    "sku": "CLV-EDGE-EVO-EXC-T",
+    "categorie": "pompe",
+    "pret_tip": "variante",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "Edge EVO XL 6.1T (WiSAN-YME R-32)",
+        "pret": 22976.05,
+        "sku": "CLV-EDGE-EVO-EXC-XL-6-1T"
+      },
+      {
+        "nume": "Edge EVO XL 7.1T (WiSAN-YME R-32)",
+        "pret": 25274.28,
+        "sku": "CLV-EDGE-EVO-EXC-XL-7-1T"
+      },
+      {
+        "nume": "Edge EVO XL 8.1T (WiSAN-YME R-32)",
+        "pret": 26423.4,
+        "sku": "CLV-EDGE-EVO-EXC-XL-8-1T"
+      },
+      {
+        "nume": "Edge EVO XL 9.1 (WiSAN-YME R-32)",
+        "pret": 32505.66,
+        "sku": "CLV-EDGE-EVO-EXC-XL-9-1"
+      },
+      {
+        "nume": "Edge EVO XL 10.1 (WiSAN-YME R-32)",
+        "pret": 34689.59,
+        "sku": "CLV-EDGE-EVO-EXC-XL-10-1"
+      },
+      {
+        "nume": "Edge EVO XL 12.1 (WiSAN-YME R-32)",
+        "pret": 40632.84,
+        "sku": "CLV-EDGE-EVO-EXC-XL-12-1"
+      },
+      {
+        "nume": "Edge EVO XL 14.1 (WiSAN-YME R-32)",
+        "pret": 44395.24,
+        "sku": "CLV-EDGE-EVO-EXC-XL-14-1"
+      }
+    ],
+    "descriere": "data/descrieri/02.html",
+    "poza": "poze/p02.png",
+    "seo_title": "Pompă Clivet Edge EVO XL Trifazic 6.1T-14.1 R-32 | RIXAIR",
+    "seo_meta": "Pompă de căldură monobloc Clivet Edge EVO XL/trifazic pentru case mari și proiecte, până la ~30 kW. R-32, A+++. RIXAIR Timișoara.",
+    "nota_interna": "",
+    "cat": "monobloc",
+    "nume_lung": "Pompă de Căldură Clivet Edge EVO 2.0 EXC XL/Trifazic — Monobloc R-32 (WiSAN-YME 6.1T → 14.1)"
+  },
+  {
+    "nr": 3,
+    "slug": "pompa-de-caldura-monobloc-edge-f-r-290-wisan-pme-2-1-8-1",
+    "nume": "Pompă de căldură monobloc Edge F R-290 (WiSAN-PME) 2.1–8.1",
+    "sku": "EdgeF",
+    "categorie": "pompe",
+    "pret_tip": "variante",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "Edge F 2.1 (WiSAN-PME R-290)",
+        "pret": 15797.19,
+        "sku": "EdgeF-2.1"
+      },
+      {
+        "nume": "Edge F 3.1 (WiSAN-PME R-290)",
+        "pret": 18259.12,
+        "sku": "EdgeF-3.1"
+      },
+      {
+        "nume": "Edge F 4.1 (WiSAN-PME R-290)",
+        "pret": 19902.46,
+        "sku": "EdgeF-4.1"
+      },
+      {
+        "nume": "Edge F 5.1 (WiSAN-PME R-290)",
+        "pret": 22741.29,
+        "sku": "EdgeF-5.1"
+      },
+      {
+        "nume": "Edge F 6.1 (WiSAN-PME R-290)",
+        "pret": 25885.89,
+        "sku": "EdgeF-6.1"
+      },
+      {
+        "nume": "Edge F 7.1 (WiSAN-PME R-290)",
+        "pret": 28554.81,
+        "sku": "EdgeF-7.1"
+      },
+      {
+        "nume": "Edge F 8.1 (WiSAN-PME R-290)",
+        "pret": 29833.66,
+        "sku": "EdgeF-8.1"
+      },
+      {
+        "nume": "Edge F 6.1T (WiSAN-PME R-290)",
+        "pret": 26732.3,
+        "sku": "EdgeF-6.1T"
+      },
+      {
+        "nume": "Edge F 7.1T (WiSAN-PME R-290)",
+        "pret": 29466.04,
+        "sku": "EdgeF-7.1T"
+      },
+      {
+        "nume": "Edge F 8.1T (WiSAN-PME R-290)",
+        "pret": 30834.5,
+        "sku": "EdgeF-8.1T"
+      }
+    ],
+    "descriere": "data/descrieri/03.html",
+    "poza": "poze/p03.png",
+    "seo_title": "Pompă de Căldură Clivet Edge F Monobloc R-290 | RIXAIR",
+    "seo_meta": "Pompă de căldură monobloc Clivet Edge F cu propan ecologic R-290 (GWP=3), eficiență superioară iarna. 2.1-8.1. RIXAIR Timișoara.",
+    "nota_interna": "pe Gomag pret vechi gresit 3.999",
+    "cat": "monobloc",
+    "nume_lung": "Pompă de căldură monobloc Edge F R-290 (WiSAN-PME) 2.1–8.1"
+  },
+  {
+    "nr": 4,
+    "slug": "pompa-de-caldura-monobloc-edge-pro-r-290-wisan-pmp-2-1-14-1",
+    "nume": "Pompă de căldură monobloc Edge PRO R-290 (WiSAN-PMP) 2.1–8.1",
+    "sku": "CLV-EDGE-PRO",
+    "categorie": "pompe",
+    "pret_tip": "variante",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "Edge PRO 2.1 (WiSAN-PMP R-290)",
+        "pret": 19062.3,
+        "sku": "CLV-EDGE-PRO-2-1"
+      },
+      {
+        "nume": "Edge PRO 3.1 (WiSAN-PMP R-290)",
+        "pret": 21131.92,
+        "sku": "CLV-EDGE-PRO-3-1"
+      },
+      {
+        "nume": "Edge PRO 4.1 (WiSAN-PMP R-290)",
+        "pret": 22657.87,
+        "sku": "CLV-EDGE-PRO-4-1"
+      },
+      {
+        "nume": "Edge PRO 4.1T (WiSAN-PMP R-290)",
+        "pret": 23825.54,
+        "sku": "CLV-EDGE-PRO-4-1T"
+      },
+      {
+        "nume": "Edge PRO 5.1 (WiSAN-PMP R-290)",
+        "pret": 25641.85,
+        "sku": "CLV-EDGE-PRO-5-1"
+      },
+      {
+        "nume": "Edge PRO 5.1T (WiSAN-PMP R-290)",
+        "pret": 26957.79,
+        "sku": "CLV-EDGE-PRO-5-1T"
+      },
+      {
+        "nume": "Edge PRO 6.1 (WiSAN-PMP R-290)",
+        "pret": 30371.12,
+        "sku": "CLV-EDGE-PRO-6-1"
+      },
+      {
+        "nume": "Edge PRO 6.1T (WiSAN-PMP R-290)",
+        "pret": 31538.79,
+        "sku": "CLV-EDGE-PRO-6-1T"
+      },
+      {
+        "nume": "Edge PRO 7.1 (WiSAN-PMP R-290)",
+        "pret": 32209.11,
+        "sku": "CLV-EDGE-PRO-7-1"
+      },
+      {
+        "nume": "Edge PRO 7.1T (WiSAN-PMP R-290)",
+        "pret": 33098.71,
+        "sku": "CLV-EDGE-PRO-7-1T"
+      },
+      {
+        "nume": "Edge PRO 8.1 (WiSAN-PMP R-290)",
+        "pret": 33667.12,
+        "sku": "CLV-EDGE-PRO-8-1"
+      },
+      {
+        "nume": "Edge PRO 8.1T (WiSAN-PMP R-290)",
+        "pret": 34633.94,
+        "sku": "CLV-EDGE-PRO-8-1T"
+      }
+    ],
+    "descriere": "data/descrieri/04.html",
+    "poza": "poze/p04.png",
+    "seo_title": "Pompă de Căldură Clivet Edge PRO Premium R-290 | RIXAIR",
+    "seo_meta": "Pompă de căldură premium Clivet Edge PRO, R-290 ecologic, ultra-silențioasă, 2.1-14.1. Pentru case exigente. Distribuitor oficial Clivet.",
+    "nota_interna": "",
+    "cat": "monobloc",
+    "nume_lung": "Pompă de căldură monobloc Edge PRO R-290 (WiSAN-PMP) 2.1–8.1"
+  },
+  {
+    "nr": 5,
+    "slug": "pompa-de-caldura-hydro-split-mini-easymini-cu-dhw-50l-2-1-8-1",
+    "nume": "Pompă de căldură HYDRO-Split MINI EasyMini cu DHW 50L 2.1–8.1",
+    "sku": "HydroM+EXC-50L",
+    "categorie": "pompe",
+    "pret_tip": "de_la",
+    "pret_de_la": 34111,
+    "variante": [
+      {
+        "nume": "2.1 — monofazic",
+        "pret": null,
+        "sku": "HydroM+EXC-50L-monofazic-2.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "3.1 — monofazic",
+        "pret": null,
+        "sku": "HydroM+EXC-50L-monofazic-3.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "4.1 — monofazic",
+        "pret": null,
+        "sku": "HydroM+EXC-50L-monofazic-4.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "5.1 — monofazic",
+        "pret": null,
+        "sku": "HydroM+EXC-50L-monofazic-5.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "6.1 — monofazic",
+        "pret": null,
+        "sku": "HydroM+EXC-50L-monofazic-6.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "7.1 — monofazic",
+        "pret": null,
+        "sku": "HydroM+EXC-50L-monofazic-7.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "8.1 — monofazic",
+        "pret": null,
+        "sku": "HydroM+EXC-50L-monofazic-8.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "6.1 — trifazic",
+        "pret": null,
+        "sku": "HydroM+EXC-50L-trifazic-6.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "7.1 — trifazic",
+        "pret": null,
+        "sku": "HydroM+EXC-50L-trifazic-7.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "8.1 — trifazic",
+        "pret": null,
+        "sku": "HydroM+EXC-50L-trifazic-8.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "2.1 — monofazic",
+        "pret": null,
+        "sku": "HydroM+EdgeF-50L-monofazic-2.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "3.1 — monofazic",
+        "pret": null,
+        "sku": "HydroM+EdgeF-50L-monofazic-3.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "4.1 — monofazic",
+        "pret": null,
+        "sku": "HydroM+EdgeF-50L-monofazic-4.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "5.1 — monofazic",
+        "pret": null,
+        "sku": "HydroM+EdgeF-50L-monofazic-5.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "6.1 — monofazic",
+        "pret": null,
+        "sku": "HydroM+EdgeF-50L-monofazic-6.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "7.1 — monofazic",
+        "pret": null,
+        "sku": "HydroM+EdgeF-50L-monofazic-7.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "8.1 — monofazic",
+        "pret": null,
+        "sku": "HydroM+EdgeF-50L-monofazic-8.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "6.1 — trifazic",
+        "pret": null,
+        "sku": "HydroM+EdgeF-50L-trifazic-6.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "7.1 — trifazic",
+        "pret": null,
+        "sku": "HydroM+EdgeF-50L-trifazic-7.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "8.1 — trifazic",
+        "pret": null,
+        "sku": "HydroM+EdgeF-50L-trifazic-8.1",
+        "grup": "ODU Edge F (R-290)"
+      }
+    ],
+    "descriere": "data/descrieri/05.html",
+    "poza": "poze/p05.jpg",
+    "seo_title": "Pompă de Căldură Clivet Hydro-Split MINI cu DHW 50L | RIXAIR",
+    "seo_meta": "Pompă de căldură compactă Clivet Hydro-Split Mini cu rezervor 50L, aer-apă 2.1-8.1. Pentru apartamente și case mici. RIXAIR Timișoara.",
+    "nota_interna": "poza reprezentativa",
+    "cat": "refrigerant-split",
+    "nume_lung": "Pompă de căldură HYDRO-Split MINI EasyMini cu DHW 50L 2.1–8.1",
+    "stoc": "ascuns"
+  },
+  {
+    "nr": 6,
+    "slug": "pompa-de-caldura-hydrosplit-invisible-easyin-cu-dhw-150l-2-1-5-1",
+    "nume": "Pompă de căldură HYDROSplit INVISIBLE EasyIn cu DHW 150L 2.1–5.1",
+    "sku": "H-INVISIBLE+EXC-150L",
+    "categorie": "pompe",
+    "pret_tip": "de_la",
+    "pret_de_la": 13881,
+    "variante": [
+      {
+        "nume": "2.1 — monofazic",
+        "pret": null,
+        "sku": "H-INVISIBLE+EXC-150L-monof-2.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "3.1 — monofazic",
+        "pret": null,
+        "sku": "H-INVISIBLE+EXC-150L-monof-3.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "4.1 — monofazic",
+        "pret": null,
+        "sku": "H-INVISIBLE+EXC-150L-monof-4.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "5.1 — monofazic",
+        "pret": null,
+        "sku": "H-INVISIBLE+EXC-150L-monof-5.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "2.1 — monofazic",
+        "pret": null,
+        "sku": "HInvisible150L+EdgeF-monof-2.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "3.1 — monofazic",
+        "pret": null,
+        "sku": "HInvisible150L+EdgeF-monof-3.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "4.1 — monofazic",
+        "pret": null,
+        "sku": "HInvisible150L+EdgeF-monof-4.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "5.1 — monofazic",
+        "pret": null,
+        "sku": "HInvisible150L+EdgeF-monof-5.1",
+        "grup": "ODU Edge F (R-290)"
+      }
+    ],
+    "descriere": "data/descrieri/06.html",
+    "poza": "poze/p06.png",
+    "seo_title": "Pompă Clivet Hydro-Split INVISIBLE cu Boiler 150L | RIXAIR",
+    "seo_meta": "Pompă de căldură ascunsă în mobilier Clivet Hydro-Split Invisible, boiler 150L integrat. Design invizibil, eficiență A+++. RIXAIR Timișoara.",
+    "nota_interna": "",
+    "cat": "refrigerant-split",
+    "nume_lung": "Pompă de căldură HYDROSplit INVISIBLE EasyIn cu DHW 150L 2.1–5.1",
+    "stoc": "ascuns"
+  },
+  {
+    "nr": 7,
+    "slug": "pompa-de-caldura-hydro-split-box-easybox-2-1-8-1",
+    "nume": "Pompă de căldură HYDRO-Split BOX EasyBox 2.1–8.1",
+    "sku": "HydroB+EXC",
+    "categorie": "pompe",
+    "pret_tip": "de_la",
+    "pret_de_la": 12001,
+    "variante": [
+      {
+        "nume": "2.1 — monofazic",
+        "pret": null,
+        "sku": "HydroB+EXC-monofazic-2.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "3.1 — monofazic",
+        "pret": null,
+        "sku": "HydroB+EXC-monofazic-3.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "4.1 — monofazic",
+        "pret": null,
+        "sku": "HydroB+EXC-monofazic-4.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "5.1 — monofazic",
+        "pret": null,
+        "sku": "HydroB+EXC-monofazic-5.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "6.1 — monofazic",
+        "pret": null,
+        "sku": "HydroB+EXC-monofazic-6.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "7.1 — monofazic",
+        "pret": null,
+        "sku": "HydroB+EXC-monofazic-7.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "8.1 — monofazic",
+        "pret": null,
+        "sku": "HydroB+EXC-monofazic-8.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "6.1 — trifazic",
+        "pret": null,
+        "sku": "HydroB+EXC-trifazic-6.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "7.1 — trifazic",
+        "pret": null,
+        "sku": "HydroB+EXC-trifazic-7.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "8.1 — trifazic",
+        "pret": null,
+        "sku": "HydroB+EXC-trifazic-8.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "2.1 — monofazic",
+        "pret": null,
+        "sku": "HydroB+EdgeF-monofazic-2.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "3.1 — monofazic",
+        "pret": null,
+        "sku": "HydroB+EdgeF-monofazic-3.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "4.1 — monofazic",
+        "pret": null,
+        "sku": "HydroB+EdgeF-monofazic-4.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "5.1 — monofazic",
+        "pret": null,
+        "sku": "HydroB+EdgeF-monofazic-5.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "6.1 — monofazic",
+        "pret": null,
+        "sku": "HydroB+EdgeF-monofazic-6.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "7.1 — monofazic",
+        "pret": null,
+        "sku": "HydroB+EdgeF-monofazic-7.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "8.1 — monofazic",
+        "pret": null,
+        "sku": "HydroB+EdgeF-monofazic-8.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "6.1 — trifazic",
+        "pret": null,
+        "sku": "HydroB+EdgeF-trifazic-6.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "7.1 — trifazic",
+        "pret": null,
+        "sku": "HydroB+EdgeF-trifazic-7.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "8.1 — trifazic",
+        "pret": null,
+        "sku": "HydroB+EdgeF-trifazic-8.1",
+        "grup": "ODU Edge F (R-290)"
+      }
+    ],
+    "descriere": "data/descrieri/07.html",
+    "poza": "poze/p07.png",
+    "seo_title": "Pompă de Căldură Clivet Hydro-Split BOX EasyBox | RIXAIR",
+    "seo_meta": "Pompă de căldură aer-apă Clivet Hydro-Split Box, conexiune hidraulică fără freon în casă, 2.1-8.1. Distribuitor oficial Clivet Timișoara.",
+    "nota_interna": "",
+    "cat": "refrigerant-split",
+    "nume_lung": "Pompă de căldură HYDRO-Split BOX EasyBox 2.1–8.1",
+    "stoc": "ascuns"
+  },
+  {
+    "nr": 8,
+    "slug": "pompa-de-caldura-hydro-split-tower-cu-dhw-190-250l-2-1-8-1",
+    "nume": "Pompă de căldură HYDRO-Split TOWER cu DHW 190L 2.1–5.1",
+    "sku": "HydroT+EXC-190L",
+    "categorie": "pompe",
+    "pret_tip": "de_la",
+    "pret_de_la": 28800,
+    "variante": [
+      {
+        "nume": "2.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT+EXC-190L-monofazic-2.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "3.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT+EXC-190L-monofazic-3.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "4.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT+EXC-190L-monofazic-4.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "5.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT+EXC-190L-monofazic-5.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "2.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT190L+EdgeF-monofazic-2.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "3.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT190L+EdgeF-monofazic-3.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "4.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT190L+EdgeF-monofazic-4.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "5.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT190L+EdgeF-monofazic-5.1",
+        "grup": "ODU Edge F (R-290)"
+      }
+    ],
+    "descriere": "data/descrieri/08.html",
+    "poza": "poze/p08.png",
+    "seo_title": "Pompă de Căldură Clivet Hydro-Split TOWER 190-250L | RIXAIR",
+    "seo_meta": "Pompă de căldură aer-apă Clivet Hydro-Split Tower cu boiler 190-250L integrat, conexiune hidraulică. 28 variante. Consultanță gratuită RIXAIR.",
+    "nota_interna": "28 variante",
+    "cat": "refrigerant-split",
+    "nume_lung": "Pompă de căldură HYDRO-Split TOWER cu DHW 190L 2.1–5.1",
+    "stoc": "ascuns"
+  },
+  {
+    "nr": 9,
+    "slug": "pompa-de-caldura-split-tower-sphera-evo-misan-yee-r-32-cu-dhw-190-250l",
+    "nume": "Pompă de căldură SPLIT TOWER Sphera EVO + MiSAN-YEE R-32 cu DHW 190–250L",
+    "sku": "CLV-SPHERA-SPLIT-TC",
+    "categorie": "pompe",
+    "pret_tip": "variante",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "2.1 monofazic",
+        "pret": 23992.36,
+        "sku": "CLV-SPHERA-SPLIT-TC-2-1"
+      },
+      {
+        "nume": "3.1 monofazic",
+        "pret": 25144.55,
+        "sku": "CLV-SPHERA-SPLIT-TC-3-1"
+      },
+      {
+        "nume": "4.1 monofazic",
+        "pret": 27229.65,
+        "sku": "CLV-SPHERA-SPLIT-TC-4-1"
+      },
+      {
+        "nume": "5.1 monofazic",
+        "pret": 29639.06,
+        "sku": "CLV-SPHERA-SPLIT-TC-5-1"
+      },
+      {
+        "nume": "6.1 monofazic",
+        "pret": 35223.92,
+        "sku": "CLV-SPHERA-SPLIT-TC-6-1"
+      },
+      {
+        "nume": "7.1 monofazic",
+        "pret": 35937.49,
+        "sku": "CLV-SPHERA-SPLIT-TC-7-1"
+      },
+      {
+        "nume": "8.1 monofazic",
+        "pret": 36542.94,
+        "sku": "CLV-SPHERA-SPLIT-TC-8-1"
+      },
+      {
+        "nume": "6.1 TRIFAZIC (400TN)",
+        "pret": 36981.57,
+        "sku": "CLV-SPHERA-SPLIT-TC-6-1T"
+      },
+      {
+        "nume": "7.1 TRIFAZIC (400TN)",
+        "pret": 37318.29,
+        "sku": "CLV-SPHERA-SPLIT-TC-7-1T"
+      },
+      {
+        "nume": "8.1 TRIFAZIC (400TN)",
+        "pret": 37966.99,
+        "sku": "CLV-SPHERA-SPLIT-TC-8-1T"
+      }
+    ],
+    "descriere": "data/descrieri/09.html",
+    "poza": "poze/p09.png",
+    "seo_title": "Pompă Clivet Sphera EVO Tower Split R-32 + Boiler | RIXAIR",
+    "seo_meta": "Pompă de căldură split Clivet Sphera EVO Tower cu rezervor 190-250L integrat + unitate externă MiSAN-YEE R-32. 2.1-8.1. RIXAIR Timișoara.",
+    "nota_interna": "",
+    "cat": "refrigerant-split",
+    "nume_lung": "Pompă de Căldură SPLIT cu agent frigorific Clivet — TOWER Sphera EVO 2.0 + MiSAN-YEE (R-32) cu rezervor DHW 190-250L",
+    "stoc": "ascuns"
+  },
+  {
+    "nr": 10,
+    "slug": "pompa-de-caldura-split-box-sphera-evo-misan-yee-r-32",
+    "nume": "Pompă de căldură SPLIT BOX Sphera EVO + MiSAN-YEE R-32",
+    "sku": "CLV-SPHERA-SPLIT-BC",
+    "categorie": "pompe",
+    "pret_tip": "variante",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "2.1 monofazic",
+        "pret": 14611.03,
+        "sku": "CLV-SPHERA-SPLIT-BC-2-1"
+      },
+      {
+        "nume": "3.1 monofazic",
+        "pret": 15763.22,
+        "sku": "CLV-SPHERA-SPLIT-BC-3-1"
+      },
+      {
+        "nume": "4.1 monofazic",
+        "pret": 17848.31,
+        "sku": "CLV-SPHERA-SPLIT-BC-4-1"
+      },
+      {
+        "nume": "5.1 monofazic",
+        "pret": 20257.73,
+        "sku": "CLV-SPHERA-SPLIT-BC-5-1"
+      },
+      {
+        "nume": "6.1 monofazic",
+        "pret": 25703.64,
+        "sku": "CLV-SPHERA-SPLIT-BC-6-1"
+      },
+      {
+        "nume": "7.1 monofazic",
+        "pret": 26417.2,
+        "sku": "CLV-SPHERA-SPLIT-BC-7-1"
+      },
+      {
+        "nume": "8.1 monofazic",
+        "pret": 27022.65,
+        "sku": "CLV-SPHERA-SPLIT-BC-8-1"
+      },
+      {
+        "nume": "6.1 TRIFAZIC (400TN)",
+        "pret": 27461.28,
+        "sku": "CLV-SPHERA-SPLIT-BC-6-1T"
+      },
+      {
+        "nume": "7.1 TRIFAZIC (400TN)",
+        "pret": 27798.01,
+        "sku": "CLV-SPHERA-SPLIT-BC-7-1T"
+      },
+      {
+        "nume": "8.1 TRIFAZIC (400TN)",
+        "pret": 28446.7,
+        "sku": "CLV-SPHERA-SPLIT-BC-8-1T"
+      }
+    ],
+    "descriere": "data/descrieri/10.html",
+    "poza": "poze/p10.png",
+    "seo_title": "Pompă Clivet Sphera EVO Box Split R-32 | RIXAIR",
+    "seo_meta": "Pompă de căldură split Clivet Sphera EVO Box + unitate externă MiSAN-YEE, R-32, 2.1-8.1. Compactă, eficientă A+++. RIXAIR Timișoara.",
+    "nota_interna": "",
+    "cat": "refrigerant-split",
+    "nume_lung": "Pompă de Căldură SPLIT cu agent frigorific Clivet — BOX Sphera EVO 2.0 + MiSAN-YEE (R-32)",
+    "stoc": "ascuns"
+  },
+  {
+    "nr": 11,
+    "slug": "pompa-de-caldura-split-invisible-sphera-evo-misan-yee-cu-dhw-150l-2-1-",
+    "nume": "Pompă de căldură SPLIT INVISIBLE Sphera EVO + MiSAN-YEE cu DHW 150L 2.1–5.1",
+    "sku": "SpheraEvoIC-150L",
+    "categorie": "pompe",
+    "pret_tip": "la_cerere",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "INVISIBLE 2.1 — DHW 150L (monofazic)",
+        "pret": null,
+        "sku": "SpheraEvoIC-150L-monofazic-2.1"
+      },
+      {
+        "nume": "INVISIBLE 3.1 — DHW 150L (monofazic)",
+        "pret": null,
+        "sku": "SpheraEvoIC-150L-monofazic-3.1"
+      },
+      {
+        "nume": "INVISIBLE 4.1 — DHW 150L (monofazic)",
+        "pret": null,
+        "sku": "SpheraEvoIC-150L-monofazic-4.1"
+      },
+      {
+        "nume": "INVISIBLE 5.1 — DHW 150L (monofazic)",
+        "pret": null,
+        "sku": "SpheraEvoIC-150L-monofazic-5.1"
+      }
+    ],
+    "descriere": "data/descrieri/11.html",
+    "poza": "poze/p11.png",
+    "seo_title": "Pompă de căldură SPLIT INVISIBLE Sphera EVO + MiSAN-YEE cu DHW 150L 2.1–5.1 | RIXAIR",
+    "seo_meta": "Pompă de căldură SPLIT INVISIBLE Sphera EVO + MiSAN-YEE cu DHW 150L 2.1–5.1 — distribuitor oficial Clivet. Cere ofertă: 0722 975 518.",
+    "nota_interna": "BLOCAT: rezervor 150L inclus? indoor TVA=7.910,97",
+    "cat": "refrigerant-split",
+    "nume_lung": "Pompă de căldură SPLIT INVISIBLE Sphera EVO + MiSAN-YEE cu DHW 150L 2.1–5.1",
+    "stoc": "ascuns"
+  },
+  {
+    "nr": 12,
+    "slug": "pompa-de-caldura-hybrid-tower-sphera-evo-cazan-gaz-fe-24-4-33-4-cu-dhw",
+    "nume": "Pompă de căldură HYBRID TOWER Sphera EVO + cazan gaz FE 24.4",
+    "sku": "SpheraBH(T)-FE24",
+    "categorie": "pompe",
+    "pret_tip": "la_cerere",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "TOWER 2.1 + cazan FE 24.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraBH(T)-FE24-monofazic-2.1"
+      },
+      {
+        "nume": "TOWER 3.1 + cazan FE 24.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraBH(T)-FE24-monofazic-3.1"
+      },
+      {
+        "nume": "TOWER 4.1 + cazan FE 24.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraBH(T)-FE24-monofazic-4.1"
+      },
+      {
+        "nume": "TOWER 5.1 + cazan FE 24.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraBH(T)-FE24-monofazic-5.1"
+      }
+    ],
+    "descriere": "data/descrieri/12.html",
+    "poza": "poze/p12.png",
+    "seo_title": "Pompă Hibridă Clivet Sphera Tower + Centrală Gaz FE | RIXAIR",
+    "seo_meta": "Sistem hibrid Clivet: pompă de căldură Sphera Tower + centrală pe gaz FE 24.4-33.4 kW cu comutare automată. Boiler 150L. RIXAIR Timișoara.",
+    "nota_interna": "BLOCAT: verifica pret 4.532",
+    "cat": "split-hibrid-gaz",
+    "nume_lung": "Pompă de căldură HYBRID TOWER Sphera EVO 2.1–5.1 + cazan gaz FE 24.4 cu DHW 150L",
+    "stoc": "ascuns"
+  },
+  {
+    "nr": 13,
+    "slug": "pompa-de-caldura-hybrid-box-sphera-evo-cazan-gaz-fe-24-4-33-4",
+    "nume": "Pompă de căldură HYBRID BOX Sphera EVO + cazan gaz FE 24.4",
+    "sku": "SpheraEvoBH-FE24",
+    "categorie": "pompe",
+    "pret_tip": "la_cerere",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "BOX 2.1 + cazan FE 24.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraEvoBH-FE24-monofazic-2.1"
+      },
+      {
+        "nume": "BOX 3.1 + cazan FE 24.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraEvoBH-FE24-monofazic-3.1"
+      },
+      {
+        "nume": "BOX 4.1 + cazan FE 24.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraEvoBH-FE24-monofazic-4.1"
+      },
+      {
+        "nume": "BOX 5.1 + cazan FE 24.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraEvoBH-FE24-monofazic-5.1"
+      }
+    ],
+    "descriere": "data/descrieri/13.html",
+    "poza": "poze/p13.png",
+    "seo_title": "Pompă de căldură HYBRID BOX Sphera EVO + cazan gaz FE 24.4–33.4 | RIXAIR",
+    "seo_meta": "Pompă de căldură HYBRID BOX Sphera EVO + cazan gaz FE 24.4–33.4 — distribuitor oficial Clivet. Cere ofertă: 0722 975 518.",
+    "nota_interna": "BLOCAT: pret cazan FE 24.4",
+    "cat": "split-hibrid-gaz",
+    "nume_lung": "Pompă de căldură HYBRID BOX Sphera EVO 2.1–5.1 + cazan gaz FE 24.4",
+    "stoc": "ascuns"
+  },
+  {
+    "nr": 14,
+    "slug": "aer-conditionat-split-ezcool-r-32-wi-fi-9000-24000-btu",
+    "nume": "Aer condiționat split EZCool R-32 Wi-Fi 9000–24000 BTU",
+    "sku": "CLV-EZCool",
+    "categorie": "ac",
+    "pret_tip": "variante",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "9000 BTU — 2,6 kW răcire / 2,7 kW încălzire",
+        "pret": 1959.0,
+        "sku": "CLV-EZCool-9000BTU"
+      },
+      {
+        "nume": "12000 BTU — 3,2 kW răcire / 3,5 kW încălzire",
+        "pret": 2153.0,
+        "sku": "CLV-EZCool-12000BTU"
+      },
+      {
+        "nume": "18000 BTU — 5,3 kW răcire / 5,4 kW încălzire",
+        "pret": 3790.0,
+        "sku": "CLV-EZCool-18000BTU"
+      },
+      {
+        "nume": "24000 BTU — 5,9 kW răcire / 6,7 kW încălzire",
+        "pret": 4633.0,
+        "sku": "CLV-EZCool-24000BTU"
+      }
+    ],
+    "descriere": "data/descrieri/14.html",
+    "poza": "poze/p14.jpg",
+    "seo_title": "Aer Condiționat Clivet EZCool 9000-24000 BTU R-32 | RIXAIR",
+    "seo_meta": "Split inverter Clivet EZCool cu Wi-Fi, R-32, răcire și încălzire, 9000-24000 BTU. Distribuitor oficial Clivet, livrare din stoc, Timișoara.",
+    "nota_interna": "",
+    "cat": "single-split",
+    "nume_lung": "Aer Conditionat Clivet EZCool — Split Inverter R-32 (9000-24000 BTU)"
+  },
+  {
+    "nr": 15,
+    "slug": "aer-conditionat-split-essential-2-9000-24000-btu",
+    "nume": "Aer condiționat split Essential 2 9000–24000 BTU",
+    "sku": "CLV-Essential2",
+    "categorie": "ac",
+    "pret_tip": "variante",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire",
+        "pret": 1922.0,
+        "sku": "CLV-Essential2-9000BTU"
+      },
+      {
+        "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire",
+        "pret": 2115.0,
+        "sku": "CLV-Essential2-12000BTU"
+      },
+      {
+        "nume": "18000 BTU — 5,3 kW răcire / 5,6 kW încălzire",
+        "pret": 3696.0,
+        "sku": "CLV-Essential2-18000BTU"
+      },
+      {
+        "nume": "24000 BTU — 7,0 kW răcire / 7,3 kW încălzire",
+        "pret": 4285.0,
+        "sku": "CLV-Essential2-24000BTU"
+      }
+    ],
+    "descriere": "data/descrieri/15.html",
+    "poza": "poze/p15.jpg",
+    "seo_title": "Aer Condiționat Clivet Essential 2 9000-24000 BTU | RIXAIR",
+    "seo_meta": "Split compact Clivet Essential 2, inverter R-32, ideal dormitoare și birouri. 9000-24000 BTU. Consultanță gratuită RIXAIR Timișoara.",
+    "nota_interna": "",
+    "cat": "single-split",
+    "nume_lung": "Aer Conditionat Clivet Essential 2 — Split Inverter R-32 (9000-24000 BTU)"
+  },
+  {
+    "nr": 16,
+    "slug": "aer-conditionat-split-nativ-9000-24000-btu",
+    "nume": "Aer condiționat split NATIV 9000–24000 BTU",
+    "sku": "CLV-NATIV",
+    "categorie": "ac",
+    "pret_tip": "variante",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire",
+        "pret": 1959.0,
+        "sku": "CLV-NATIV-9000BTU"
+      },
+      {
+        "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire",
+        "pret": 2153.0,
+        "sku": "CLV-NATIV-12000BTU"
+      },
+      {
+        "nume": "18000 BTU — 5,3 kW răcire / 5,6 kW încălzire",
+        "pret": 3360.0,
+        "sku": "CLV-NATIV-18000BTU"
+      },
+      {
+        "nume": "24000 BTU — 7,0 kW răcire / 7,3 kW încălzire",
+        "pret": 4927.0,
+        "sku": "CLV-NATIV-24000BTU"
+      }
+    ],
+    "descriere": "data/descrieri/16.html",
+    "poza": "poze/p16.jpg",
+    "seo_title": "Aer Condiționat Clivet NATIV Design Silvery 9-24k BTU | RIXAIR",
+    "seo_meta": "Split Clivet NATIV cu design slivery și mod eco, inverter R-32, consum redus. 9000-24000 BTU. Distribuitor oficial Clivet Timișoara.",
+    "nota_interna": "",
+    "cat": "single-split",
+    "nume_lung": "Aer Conditionat Clivet NATIV — Split Inverter R-32 Design Slivery (9000-24000 BTU)"
+  },
+  {
+    "nr": 17,
+    "slug": "aer-conditionat-split-cristallo-2-design-9000-18000-btu",
+    "nume": "Aer condiționat split Cristallo 2 design 9000–24000 BTU",
+    "sku": "CLV-Cristallo2",
+    "categorie": "ac",
+    "pret_tip": "variante",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire",
+        "pret": 3062.0,
+        "sku": "CLV-Cristallo2-9000BTU"
+      },
+      {
+        "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire",
+        "pret": 3169.0,
+        "sku": "CLV-Cristallo2-12000BTU"
+      },
+      {
+        "nume": "18000 BTU — 5,3 kW răcire / 5,4 kW încălzire",
+        "pret": 5080.0,
+        "sku": "CLV-Cristallo2-18000BTU"
+      },
+      {
+        "nume": "24000 BTU — 5,9 kW răcire / 6,7 kW încălzire",
+        "pret": 6189.0,
+        "sku": "CLV-Cristallo2-24000BTU"
+      }
+    ],
+    "descriere": "data/descrieri/17.html",
+    "poza": "poze/p17.jpg",
+    "seo_title": "Aer Condiționat Clivet Cristallo 2 Premium Design | RIXAIR",
+    "seo_meta": "Split premium Clivet Cristallo 2 cu panou frontal din cristal, inverter R-32, pentru livinguri elegante. RIXAIR — distribuitor oficial Clivet.",
+    "nota_interna": "",
+    "cat": "single-split",
+    "nume_lung": "Aer Conditionat Clivet Cristallo 2 — Split Inverter R-32 Premium Design Cristal (9000-24000 BTU)"
+  },
+  {
+    "nr": 18,
+    "slug": "aer-conditionat-split-stelvio-9000-12000-btu",
+    "nume": "Aer condiționat split Stelvio 9000–12000 BTU",
+    "sku": "CLV-Stelvio",
+    "categorie": "ac",
+    "pret_tip": "variante",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "9000 BTU — 2,6 kW răcire / 4,1 kW încălzire",
+        "pret": 5014.0,
+        "sku": "CLV-Stelvio-9000BTU"
+      },
+      {
+        "nume": "12000 BTU — 3,5 kW răcire / 4,2 kW încălzire",
+        "pret": 5170.0,
+        "sku": "CLV-Stelvio-12000BTU"
+      }
+    ],
+    "descriere": "data/descrieri/18.html",
+    "poza": "poze/p18.jpg",
+    "seo_title": "AC Clivet Stelvio — Proiectat pentru Încălzire | RIXAIR",
+    "seo_meta": "Split Clivet Stelvio A+++/A+++, proiectat special pentru încălzire eficientă iarna. R-32, performanță la temperaturi negative. RIXAIR Timișoara.",
+    "nota_interna": "",
+    "cat": "single-split",
+    "nume_lung": "Aer Conditionat Clivet Stelvio — Split Inverter R-32 Premium pentru Încălzire (9000-12000 BTU)"
+  },
+  {
+    "nr": 19,
+    "slug": "boiler-acm-cu-serpentina-clivet-acs-200-300-500-1000l",
+    "nume": "Boiler ACM cu serpentină Clivet ACS (200/300/500/1000L)",
+    "sku": "CLV-ACS",
+    "categorie": "boilere",
+    "pret_tip": "variante",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "ACS200X — 200 litri",
+        "pret": 4896.08,
+        "sku": "CLV-ACS-200X"
+      },
+      {
+        "nume": "ACS300X — 300 litri",
+        "pret": 5133.93,
+        "sku": "CLV-ACS-300X"
+      },
+      {
+        "nume": "ACS500X — 500 litri",
+        "pret": 7073.83,
+        "sku": "CLV-ACS-500X"
+      },
+      {
+        "nume": "ACS1000X — 1000 litri",
+        "pret": 11673.36,
+        "sku": "CLV-ACS-1000X"
+      }
+    ],
+    "descriere": "data/descrieri/19.html",
+    "poza": "poze/p19.jpg",
+    "seo_title": "Boiler ACM Clivet ACS cu Serpentină 200-1000L | RIXAIR",
+    "seo_meta": "Boiler de apă caldă menajeră Clivet ACS cu serpentină, 200/300/500/1000 litri, pentru cuplare cu pompă de căldură. RIXAIR Timișoara.",
+    "nota_interna": "pe Gomag de redenumit (apare ca EDGE F)",
+    "cat": "productie-apa-calda",
+    "nume_lung": "Boiler ACM cu serpentină Clivet ACS (200 / 300 / 500 / 1000 litri)"
+  },
+  {
+    "nr": 20,
+    "slug": "boiler-cu-pompa-de-caldura-aqua-swan-200l-hpwh",
+    "nume": "Boiler cu pompă de căldură AQUA SWAN 200L (HPWH)",
+    "sku": "CLV-AQUA-SWAN-200",
+    "categorie": "boilere",
+    "pret_tip": "la_cerere",
+    "pret_de_la": null,
+    "variante": [],
+    "descriere": "data/descrieri/20.html",
+    "poza": "poze/p20.png",
+    "seo_title": "Boiler cu pompă de căldură AQUA SWAN 200L (HPWH) | RIXAIR",
+    "seo_meta": "Boiler cu pompă de căldură AQUA SWAN 200L (HPWH) — distribuitor oficial Clivet. Cere ofertă: 0722 975 518.",
+    "nota_interna": "BLOCAT: lipseste pretul",
+    "cat": "productie-apa-calda",
+    "nume_lung": "Boiler cu pompă de căldură AQUA SWAN 200L (HPWH)"
+  },
+  {
+    "nr": 21,
+    "slug": "boiler-cu-pompa-de-caldura-aqua-swan-270l-hpwh",
+    "nume": "Boiler cu pompă de căldură AQUA SWAN 270L (HPWH)",
+    "sku": "CLV-AQUA-SWAN-270",
+    "categorie": "boilere",
+    "pret_tip": "la_cerere",
+    "pret_de_la": null,
+    "variante": [],
+    "descriere": "data/descrieri/21.html",
+    "poza": "poze/p21.png",
+    "seo_title": "Boiler cu pompă de căldură AQUA SWAN 270L (HPWH) | RIXAIR",
+    "seo_meta": "Boiler cu pompă de căldură AQUA SWAN 270L (HPWH) — distribuitor oficial Clivet. Cere ofertă: 0722 975 518.",
+    "nota_interna": "BLOCAT: lipseste pretul",
+    "cat": "productie-apa-calda",
+    "nume_lung": "Boiler cu pompă de căldură AQUA SWAN 270L (HPWH)"
+  },
+  {
+    "nr": 22,
+    "slug": "boiler-cu-pompa-de-caldura-aqua-f-dsdh-p-190l",
+    "nume": "Boiler cu pompă de căldură AQUA F / DSDH-P 190L",
+    "sku": "CLV-DSDH-190",
+    "categorie": "boilere",
+    "pret_tip": "la_cerere",
+    "pret_de_la": null,
+    "variante": [],
+    "descriere": "data/descrieri/22.html",
+    "poza": "poze/p22.jpg",
+    "seo_title": "Boiler cu pompă de căldură AQUA F / DSDH-P 190L | RIXAIR",
+    "seo_meta": "Boiler cu pompă de căldură AQUA F / DSDH-P 190L — distribuitor oficial Clivet. Cere ofertă: 0722 975 518.",
+    "nota_interna": "BLOCAT: lipseste pretul",
+    "cat": "productie-apa-calda",
+    "nume_lung": "Boiler cu pompă de căldură AQUA F / DSDH-P 190L"
+  },
+  {
+    "nr": 23,
+    "slug": "caseta-industriala-elfospace-box3-007-0-041-0-inverter",
+    "nume": "Casetă industrială ELFOSpace BOX3 007.0–041.0 INVERTER",
+    "sku": "ELFOSpace-BOX3",
+    "categorie": "vcv",
+    "pret_tip": "de_la",
+    "pret_de_la": 2197,
+    "variante": [
+      {
+        "nume": "ELFOSpace BOX3 007.0",
+        "pret": null,
+        "sku": "ELFOSpace-BOX3-007-inverter"
+      },
+      {
+        "nume": "ELFOSpace BOX3 011.0",
+        "pret": null,
+        "sku": "ELFOSpace-BOX3-011-inverter"
+      },
+      {
+        "nume": "ELFOSpace BOX3 015.0",
+        "pret": null,
+        "sku": "ELFOSpace-BOX3-015-inverter"
+      },
+      {
+        "nume": "ELFOSpace BOX3 021.0",
+        "pret": null,
+        "sku": "ELFOSpace-BOX3-021-inverter"
+      },
+      {
+        "nume": "ELFOSpace BOX3 031.0",
+        "pret": null,
+        "sku": "ELFOSpace-BOX3-031-inverter"
+      },
+      {
+        "nume": "ELFOSpace BOX3 041.0",
+        "pret": null,
+        "sku": "ELFOSpace-BOX3-041-inverter"
+      }
+    ],
+    "descriere": "data/descrieri/23.html",
+    "poza": "poze/p23.jpg",
+    "seo_title": "Casetă Clivet ELFOSpace BOX3 Inverter | RIXAIR",
+    "seo_meta": "Casetă Clivet ELFOSpace BOX3 inverter, 2,61-10,07 kW, pentru spații comerciale și industriale. Distribuitor oficial Clivet, Timișoara.",
+    "nota_interna": "",
+    "cat": "ventiloconvectoare",
+    "nume_lung": "Casetă industrială ELFOSpace BOX3 007.0–041.0 INVERTER"
+  },
+  {
+    "nr": 24,
+    "slug": "ventiloconvector-elforoom2-003-0-017-0-inverter",
+    "nume": "Ventiloconvector ELFORoom2 003.0–017.0 INVERTER",
+    "sku": "Clivet-ELFORoom2",
+    "categorie": "vcv",
+    "pret_tip": "de_la",
+    "pret_de_la": 2945,
+    "variante": [
+      {
+        "nume": "ELFORoom² 003.0",
+        "pret": null,
+        "sku": "Clivet-ELFORoom2-003-inverter"
+      },
+      {
+        "nume": "ELFORoom² 005.0",
+        "pret": null,
+        "sku": "Clivet-ELFORoom2-005-inverter"
+      },
+      {
+        "nume": "ELFORoom² 011.0",
+        "pret": null,
+        "sku": "Clivet-ELFORoom2-011-inverter"
+      },
+      {
+        "nume": "ELFORoom² 015.0",
+        "pret": null,
+        "sku": "Clivet-ELFORoom2-015-inverter"
+      },
+      {
+        "nume": "ELFORoom² 017.0",
+        "pret": null,
+        "sku": "Clivet-ELFORoom2-017-inverter"
+      }
+    ],
+    "descriere": "data/descrieri/24.html",
+    "poza": "poze/p24.jpg",
+    "seo_title": "Ventiloconvector Clivet ELFORoom2 Inverter | RIXAIR",
+    "seo_meta": "Ventiloconvector compact Clivet ELFORoom2 inverter, 1,02-4,32 kW încălzire, pentru spații rezidențiale mici. Stoc RIXAIR Timișoara.",
+    "nota_interna": "",
+    "cat": "ventiloconvectoare",
+    "nume_lung": "Ventiloconvector ELFORoom2 003.0–017.0 INVERTER"
+  },
+  {
+    "nr": 25,
+    "slug": "ventiloconvector-aura-1-12-inverter-carcasat-necarcasat",
+    "nume": "Ventiloconvector Clivet AURA carcasat INVERTER (CFFAC 1-12)",
+    "sku": "Clivet-AURA-1-CFFAC",
+    "categorie": "vcv",
+    "pret_tip": "la_cerere",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "AURA 1 (CFFAC)",
+        "pret": null,
+        "sku": "Clivet-AURA-1-CFFAC"
+      },
+      {
+        "nume": "AURA 2 (CFFAC)",
+        "pret": null,
+        "sku": "Clivet-AURA-2-CFFAC"
+      },
+      {
+        "nume": "AURA 3 (CFFAC)",
+        "pret": null,
+        "sku": "Clivet-AURA-3-CFFAC"
+      },
+      {
+        "nume": "AURA 4 (CFFAC)",
+        "pret": null,
+        "sku": "Clivet-AURA-4-CFFAC"
+      },
+      {
+        "nume": "AURA 6 (CFFAC)",
+        "pret": null,
+        "sku": "Clivet-AURA-6-CFFAC"
+      },
+      {
+        "nume": "AURA 8 (CFFAC)",
+        "pret": null,
+        "sku": "Clivet-AURA-8-CFFAC"
+      },
+      {
+        "nume": "AURA 10 (CFFAC)",
+        "pret": null,
+        "sku": "Clivet-AURA-10-CFFAC"
+      },
+      {
+        "nume": "AURA 12 (CFFAC)",
+        "pret": null,
+        "sku": "Clivet-AURA-12-CFFAC"
+      }
+    ],
+    "descriere": "data/descrieri/25.html",
+    "poza": "poze/p25.jpg",
+    "seo_title": "Ventiloconvector Clivet AURA carcasat INVERTER (CFFAC 1-12) | RIXAIR",
+    "seo_meta": "Ventiloconvector Clivet AURA INVERTER carcasat/necarcasat, 1,57-8,7 kW, silențios și eficient. Rezidențial și comercial. RIXAIR Timișoara.",
+    "nota_interna": "",
+    "cat": "ventiloconvectoare",
+    "nume_lung": "Ventiloconvector Clivet AURA carcasat INVERTER (CFFAC 1-12)"
+  },
+  {
+    "nr": 26,
+    "slug": "ventiloconvector-aura-1-12-3-viteze-carcasat-necarcasat",
+    "nume": "Ventiloconvector Clivet AURA carcasat 3 viteze (CFFC 1-12)",
+    "sku": "Clivet-AURA-1-CFFC",
+    "categorie": "vcv",
+    "pret_tip": "la_cerere",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "AURA 1 (CFFC)",
+        "pret": null,
+        "sku": "Clivet-AURA-1-CFFC"
+      },
+      {
+        "nume": "AURA 2 (CFFC)",
+        "pret": null,
+        "sku": "Clivet-AURA-2-CFFC"
+      },
+      {
+        "nume": "AURA 3 (CFFC)",
+        "pret": null,
+        "sku": "Clivet-AURA-3-CFFC"
+      },
+      {
+        "nume": "AURA 4 (CFFC)",
+        "pret": null,
+        "sku": "Clivet-AURA-4-CFFC"
+      },
+      {
+        "nume": "AURA 6 (CFFC)",
+        "pret": null,
+        "sku": "Clivet-AURA-6-CFFC"
+      },
+      {
+        "nume": "AURA 8 (CFFC)",
+        "pret": null,
+        "sku": "Clivet-AURA-8-CFFC"
+      },
+      {
+        "nume": "AURA 10 (CFFC)",
+        "pret": null,
+        "sku": "Clivet-AURA-10-CFFC"
+      },
+      {
+        "nume": "AURA 12 (CFFC)",
+        "pret": null,
+        "sku": "Clivet-AURA-12-CFFC"
+      }
+    ],
+    "descriere": "data/descrieri/26.html",
+    "poza": "poze/p26.jpg",
+    "seo_title": "Ventiloconvector Clivet AURA carcasat 3 viteze (CFFC 1-12) | RIXAIR",
+    "seo_meta": "Ventiloconvector Clivet AURA carcasat/necarcasat, 3 viteze, 1,85-8,5 kW. Pentru rezidențial și comercial. Distribuitor oficial Clivet.",
+    "nota_interna": "",
+    "cat": "ventiloconvectoare",
+    "nume_lung": "Ventiloconvector Clivet AURA carcasat 3 viteze (CFFC 1-12)"
+  },
+  {
+    "nr": 27,
+    "slug": "ventiloconvector-de-perete-mood-1-5-inverter-cfw-2",
+    "nume": "Ventiloconvector de perete MOOD 1–5 INVERTER CFW-2",
+    "sku": "Clivet-MOOD-1-cfw2",
+    "categorie": "vcv",
+    "pret_tip": "de_la",
+    "pret_de_la": 2549,
+    "variante": [
+      {
+        "nume": "MOOD 1",
+        "pret": null,
+        "sku": "Clivet-MOOD-1-cfw2-inverter"
+      },
+      {
+        "nume": "MOOD 2",
+        "pret": 2729,
+        "sku": "Clivet-MOOD-2-cfw2-inverter"
+      },
+      {
+        "nume": "MOOD 3",
+        "pret": 2549,
+        "sku": "Clivet-MOOD-3-cfw2-inverter"
+      },
+      {
+        "nume": "MOOD 4",
+        "pret": 3109,
+        "sku": "Clivet-MOOD-4-cfw2-inverter"
+      },
+      {
+        "nume": "MOOD 5",
+        "pret": 3199,
+        "sku": "Clivet-MOOD-5-cfw2-inverter"
+      }
+    ],
+    "descriere": "data/descrieri/27.html",
+    "poza": "poze/p27.png",
+    "seo_title": "Ventiloconvector Clivet MOOD CFW-2 de Perete | RIXAIR",
+    "seo_meta": "Ventiloconvector de perete Clivet MOOD, design elegant, 2,12-5,26 kW încălzire. Ideal cu pompe de căldură. Stoc Timișoara, RIXAIR.",
+    "nota_interna": "",
+    "cat": "ventiloconvectoare",
+    "nume_lung": "Ventiloconvector de perete MOOD 1–5 INVERTER CFW-2"
+  },
+  {
+    "nr": 28,
+    "slug": "pompa-de-caldura-hydro-split-tower-cu-dhw-190-250l-2-1-8-1",
+    "nume": "Pompă de căldură HYDRO-Split TOWER cu DHW 250L 2.1–8.1",
+    "sku": "HydroT+EXC-250L",
+    "categorie": "pompe",
+    "pret_tip": "de_la",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "2.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT+EXC-250L-monofazic-2.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "3.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT+EXC-250L-monofazic-3.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "4.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT+EXC-250L-monofazic-4.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "5.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT+EXC-250L-monofazic-5.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "6.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT+EXC-250L-monofazic-6.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "7.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT+EXC-250L-monofazic-7.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "8.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT+EXC-250L-monofazic-8.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "6.1 — trifazic",
+        "pret": null,
+        "sku": "HydroT+EXC-250L-trifazic-6.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "7.1 — trifazic",
+        "pret": null,
+        "sku": "HydroT+EXC-250L-trifazic-7.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "8.1 — trifazic",
+        "pret": null,
+        "sku": "HydroT+EXC-250L-trifazic-8.1",
+        "grup": "ODU Edge EVO EXC (R-32)"
+      },
+      {
+        "nume": "2.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT250L+EdgeF-monofazic-2.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "3.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT250L+EdgeF-monofazic-3.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "4.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT250L+EdgeF-monofazic-4.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "5.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT250L+EdgeF-monofazic-5.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "6.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT250L+EdgeF-monofazic-6.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "7.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT250L+EdgeF-monofazic-7.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "8.1 — monofazic",
+        "pret": null,
+        "sku": "HydroT250L+EdgeF-monofazic-8.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "6.1 — trifazic",
+        "pret": null,
+        "sku": "HydroT250L+EdgeF-trifazic-6.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "7.1 — trifazic",
+        "pret": null,
+        "sku": "HydroT250L+EdgeF-trifazic-7.1",
+        "grup": "ODU Edge F (R-290)"
+      },
+      {
+        "nume": "8.1 — trifazic",
+        "pret": null,
+        "sku": "HydroT250L+EdgeF-trifazic-8.1",
+        "grup": "ODU Edge F (R-290)"
+      }
+    ],
+    "descriere": "data/descrieri/08.html",
+    "poza": "poze/p08.png",
+    "seo_title": "Pompă de Căldură Clivet Hydro-Split TOWER 250L | RIXAIR",
+    "seo_meta": "Pompă de căldură aer-apă Clivet Hydro-Split Tower cu boiler 190-250L integrat, conexiune hidraulică. 28 variante. Consultanță gratuită RIXAIR.",
+    "nota_interna": "28 variante",
+    "cat": "refrigerant-split",
+    "nume_lung": "Pompă de căldură HYDRO-Split TOWER cu DHW 250L 2.1–8.1",
+    "stoc": "ascuns"
+  },
+  {
+    "nr": 29,
+    "slug": "pompa-de-caldura-hybrid-tower-sphera-evo-cazan-gaz-fe-24-4-33-4-cu-dhw",
+    "nume": "Pompă de căldură HYBRID TOWER Sphera EVO + cazan gaz FE 33.4",
+    "sku": "SpheraBH(T)-FE34",
+    "categorie": "pompe",
+    "pret_tip": "la_cerere",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "TOWER 2.1 + cazan FE 33.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraBH(T)-FE34-monofazic-2.1"
+      },
+      {
+        "nume": "TOWER 3.1 + cazan FE 33.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraBH(T)-FE34-monofazic-3.1"
+      },
+      {
+        "nume": "TOWER 4.1 + cazan FE 33.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraBH(T)-FE34-monofazic-4.1"
+      },
+      {
+        "nume": "TOWER 5.1 + cazan FE 33.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraBH(T)-FE34-monofazic-5.1"
+      },
+      {
+        "nume": "TOWER 6.1 + cazan FE 33.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraBH(T)-FE34-monofazic-6.1"
+      },
+      {
+        "nume": "TOWER 7.1 + cazan FE 33.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraBH(T)-FE34-monofazic-7.1"
+      },
+      {
+        "nume": "TOWER 8.1 + cazan FE 33.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraBH(T)-FE34-monofazic-8.1"
+      },
+      {
+        "nume": "TOWER 6.1 + cazan FE 33.4 (trifazic)",
+        "pret": null,
+        "sku": "SpheraBH(T)-FE34-trifazic-6.1"
+      },
+      {
+        "nume": "TOWER 7.1 + cazan FE 33.4 (trifazic)",
+        "pret": null,
+        "sku": "SpheraBH(T)-FE34-trifazic-7.1"
+      },
+      {
+        "nume": "TOWER 8.1 + cazan FE 33.4 (trifazic)",
+        "pret": null,
+        "sku": "SpheraBH(T)-FE34-trifazic-8.1"
+      }
+    ],
+    "descriere": "data/descrieri/12.html",
+    "poza": "poze/p12.png",
+    "seo_title": "Pompă Hibridă Clivet Sphera Tower + Centrală Gaz FE | RIXAIR",
+    "seo_meta": "Sistem hibrid Clivet: pompă de căldură Sphera Tower + centrală pe gaz FE 24.4-33.4 kW cu comutare automată. Boiler 150L. RIXAIR Timișoara.",
+    "nota_interna": "BLOCAT: verifica pret 4.532",
+    "cat": "split-hibrid-gaz",
+    "nume_lung": "Pompă de căldură HYBRID TOWER Sphera EVO 2.1–8.1 + cazan gaz FE 33.4 cu DHW 150L",
+    "stoc": "ascuns"
+  },
+  {
+    "nr": 30,
+    "slug": "pompa-de-caldura-hybrid-box-sphera-evo-cazan-gaz-fe-24-4-33-4",
+    "nume": "Pompă de căldură HYBRID BOX Sphera EVO + cazan gaz FE 33.4",
+    "sku": "SpheraEvoBH-FE34",
+    "categorie": "pompe",
+    "pret_tip": "la_cerere",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "BOX 2.1 + cazan FE 33.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraEvoBH-FE34-monofazic-2.1"
+      },
+      {
+        "nume": "BOX 3.1 + cazan FE 33.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraEvoBH-FE34-monofazic-3.1"
+      },
+      {
+        "nume": "BOX 4.1 + cazan FE 33.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraEvoBH-FE34-monofazic-4.1"
+      },
+      {
+        "nume": "BOX 5.1 + cazan FE 33.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraEvoBH-FE34-monofazic-5.1"
+      },
+      {
+        "nume": "BOX 6.1 + cazan FE 33.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraEvoBH-FE34-monofazic-6.1"
+      },
+      {
+        "nume": "BOX 7.1 + cazan FE 33.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraEvoBH-FE34-monofazic-7.1"
+      },
+      {
+        "nume": "BOX 8.1 + cazan FE 33.4 (monofazic)",
+        "pret": null,
+        "sku": "SpheraEvoBH-FE34-monofazic-8.1"
+      },
+      {
+        "nume": "BOX 6.1 + cazan FE 33.4 (trifazic)",
+        "pret": null,
+        "sku": "SpheraEvoBH-FE34-trifazic-6.1"
+      },
+      {
+        "nume": "BOX 7.1 + cazan FE 33.4 (trifazic)",
+        "pret": null,
+        "sku": "SpheraEvoBH-FE34-trifazic-7.1"
+      },
+      {
+        "nume": "BOX 8.1 + cazan FE 33.4 (trifazic)",
+        "pret": null,
+        "sku": "SpheraEvoBH-FE34-trifazic-8.1"
+      }
+    ],
+    "descriere": "data/descrieri/13.html",
+    "poza": "poze/p13.png",
+    "seo_title": "Pompă de căldură HYBRID BOX Sphera EVO + cazan gaz FE 33.4–33.4 | RIXAIR",
+    "seo_meta": "Pompă de căldură HYBRID BOX Sphera EVO + cazan gaz FE 24.4–33.4 — distribuitor oficial Clivet. Cere ofertă: 0722 975 518.",
+    "nota_interna": "BLOCAT: pret cazan FE 24.4",
+    "cat": "split-hibrid-gaz",
+    "nume_lung": "Pompă de căldură HYBRID BOX Sphera EVO 2.1–8.1 + cazan gaz FE 33.4",
+    "stoc": "ascuns"
+  },
+  {
+    "nr": 31,
+    "slug": "ventiloconvector-aura-necarcasat-inverter-cffau",
+    "nume": "Ventiloconvector Clivet AURA necarcasat INVERTER (CFFAU 1-12)",
+    "sku": "Clivet-AURA-1-CFFAU",
+    "categorie": "vcv",
+    "pret_tip": "la_cerere",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "AURA 1 (CFFAU)",
+        "pret": null,
+        "sku": "Clivet-AURA-1-CFFAU"
+      },
+      {
+        "nume": "AURA 2 (CFFAU)",
+        "pret": null,
+        "sku": "Clivet-AURA-2-CFFAU"
+      },
+      {
+        "nume": "AURA 3 (CFFAU)",
+        "pret": null,
+        "sku": "Clivet-AURA-3-CFFAU"
+      },
+      {
+        "nume": "AURA 4 (CFFAU)",
+        "pret": null,
+        "sku": "Clivet-AURA-4-CFFAU"
+      },
+      {
+        "nume": "AURA 6 (CFFAU)",
+        "pret": null,
+        "sku": "Clivet-AURA-6-CFFAU"
+      },
+      {
+        "nume": "AURA 8 (CFFAU)",
+        "pret": null,
+        "sku": "Clivet-AURA-8-CFFAU"
+      },
+      {
+        "nume": "AURA 10 (CFFAU)",
+        "pret": null,
+        "sku": "Clivet-AURA-10-CFFAU"
+      },
+      {
+        "nume": "AURA 12 (CFFAU)",
+        "pret": null,
+        "sku": "Clivet-AURA-12-CFFAU"
+      }
+    ],
+    "descriere": "data/descrieri/25.html",
+    "poza": "poze/p25.jpg",
+    "seo_title": "Ventiloconvector Clivet AURA necarcasat INVERTER (CFFAU 1-12) | RIXAIR",
+    "seo_meta": "Ventiloconvector Clivet AURA INVERTER carcasat/necarcasat, 1,57-8,7 kW, silențios și eficient. Rezidențial și comercial. RIXAIR Timișoara.",
+    "nota_interna": "",
+    "cat": "ventiloconvectoare",
+    "nume_lung": "Ventiloconvector Clivet AURA necarcasat INVERTER (CFFAU 1-12)"
+  },
+  {
+    "nr": 32,
+    "slug": "ventiloconvector-aura-necarcasat-3-viteze-cffu",
+    "nume": "Ventiloconvector Clivet AURA necarcasat 3 viteze (CFFU 1-12)",
+    "sku": "Clivet-AURA-1-CFFU",
+    "categorie": "vcv",
+    "pret_tip": "la_cerere",
+    "pret_de_la": null,
+    "variante": [
+      {
+        "nume": "AURA 1 (CFFU)",
+        "pret": null,
+        "sku": "Clivet-AURA-1-CFFU"
+      },
+      {
+        "nume": "AURA 2 (CFFU)",
+        "pret": null,
+        "sku": "Clivet-AURA-2-CFFU"
+      },
+      {
+        "nume": "AURA 3 (CFFU)",
+        "pret": null,
+        "sku": "Clivet-AURA-3-CFFU"
+      },
+      {
+        "nume": "AURA 4 (CFFU)",
+        "pret": null,
+        "sku": "Clivet-AURA-4-CFFU"
+      },
+      {
+        "nume": "AURA 6 (CFFU)",
+        "pret": null,
+        "sku": "Clivet-AURA-6-CFFU"
+      },
+      {
+        "nume": "AURA 8 (CFFU)",
+        "pret": null,
+        "sku": "Clivet-AURA-8-CFFU"
+      },
+      {
+        "nume": "AURA 10 (CFFU)",
+        "pret": null,
+        "sku": "Clivet-AURA-10-CFFU"
+      },
+      {
+        "nume": "AURA 12 (CFFU)",
+        "pret": null,
+        "sku": "Clivet-AURA-12-CFFU"
+      }
+    ],
+    "descriere": "data/descrieri/26.html",
+    "poza": "poze/p26.jpg",
+    "seo_title": "Ventiloconvector Clivet AURA necarcasat 3 viteze (CFFU 1-12) | RIXAIR",
+    "seo_meta": "Ventiloconvector Clivet AURA carcasat/necarcasat, 3 viteze, 1,85-8,5 kW. Pentru rezidențial și comercial. Distribuitor oficial Clivet.",
+    "nota_interna": "",
+    "cat": "ventiloconvectoare",
+    "nume_lung": "Ventiloconvector Clivet AURA necarcasat 3 viteze (CFFU 1-12)"
+  }
+]

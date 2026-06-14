@@ -1,0 +1,1132 @@
+{
+ "1": {
+  "pids": [
+   180,
+   193
+  ],
+  "detalii": [
+   "monobloc/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+   "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+   "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s.html"
+  ],
+  "listari": {
+   "193": [
+    "index.html",
+    "monobloc/index.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompe-de-caldura/index.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "2": {
+  "pids": [
+   493
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html",
+   "edge-evo-2-0-exc/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html",
+   "pompe-de-caldura-36/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html"
+  ],
+  "listari": {
+   "493": [
+    "aer-apa-monobloc/index.html",
+    "aer-apa-monobloc/pompă-de-căldură-clivet-edge-pro-monobloc-r-290-wisan-pmp-2-1-14-1.html",
+    "edge-evo-2-0-exc/index.html",
+    "edge-pro/pompă-de-căldură-clivet-edge-pro-monobloc-r-290-wisan-pmp-2-1-14-1.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura-36/pompă-de-căldură-clivet-edge-pro-monobloc-r-290-wisan-pmp-2-1-14-1.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "index.html"
+   ]
+  }
+ },
+ "3": {
+  "pids": [
+   197
+  ],
+  "detalii": [
+   "monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+   "pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+   "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html"
+  ],
+  "listari": {
+   "197": [
+    "index.html",
+    "monobloc/index.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompe-de-caldura/index.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "4": {
+  "pids": [
+   501
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompă-de-căldură-clivet-edge-pro-monobloc-r-290-wisan-pmp-2-1-14-1.html",
+   "edge-pro/pompă-de-căldură-clivet-edge-pro-monobloc-r-290-wisan-pmp-2-1-14-1.html",
+   "pompe-de-caldura-36/pompă-de-căldură-clivet-edge-pro-monobloc-r-290-wisan-pmp-2-1-14-1.html"
+  ],
+  "listari": {
+   "501": [
+    "aer-apa-monobloc/index.html",
+    "aer-apa-monobloc/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html",
+    "edge-evo-2-0-exc/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html",
+    "edge-pro/index.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura-36/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "index.html"
+   ]
+  }
+ },
+ "5": {
+  "pids": [
+   263
+  ],
+  "detalii": [
+   "pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+   "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html"
+  ],
+  "listari": {
+   "263": [
+    "index.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompe-de-caldura/index.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "6": {
+  "pids": [
+   255
+  ],
+  "detalii": [
+   "pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+   "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html"
+  ],
+  "listari": {
+   "255": [
+    "index.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompe-de-caldura/index.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "7": {
+  "pids": [
+   235
+  ],
+  "detalii": [
+   "pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+   "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html"
+  ],
+  "listari": {
+   "235": [
+    "index.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompe-de-caldura/index.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "8": {
+  "pids": [
+   207
+  ],
+  "detalii": [
+   "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+   "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html"
+  ],
+  "listari": {
+   "207": [
+    "index.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompe-de-caldura/index.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "9": {
+  "pids": [
+   523
+  ],
+  "detalii": [
+   "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+   "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+   "pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html"
+  ],
+  "listari": {
+   "523": [
+    "index.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/index.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura/index.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "10": {
+  "pids": [
+   516
+  ],
+  "detalii": [
+   "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+   "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+   "pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html"
+  ],
+  "listari": {
+   "516": [
+    "index.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/index.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompe-de-caldura/index.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "11": {
+  "pids": [
+   123
+  ],
+  "detalii": [
+   "pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+   "pompe-de-caldura-tip-split-cu-agent-frigorific/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+   "pompe-de-caldura/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html"
+  ],
+  "listari": {
+   "123": [
+    "index.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/index.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompe-de-caldura/index.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "12": {
+  "pids": [
+   166
+  ],
+  "detalii": [
+   "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+   "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+   "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html"
+  ],
+  "listari": {
+   "166": [
+    "index.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/index.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompe-de-caldura/index.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "13": {
+  "pids": [
+   152
+  ],
+  "detalii": [
+   "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+   "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+   "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html"
+  ],
+  "listari": {
+   "152": [
+    "index.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/index.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompe-de-caldura/index.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "14": {
+  "pids": [
+   409
+  ],
+  "detalii": [
+   "aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
+   "echipamente-de-aer-conditionat/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
+   "single-split/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html"
+  ],
+  "listari": {
+   "409": [
+    "aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
+    "aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
+    "aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
+    "aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
+    "echipamente-de-aer-conditionat/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
+    "echipamente-de-aer-conditionat/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
+    "echipamente-de-aer-conditionat/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
+    "echipamente-de-aer-conditionat/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
+    "echipamente-de-aer-conditionat/index.html",
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "single-split/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
+    "single-split/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
+    "single-split/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
+    "single-split/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
+    "single-split/index.html"
+   ]
+  }
+ },
+ "15": {
+  "pids": [
+   413
+  ],
+  "detalii": [
+   "aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
+   "echipamente-de-aer-conditionat/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
+   "single-split/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html"
+  ],
+  "listari": {
+   "413": [
+    "aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
+    "aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
+    "aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
+    "aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
+    "echipamente-de-aer-conditionat/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
+    "echipamente-de-aer-conditionat/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
+    "echipamente-de-aer-conditionat/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
+    "echipamente-de-aer-conditionat/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
+    "echipamente-de-aer-conditionat/index.html",
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "single-split/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
+    "single-split/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
+    "single-split/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
+    "single-split/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
+    "single-split/index.html"
+   ]
+  }
+ },
+ "16": {
+  "pids": [
+   425
+  ],
+  "detalii": [
+   "aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
+   "echipamente-de-aer-conditionat/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
+   "single-split/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html"
+  ],
+  "listari": {
+   "425": [
+    "aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
+    "aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
+    "aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
+    "aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
+    "echipamente-de-aer-conditionat/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
+    "echipamente-de-aer-conditionat/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
+    "echipamente-de-aer-conditionat/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
+    "echipamente-de-aer-conditionat/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
+    "echipamente-de-aer-conditionat/index.html",
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "single-split/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
+    "single-split/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
+    "single-split/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
+    "single-split/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
+    "single-split/index.html"
+   ]
+  }
+ },
+ "17": {
+  "pids": [
+   429
+  ],
+  "detalii": [
+   "aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
+   "echipamente-de-aer-conditionat/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
+   "single-split/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html"
+  ],
+  "listari": {
+   "429": [
+    "aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
+    "aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
+    "aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
+    "aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
+    "echipamente-de-aer-conditionat/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
+    "echipamente-de-aer-conditionat/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
+    "echipamente-de-aer-conditionat/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
+    "echipamente-de-aer-conditionat/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
+    "echipamente-de-aer-conditionat/index.html",
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "single-split/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
+    "single-split/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
+    "single-split/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
+    "single-split/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
+    "single-split/index.html"
+   ]
+  }
+ },
+ "18": {
+  "pids": [
+   433
+  ],
+  "detalii": [
+   "aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
+   "echipamente-de-aer-conditionat/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
+   "single-split/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html"
+  ],
+  "listari": {
+   "433": [
+    "aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
+    "aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
+    "aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
+    "aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
+    "echipamente-de-aer-conditionat/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
+    "echipamente-de-aer-conditionat/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
+    "echipamente-de-aer-conditionat/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
+    "echipamente-de-aer-conditionat/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
+    "echipamente-de-aer-conditionat/index.html",
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "single-split/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
+    "single-split/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
+    "single-split/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
+    "single-split/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
+    "single-split/index.html"
+   ]
+  }
+ },
+ "19": {
+  "pids": [
+   489
+  ],
+  "detalii": [
+   "boilere-acm/boiler-acm-cu-serpentină-clivet-acs-200-300-500-1000-litri.html",
+   "producție-apă-caldă/boiler-acm-cu-serpentină-clivet-acs-200-300-500-1000-litri.html"
+  ],
+  "listari": {
+   "489": [
+    "boilere-acm/index.html",
+    "producție-apă-caldă/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "20": {
+  "pids": [
+   9020
+  ],
+  "detalii": [
+   "producție-apă-caldă/boiler-cu-pompa-de-caldura-aqua-swan-200l.html"
+  ],
+  "listari": {
+   "9020": [
+    "boilere-acm/index.html",
+    "producție-apă-caldă/index.html"
+   ]
+  }
+ },
+ "21": {
+  "pids": [
+   9021
+  ],
+  "detalii": [
+   "producție-apă-caldă/boiler-cu-pompa-de-caldura-aqua-swan-270l.html"
+  ],
+  "listari": {
+   "9021": [
+    "boilere-acm/index.html",
+    "producție-apă-caldă/index.html"
+   ]
+  }
+ },
+ "22": {
+  "pids": [
+   9022
+  ],
+  "detalii": [
+   "producție-apă-caldă/boiler-cu-pompa-de-caldura-aqua-f-dsdh-p-190l.html"
+  ],
+  "listari": {
+   "9022": [
+    "boilere-acm/index.html",
+    "producție-apă-caldă/index.html"
+   ]
+  }
+ },
+ "23": {
+  "pids": [
+   326
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
+   "ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html"
+  ],
+  "listari": {
+   "326": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html",
+    "ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html",
+    "ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html",
+    "ventiloconvectoare/ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
+    "ventiloconvectoare/ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html",
+    "ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html",
+    "ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html",
+    "ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
+    "ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html"
+   ]
+  }
+ },
+ "24": {
+  "pids": [
+   321
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
+   "ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html"
+  ],
+  "listari": {
+   "321": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html",
+    "ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html",
+    "ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html",
+    "ventiloconvectoare/ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
+    "ventiloconvectoare/ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html",
+    "ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html",
+    "ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html",
+    "ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
+    "ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html"
+   ]
+  }
+ },
+ "25": {
+  "pids": [
+   305
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html",
+   "ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html"
+  ],
+  "listari": {
+   "305": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html",
+    "ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html",
+    "ventiloconvectoare/ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
+    "ventiloconvectoare/ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
+    "ventiloconvectoare/ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html",
+    "ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html",
+    "ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
+    "ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
+    "ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html"
+   ]
+  }
+ },
+ "26": {
+  "pids": [
+   289
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html",
+   "ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html"
+  ],
+  "listari": {
+   "289": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html",
+    "ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html",
+    "ventiloconvectoare/ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
+    "ventiloconvectoare/ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
+    "ventiloconvectoare/ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html",
+    "ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html",
+    "ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
+    "ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
+    "ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html"
+   ]
+  }
+ },
+ "27": {
+  "pids": [
+   284
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html",
+   "ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html"
+  ],
+  "listari": {
+   "284": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html",
+    "ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html",
+    "ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html",
+    "ventiloconvectoare/ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
+    "ventiloconvectoare/ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
+    "ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html",
+    "ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html",
+    "ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
+    "ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html"
+   ]
+  }
+ },
+ "28": {
+  "pids": [
+   9023
+  ],
+  "detalii": [
+   "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+   "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html"
+  ],
+  "listari": {
+   "9023": [
+    "index.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompe-de-caldura/index.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "29": {
+  "pids": [
+   9024
+  ],
+  "detalii": [
+   "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+   "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+   "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html"
+  ],
+  "listari": {
+   "9024": [
+    "index.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/index.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompe-de-caldura/index.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "30": {
+  "pids": [
+   9025
+  ],
+  "detalii": [
+   "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+   "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
+   "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html"
+  ],
+  "listari": {
+   "9025": [
+    "index.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/index.html",
+    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompe-de-caldura/index.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
+    "pompe-de-caldura/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
+    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
+    "pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "31": {
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-aura-necarcasat-inverter-cffau.html"
+  ],
+  "listari": {
+   "9031": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "32": {
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-aura-necarcasat-3-viteze-cffu.html"
+  ],
+  "listari": {
+   "9032": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ }
+}
