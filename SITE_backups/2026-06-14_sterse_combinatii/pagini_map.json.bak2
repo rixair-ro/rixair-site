@@ -324,6 +324,48 @@
       ]
     }
   },
+  "20": {
+    "pids": [
+      9020
+    ],
+    "detalii": [
+      "producție-apă-caldă/boiler-cu-pompa-de-caldura-aqua-swan-200l.html"
+    ],
+    "listari": {
+      "9020": [
+        "boilere-acm/index.html",
+        "producție-apă-caldă/index.html"
+      ]
+    }
+  },
+  "21": {
+    "pids": [
+      9021
+    ],
+    "detalii": [
+      "producție-apă-caldă/boiler-cu-pompa-de-caldura-aqua-swan-270l.html"
+    ],
+    "listari": {
+      "9021": [
+        "boilere-acm/index.html",
+        "producție-apă-caldă/index.html"
+      ]
+    }
+  },
+  "22": {
+    "pids": [
+      9022
+    ],
+    "detalii": [
+      "producție-apă-caldă/boiler-cu-pompa-de-caldura-aqua-f-dsdh-p-190l.html"
+    ],
+    "listari": {
+      "9022": [
+        "boilere-acm/index.html",
+        "producție-apă-caldă/index.html"
+      ]
+    }
+  },
   "23": {
     "pids": [
       326
