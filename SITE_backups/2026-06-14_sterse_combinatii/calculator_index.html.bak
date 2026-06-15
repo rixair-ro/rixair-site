@@ -1069,63 +1069,116 @@ function heightFactor(h) { return Math.max(0.85, Math.min(1.25, h / 2.7)); }
 // CATALOG COMPLET PRODUSE CLIVET (toate familiile distribuite de Rixar)
 // =============================================================================
 const CATALOG = {
-  // ========== POMPE DE CĂLDURĂ AER-APĂ (doar gama reală RIXAIR) ==========
+  // ========== POMPE DE CĂLDURĂ AER-APĂ ==========
   heatPumps: [
-    // Edge EVO 2.0 EXC Monobloc R-32 (2.1-8.1)
-    { kw: 2.1, family: 'Edge EVO 2.0 EXC 2.1 (WiSAN-YME)', power: '2,1 kW heating', cat: 'monoblock', refr: 'R-32', tags: ['Monobloc', 'R-32'], desc: 'Monobloc R-32 cu toate componentele frigorifice în unitatea exterioară. Doar conexiune hidraulică la interior — instalare rapidă.' },
-    { kw: 2.1, family: 'Edge F 2.1 (WiSAN-PME R-290)', power: '2,1 kW heating', cat: 'monoblock-r290', refr: 'R-290', tags: ['Monobloc', 'R-290 Eco', 'GWP=3'], desc: 'Monobloc propan R-290 (GWP=3, refrigerant natural). Eficient până la -25°C, eligibil "Casa Verde Plus".' },
-    { kw: 2.1, family: 'Edge PRO 2.1 (WiSAN-PMP R-290)', power: '2,1 kW heating', cat: 'monoblock-r290', refr: 'R-290', tags: ['Premium', 'R-290 Eco', 'Silent'], desc: 'Monobloc R-290 premium, foarte silențios. Recomandat zone rezidențiale liniștite.' },
-    { kw: 4.1, family: 'Edge EVO 2.0 EXC 4.1 (WiSAN-YME)', power: '4,1 kW heating', cat: 'monoblock', refr: 'R-32', tags: ['Monobloc', 'R-32'], desc: 'Monobloc R-32 de 4 kW. Ideal pentru renovări (fără gas-line interior) și locuințe 80-120 m².' },
-    { kw: 4.1, family: 'Edge F 4.1 (WiSAN-PME R-290)', power: '4,1 kW heating', cat: 'monoblock-r290', refr: 'R-290', tags: ['Monobloc', 'R-290 Eco'], desc: 'Monobloc R-290 de 4 kW. Performanță superioară la temperaturi negative.' },
-    { kw: 4.1, family: 'Edge PRO 4.1 (WiSAN-PMP R-290)', power: '4,1 kW heating', cat: 'monoblock-r290', refr: 'R-290', tags: ['Premium', 'R-290 Eco', 'Silent'], desc: 'Monobloc R-290 premium 4 kW, foarte silențios. Disponibil și trifazic.' },
-    { kw: 6.1, family: 'Edge EVO 2.0 EXC 6.1 (WiSAN-YME)', power: '6,1 kW heating', cat: 'monoblock', refr: 'R-32', tags: ['Monobloc', 'R-32', 'Top vânzări'], desc: 'Monobloc R-32 de 6 kW — cea mai cerută variantă pentru case 100-140 m².' },
-    { kw: 6.1, family: 'Edge F 6.1 (WiSAN-PME R-290)', power: '6,1 kW heating', cat: 'monoblock-r290', refr: 'R-290', tags: ['Monobloc', 'R-290 Eco'], desc: 'Monobloc propan 6 kW. COP până la 5,2 în condiții nominale. Impact climatic minim.' },
-    { kw: 6.1, family: 'Edge PRO 6.1 (WiSAN-PMP R-290)', power: '6,1 kW heating', cat: 'monoblock-r290', refr: 'R-290', tags: ['Premium', 'R-290 Eco', 'Silent'], desc: 'Monobloc R-290 premium 6 kW, presiune sonoră redusă. Disponibil și trifazic.' },
-    { kw: 8.1, family: 'Edge EVO 2.0 EXC 8.1 (WiSAN-YME)', power: '8,1 kW heating', cat: 'monoblock', refr: 'R-32', tags: ['Monobloc', 'R-32'], desc: 'Monobloc R-32 de 8 kW pentru case 130-180 m². Conectare doar hidraulică.' },
-    { kw: 8.1, family: 'Edge F 8.1 (WiSAN-PME R-290)', power: '8,1 kW heating', cat: 'monoblock-r290', refr: 'R-290', tags: ['Monobloc', 'R-290 Eco', 'Top eco'], desc: 'Monobloc R-290 de 8 kW — top de gamă pentru randament și sustenabilitate. Eficient până la -25°C.' },
-    { kw: 8.1, family: 'Edge PRO 8.1 (WiSAN-PMP R-290)', power: '8,1 kW heating', cat: 'monoblock-r290', refr: 'R-290', tags: ['Premium', 'R-290 Eco', 'Silent'], desc: 'Monobloc R-290 premium 8 kW. Maxim de eficiență și silențiozitate. Disponibil și trifazic.' },
-    // Edge EVO XL / Trifazic Monobloc R-32 (9.1-14.1)
-    { kw: 12.1, family: 'Edge EVO XL 12.1 (WiSAN-YME R-32)', power: '12,1 kW heating', cat: 'monoblock', refr: 'R-32', tags: ['Monobloc', 'R-32', 'XL'], desc: 'Monobloc R-32 de 12 kW pentru case mari (180-250 m²). Disponibil monofazic și trifazic.' },
-    { kw: 14.1, family: 'Edge EVO XL 14.1 (WiSAN-YME R-32)', power: '14,1 kW heating', cat: 'monoblock', refr: 'R-32', tags: ['Monobloc', 'R-32', 'XL'], desc: 'Monobloc R-32 de 14 kW pentru vile / aplicații rezidențiale extinse. Disponibil și trifazic.' }
+    // Sphera EVO 2.0 Split (R-32) - 2.1 to 8.1 kW
+    { kw: 2.1, family: 'Sphera EVO 2.0 + MiSAN-YEE 1S 2.1', power: '2,1 kW heating', cat: 'split', refr: 'R-32',  tags: ['Split', 'R-32'], desc: 'Pompă de căldură split aer-apă cu unitate exterioară MiSAN-YEE și unitate internă Sphera EVO 2.0 (Box / Tower / Invisible). Soluție flagship Clivet pentru apartamente și case mici. Compatibilă cu boiler ACM 250L integrat.' },
+    { kw: 4.1, family: 'Sphera EVO 2.0 + MiSAN-YEE 1S 4.1', power: '4,1 kW heating', cat: 'split', refr: 'R-32',  tags: ['Split', 'R-32'], desc: 'Sistem split aer-apă R-32 de 4 kW. Cea mai vândută clasă pentru locuințe 80-120 m². Indoor Box (perete), Tower (cu boiler 250L) sau Invisible (încastrat în mobilă).' },
+    { kw: 6.1, family: 'Sphera EVO 2.0 + MiSAN-YEE 1S 6.1', power: '6,1 kW heating', cat: 'split', refr: 'R-32',  tags: ['Split', 'R-32', 'Top vânzări'], desc: 'Split R-32 de 6 kW — cea mai populară clasă pentru case 100-140 m² în Banat și Crișana. Indoor combinabil cu Tower 250L pentru ACM.' },
+    { kw: 8.1, family: 'Sphera EVO 2.0 + MiSAN-YEE 1S 8.1', power: '8,1 kW heating', cat: 'split', refr: 'R-32',  tags: ['Split', 'R-32'], desc: 'Split R-32 de 8 kW pentru case 130-180 m² sau case cu izolație medie. Combinabil cu indoor Tower (250L ACM) sau Box.' },
+    // Edge EVO 2.0 EXC Monobloc (R-32) - 2.1 to 14.1 kW
+    { kw: 2.1, family: 'Edge EVO 2.0 EXC 2.1 (WiSAN-YME)', power: '2,1 kW heating', cat: 'monoblock', refr: 'R-32', tags: ['Monobloc', 'R-32'], desc: 'Pompă monobloc R-32 cu toate componentele frigorifice în unitatea exterioară. Doar conexiune hidraulică la interior. Instalare rapidă, mentenanță simplă.' },
+    { kw: 4.1, family: 'Edge EVO 2.0 EXC 4.1 (WiSAN-YME)', power: '4,1 kW heating', cat: 'monoblock', refr: 'R-32', tags: ['Monobloc', 'R-32'], desc: 'Monobloc R-32 de 4 kW. Recomandat pentru renovări (fără gas-line interior) și pentru zone cu spațiu interior limitat.' },
+    { kw: 6.1, family: 'Edge EVO 2.0 EXC 6.1 (WiSAN-YME)', power: '6,1 kW heating', cat: 'monoblock', refr: 'R-32', tags: ['Monobloc', 'R-32'], desc: 'Monobloc R-32 de 6 kW — cea mai cerută variantă monobloc pentru case în zona III (București, Cluj, Brașov).' },
+    { kw: 8.1, family: 'Edge EVO 2.0 EXC 8.1 (WiSAN-YME)', power: '8,1 kW heating', cat: 'monoblock', refr: 'R-32', tags: ['Monobloc', 'R-32'], desc: 'Monobloc R-32 de 8 kW. Conectare hidraulică doar prin țevi cu apă — fără manipulare freon la instalare.' },
+    { kw: 12.1, family: 'Edge EVO 2.0 EXC 12.1 (WiSAN-YME)', power: '12,1 kW heating', cat: 'monoblock', refr: 'R-32', tags: ['Monobloc', 'R-32'], desc: 'Monobloc R-32 de 12 kW pentru case mari (180-250 m²) sau case cu izolație medie din zone reci.' },
+    { kw: 14.1, family: 'Edge EVO 2.0 EXC 14.1 (WiSAN-YME)', power: '14,1 kW heating', cat: 'monoblock', refr: 'R-32', tags: ['Monobloc', 'R-32'], desc: 'Monobloc R-32 de 14 kW pentru vile, pensiuni mici sau aplicații comerciale rezidențiale.' },
+    // Edge F Monobloc (R-290 propan) - 2.1 to 8.1 kW
+    { kw: 2.1, family: 'Edge F WiSAN-PME 2.1 (R-290)', power: '2,1 kW heating', cat: 'monoblock-r290', refr: 'R-290', tags: ['Monobloc', 'R-290 Eco', 'GWP=3'], desc: 'Monobloc propan R-290 (GWP=3, refrigerant natural). Cea mai eficientă opțiune pentru climat rece (-25°C). Compatibilă "Casa Verde Plus".' },
+    { kw: 4.1, family: 'Edge F WiSAN-PME 4.1 (R-290)', power: '4,1 kW heating', cat: 'monoblock-r290', refr: 'R-290', tags: ['Monobloc', 'R-290 Eco'], desc: 'Monobloc R-290 de 4 kW. Performanță superioară la temperaturi negative, ideal pentru zonele III-V.' },
+    { kw: 6.1, family: 'Edge F WiSAN-PME 6.1 (R-290)', power: '6,1 kW heating', cat: 'monoblock-r290', refr: 'R-290', tags: ['Monobloc', 'R-290 Eco'], desc: 'Monobloc propan 6 kW. COP până la 5,2 în condiții nominale. Refrigerant cu impact climatic minim.' },
+    { kw: 8.1, family: 'Edge F WiSAN-PME 8.1 (R-290)', power: '8,1 kW heating', cat: 'monoblock-r290', refr: 'R-290', tags: ['Monobloc', 'R-290 Eco', 'Top eco'], desc: 'Monobloc R-290 de 8 kW — top of class pentru randament și sustenabilitate. Funcționează eficient până la -25°C.' },
+    // Edge PRO (R-290) - 12.1 to 20.1 kW
+    { kw: 12.1, family: 'Edge PRO WiSAN-PMP 12.1', power: '12,1 kW heating', cat: 'monoblock-r290', refr: 'R-290', tags: ['Premium', 'R-290 Eco'], desc: 'Pompă R-290 premium 12 kW, foarte silențioasă (presiune sonoră < 35 dB(A) la 5m). Recomandată zone rezidențiale liniștite.' },
+    { kw: 14.1, family: 'Edge PRO WiSAN-PMP 14.1', power: '14,1 kW heating', cat: 'monoblock-r290', refr: 'R-290', tags: ['Premium', 'R-290 Eco'], desc: 'Premium R-290 14 kW. Eficiență maximă chiar și la -20°C. Indicată pentru case mari, izolate corespunzător.' },
+    { kw: 20.1, family: 'Edge PRO WiSAN-PMP 20.1', power: '20,1 kW heating', cat: 'monoblock-r290', refr: 'R-290', tags: ['Premium', 'R-290 Eco', 'XL'], desc: 'Premium R-290 20 kW. Vile mari sau aplicații rezidențiale extinse.' },
+    // Thunder (R-290 commercial) - 18 to 30 kW
+    { kw: 18.1, family: 'Thunder WiSAN-P 18.1', power: '18 kW heating', cat: 'commercial', refr: 'R-290', tags: ['Commercial', 'R-290'], desc: 'Pompă comercială R-290 18 kW. Pentru pensiuni, clădiri colective mici, hale.' },
+    { kw: 20.1, family: 'Thunder WiSAN-P 20.1', power: '20 kW heating', cat: 'commercial', refr: 'R-290', tags: ['Commercial', 'R-290'], desc: 'Pompă comercială R-290 20 kW pentru aplicații medii rezidențial-comerciale.' },
+    { kw: 30.1, family: 'Thunder WiSAN-P 30.1', power: '30 kW heating', cat: 'commercial', refr: 'R-290', tags: ['Industrial', 'R-290'], desc: 'Pompă industrială R-290 30 kW pentru clădiri mari, hale, hoteluri.' },
+    // Hybrid
+    { kw: 6.1, family: 'EasyHybrid (Sphera + FE 24.4 gaz)', power: '6 + 24 kW', cat: 'hybrid', refr: 'R-32 + gaz', tags: ['Hybrid', 'Gaz backup'], desc: 'Sistem hibrid pompă de căldură + cazan gaz în condensație FE 24.4. Optimizare automată între cele două surse după prețul energiei și temperatura externă.' }
   ],
 
-  // unități interne separate — nu se comercializează individual
-  indoorSphera: [],
+  // ========== UNITĂȚI INTERNE SPHERA (pentru sisteme split) ==========
+  indoorSphera: [
+    { family: 'Sphera EVO 2.0 BOX', desc: 'Unitate internă perete, instalare clasică. Display TFT, control intuitiv. Pentru sisteme 2.1-8.1 kW.', tags: ['Indoor', 'Wall', 'Compact'] },
+    { family: 'Sphera EVO 2.0 TOWER (250L)', desc: 'Unitate internă vertical (mobilier integrat) cu boiler ACM 250L + rezistență electrică 9 kW backup. Soluție completă într-o singură unitate.', tags: ['Indoor', 'ACM 250L', 'Backup 9kW'] },
+    { family: 'Sphera EVO 2.0 INVISIBLE', desc: 'Unitate internă încastrabilă în mobilier sau perete (panou ascuns). Ideal pentru proiecte arhitecturale premium.', tags: ['Indoor', 'Premium', 'Hidden'] },
+    { family: 'Sphera EVO 2.0 EasyHybrid Box', desc: 'Box pentru sistem hibrid pompă de căldură + cazan gaz. Conexiune Wi-Fi cu management între cele două surse.', tags: ['Indoor', 'Hybrid', 'Smart'] }
+  ],
 
-  // ========== SPLITURI AER CONDIȚIONAT (gama reală) ==========
+  // ========== SPLITURI AER CONDIȚIONAT ==========
   splits: [
-    { btu: 9000,  kw: 2.6, family: 'EZCool 9000 BTU',      line: 'standard', tags: ['Split AC', '9k BTU', 'Wi-Fi'], desc: 'Split inverter 9000 BTU R-32 cu Wi-Fi. Răcire + încălzire. Camere 15-25 m².' },
-    { btu: 9000,  kw: 2.6, family: 'Cristallo 2 — 9k BTU', line: 'design',   tags: ['Split AC', 'Premium Design'], desc: 'Split premium cu panou frontal din cristal. 9000 BTU R-32 inverter.' },
-    { btu: 9000,  kw: 2.6, family: 'Stelvio 9000 BTU',     line: 'standard', tags: ['Split AC', 'Încălzire'], desc: 'Split R-32 optimizat pentru încălzire (până la 4,1 kW termic). 9000 BTU.' },
-    { btu: 9000,  kw: 2.6, family: 'Essential 2 — 9k BTU', line: 'standard', tags: ['Split AC', 'Compact'], desc: 'Versiunea compactă, 9000 BTU R-32. Pentru dormitoare și birouri mici.' },
-    { btu: 9000,  kw: 2.6, family: 'NATIV 9000 BTU',       line: 'standard', tags: ['Split AC', 'Design'], desc: 'NATIV 9000 BTU R-32, design slivery, mod eco. Răcire + încălzire.' },
-    { btu: 12000, kw: 3.5, family: 'EZCool 12000 BTU',     line: 'standard', tags: ['Split AC', '12k BTU', 'Wi-Fi'], desc: 'Split inverter 12000 BTU R-32 cu Wi-Fi. Camere 25-40 m².' },
-    { btu: 12000, kw: 3.5, family: 'Cristallo 2 — 12k BTU',line: 'design',   tags: ['Split AC', 'Premium Design'], desc: 'Premium design cristal, 12000 BTU inverter R-32.' },
-    { btu: 12000, kw: 3.5, family: 'Stelvio 12000 BTU',    line: 'standard', tags: ['Split AC', 'Încălzire'], desc: 'Split R-32 pentru încălzire (până la 4,2 kW termic). 12000 BTU.' },
-    { btu: 18000, kw: 5.3, family: 'EZCool 18000 BTU',     line: 'standard', tags: ['Split AC', '18k BTU', 'Wi-Fi'], desc: 'Split inverter 18000 BTU R-32. Living-uri 35-55 m².' },
-    { btu: 18000, kw: 5.3, family: 'Cristallo 2 — 18k BTU',line: 'design',   tags: ['Split AC', 'Premium Design'], desc: 'Premium 18000 BTU, design cristal.' },
-    { btu: 24000, kw: 5.9, family: 'EZCool 24000 BTU',     line: 'standard', tags: ['Split AC', '24k BTU'], desc: 'Split 24000 BTU R-32 pentru spații mari sau parter open-plan.' },
-    { btu: 24000, kw: 5.9, family: 'Cristallo 2 — 24k BTU',line: 'design',   tags: ['Split AC', 'Premium Design'], desc: 'Premium 24000 BTU, design cristal, pentru spații generoase.' }
+    { btu: 9000,  kw: 2.6, family: 'EZCool 9000 BTU',     line: 'standard', tags: ['Split AC', '9k BTU', 'Wi-Fi'], desc: 'Split inverter 9000 BTU R-32 cu Wi-Fi. Răcire/încălzire (heat pump). Camere 15-25 m². Cea mai bună valoare la preț.' },
+    { btu: 9000,  kw: 2.6, family: 'Cristallo 2 — 9k BTU',line: 'design',   tags: ['Split AC', 'Premium Design'], desc: 'Split premium cu panou frontal din cristal. 9000 BTU R-32 inverter. Liniile arhitecturale subtile pentru living-uri.' },
+    { btu: 9000,  kw: 2.6, family: 'Stelvio 9000 BTU',    line: 'standard', tags: ['Split AC', 'Best price'], desc: 'Linia clasică Clivet, raport calitate-preț. 9000 BTU R-32. Funcții esențiale, fără extras.' },
+    { btu: 9000,  kw: 2.6, family: 'Essential 2 — 9k BTU',line: 'standard', tags: ['Split AC', 'Compact'], desc: 'Versiunea compactă, 9000 BTU R-32. Indicat pentru dormitoare și birouri mici.' },
+    { btu: 9000,  kw: 2.6, family: 'NATIV 9000 BTU',      line: 'standard', tags: ['Split AC', 'Eco mode'], desc: 'NATIV 9000 BTU R-32 cu mod eco și consum redus în standby. Răcire/încălzire.' },
+    { btu: 12000, kw: 3.5, family: 'EZCool 12000 BTU',    line: 'standard', tags: ['Split AC', '12k BTU', 'Wi-Fi'], desc: 'Split inverter 12000 BTU R-32 cu Wi-Fi. Camere 25-40 m².' },
+    { btu: 12000, kw: 3.5, family: 'Cristallo 2 — 12k BTU',line: 'design',  tags: ['Split AC', 'Premium Design'], desc: 'Premium design cristal, 12000 BTU inverter R-32.' },
+    { btu: 18000, kw: 5.3, family: 'EZCool 18000 BTU',    line: 'standard', tags: ['Split AC', '18k BTU', 'Wi-Fi'], desc: 'Split inverter 18000 BTU R-32. Living-uri și open-space-uri 35-55 m².' },
+    { btu: 18000, kw: 5.3, family: 'Cristallo 2 — 18k BTU',line: 'design',  tags: ['Split AC', 'Premium Design'], desc: 'Premium 18000 BTU, design cristal. Excelent pentru living-uri spațioase.' },
+    { btu: 24000, kw: 7.0, family: 'EZCool 24000 BTU',    line: 'standard', tags: ['Split AC', '24k BTU'], desc: 'Split puternic 24000 BTU R-32 pentru spații mari sau parter open-plan.' }
   ],
 
-  // ========== VENTILOCONVECTOARE (terminale de distribuție) ==========
+  // ========== VENTILOCONVECTOARE (FAN COILS) ==========
   fanCoils: [
-    { family: 'MOOD CFW (perete)', tags: ['Perete', 'Design', 'Silențios'], desc: 'Ventiloconvector de perete, design modern, foarte silențios. Pentru sisteme cu pompă de căldură (CFW-2, mărimi 1-5).' },
-    { family: 'AURA CFFAC — carcasat inverter', tags: ['Carcasat', 'Inverter'], desc: 'Ventiloconvector carcasat cu motor inverter EC, randament ridicat. Mărimi 1-12, rezidențial și comercial.' },
-    { family: 'AURA CFFC — carcasat 3 viteze', tags: ['Carcasat', '3 viteze'], desc: 'Ventiloconvector carcasat cu motor în 3 viteze. Soluție economică, mărimi 1-12.' },
-    { family: 'AURA CFFAU — necarcasat inverter', tags: ['Necarcasat', 'Inverter'], desc: 'Ventiloconvector necarcasat (de încastrat) cu motor inverter EC. Pentru tavane false / nișe.' },
-    { family: 'AURA CFFU — necarcasat 3 viteze', tags: ['Necarcasat', '3 viteze'], desc: 'Ventiloconvector necarcasat cu motor 3 viteze, montaj ascuns în tavan/perete.' },
-    { family: 'ELFORoom2 (perete)', tags: ['Perete', 'Inverter'], desc: 'Ventiloconvector de perete ELFORoom2, mărimi 003-017. Pentru rezidențial și comercial ușor.' },
-    { family: 'ELFOSpace BOX3 (casetă)', tags: ['Casetă', 'Industrial'], desc: 'Casetă de tavan ELFOSpace BOX3 (CFK), mărimi 007-041. Pentru spații comerciale și industriale.' }
+    { family: 'MOOD CFW (perete)', tags: ['Wall', 'Design', 'Quiet'], desc: 'Ventiloconvector de perete cu design modern, foarte silențios (până la 25 dB). Pentru sisteme cu pompă de căldură. 4 modele de putere.' },
+    { family: 'AURA CFFAU (caseta 4 căi)', tags: ['Cassette 4-way', 'Ceiling'], desc: 'Casetă de tavan 4 căi, integrată în tavanul fals. Distribuție omogenă a aerului. Pentru living-uri sau birouri.' },
+    { family: 'AURA CFFC (tavan)', tags: ['Ceiling', 'Exposed'], desc: 'Ventiloconvector de tavan expus. Soluție pentru spații industriale, hale, depozite reconvertite.' },
+    { family: 'AURA CFFU (pardoseală/perete)', tags: ['Floor', 'Wall'], desc: 'Ventiloconvector de pardoseală sau perete. Flexibilitate maximă de montare în renovări.' },
+    { family: 'AURA CFFAC (cu carcasă)', tags: ['Cassette', 'Compact'], desc: 'Casetă mică cu carcasă proprie pentru tavane fără strat fals. Cea mai compactă variantă.' }
   ],
 
-  // game neoferite (lăsate goale intenționat)
-  multiSplit: [],
-  ventilation: [],
-  dhw: [],
-  chillers: [],
-  storage: [],
-  controls: []
+  // ========== MULTI-SPLIT ==========
+  multiSplit: [
+    { family: 'BOX-SM2 (multi-split outdoor)', tags: ['Outdoor', 'Multi'], desc: 'Unitate exterioară multi-split pentru 2-5 unități interioare diferite (perete, caseta, duct). O singură unitate exterioară.' },
+    { family: 'CEILING & FLOOR SM2', tags: ['Indoor', 'Flexible'], desc: 'Unități interioare versatile pentru tavan sau pardoseală, conectabile la outdoor BOX-SM2.' },
+    { family: 'Duct SM2', tags: ['Ducted', 'Hidden'], desc: 'Unitate interioară de tubulatură (ascunsă în tavan fals) pentru sistem multi-split. Distribuție prin grile.' }
+  ],
+
+  // ========== VENTILAȚIE ȘI RECUPERARE CĂLDURĂ ==========
+  ventilation: [
+    { family: 'ELFOFresh EVO', tags: ['HRV', '90% recuperare'], desc: 'Recuperator de căldură cu randament 85-92%. Aer proaspăt filtrat permanent. Esențial pentru case NZEB / casă pasivă.' },
+    { family: 'HRV V8 Series', tags: ['HRV', 'Residential'], desc: 'Recuperator rezidențial cu schimbător contracurent ceramic. Debit 200-600 m³/h, ideal pentru locuințe 100-250 m².' },
+    { family: 'HRV-DX (pentru VRF)', tags: ['HRV', 'VRF integrat'], desc: 'Recuperator combinat cu sistem VRF. Pre-tratează aerul proaspăt înainte de a fi distribuit. Pentru aplicații comerciale.' },
+    { family: 'CiSDN-Y EF (purifying)', tags: ['HRV', 'Filtrare avansată'], desc: 'Recuperator cu filtrare H13 (HEPA), purifică aerul de praf, polen, viruși. Recomandat alergici și familii cu copii.' },
+    { family: 'ELFO FRESH 2', tags: ['HRV', 'Compact'], desc: 'Recuperator compact pentru apartamente sau locuințe mici. Montaj simplu, control Wi-Fi.' }
+  ],
+
+  // ========== APĂ CALDĂ MENAJERĂ (ACM) ==========
+  dhw: [
+    { family: 'Sphera EVO 2.0 TOWER 250L', tags: ['ACM 250L', 'Integrat', '4-5 pers'], desc: 'Unitate internă pompă de căldură + boiler 250L într-o singură carcasă. Cea mai elegantă soluție când deja ai pompă de căldură pentru încălzire.' },
+    { family: 'AQUA SWAN (HP boiler)', tags: ['ACM dedicat', 'Pompă căldură'], desc: 'Boiler cu pompă de căldură integrată dedicată ACM. Independent de sistemul de încălzire. Disponibil 200L și 270L.' },
+    { family: 'DSDH-P AQ 1S 190 (190L)', tags: ['ACM 190L', 'Serpentina'], desc: 'Boiler 190L cu serpentină pentru conectare la pompă de căldură sau cazan gaz. Pentru locuințe 2-3 persoane.' },
+    { family: 'ACS150X / AC50X (acumulatoare)', tags: ['Tank', 'Buffer'], desc: 'Boilere/acumulatoare 50L și 150L pentru sistem hidraulic complex. Folosite ca rezervor tampon (buffer) pentru pompele de căldură.' }
+  ],
+
+  // ========== CHILLERE (APPLIED) — pentru aplicații >30 kW ==========
+  chillers: [
+    { family: 'WSAT-YSC4 (cooling-only)', tags: ['Chiller', '40-200 kW', 'Outdoor'], desc: 'Chiller aer-apă cooling-only pentru clădiri comerciale, industriale, hale. Game 40-200 kW.' },
+    { family: 'WSAT-YSC4 HP (reversibil)', tags: ['Chiller HP', 'Reversibil'], desc: 'Chiller cu pompă de căldură integrată — răcire vara, încălzire iarna. Pentru hoteluri, birouri, mall-uri.' },
+    { family: 'WSAN-YSC4', tags: ['Chiller', 'Silent'], desc: 'Chiller silenced pentru zone rezidențiale unde se cere zgomot redus.' },
+    { family: 'WDAT-iZ4 / WDAT-iK4', tags: ['Chiller industrial', 'Hală'], desc: 'Chiller industrial pentru hale de producție (folosit la AUMOVIO și Continental Timișoara).' },
+    { family: 'WiSAT-YSi (16-43 kW)', tags: ['Chiller mic', 'Compact'], desc: 'Chiller compact 16-43 kW pentru hale mici, ateliere, restaurante.' }
+  ],
+
+  // ========== STOCARE ENERGIE / FOTOVOLTAIC ==========
+  storage: [
+    { family: 'SINERGY 51 (5 kW invertor hibrid)', tags: ['Inverter', 'Hybrid', '5 kW'], desc: 'Invertor hibrid fotovoltaic 5 kW. Gestionează panourile PV + bateriile + rețeaua. Compatibilitate Wi-Fi pentru control HVAC integrat.' },
+    { family: 'CEC-S B 5K (baterie 5 kWh)', tags: ['Battery', 'LiFePO4', '5 kWh'], desc: 'Modul baterie LiFePO4 5 kWh. Stackable până la 20 kWh (4 module). Compatibil SINERGY 51.' },
+    { family: 'CEC-S B 10K (baterie 10 kWh)', tags: ['Battery', '10 kWh', 'XL'], desc: 'Modul baterie 10 kWh pentru sisteme PV de capacitate mai mare.' }
+  ],
+
+  // ========== SISTEME DE COMANDĂ ==========
+  controls: [
+    { family: 'Control4 NRG (Wi-Fi)', tags: ['Wi-Fi', 'App', 'Smart'], desc: 'Sistem de comandă centralizat cu Wi-Fi pentru întreaga gamă Clivet. Aplicație mobilă (iOS/Android), programare zilnică, grafice consum.' },
+    { family: 'HID-TConnect 2', tags: ['Wired', 'Touch'], desc: 'Termostat tactil cu fir pentru control unități individuale. Display HD, control multi-zonă.' },
+    { family: 'HID-TSmart', tags: ['Wireless', 'Smart Home'], desc: 'Termostat smart compatibil cu Apple HomeKit, Google Home, Alexa.' },
+    { family: 'KJRH-120L', tags: ['Wired', 'Multi-unit'], desc: 'Termostat de perete cu fir pentru controlul a 1-16 unități interioare în paralel.' },
+    { family: 'HMIFACX / HMIFDCX', tags: ['Electromechanical'], desc: 'Comenzi electromecanice clasice (cu fir, fără afișaj digital) pentru aplicații simple sau de înlocuire.' }
+  ]
 };
 
 // =============================================================================
@@ -1176,7 +1229,7 @@ function calculate(inp) {
 
 // Selectare clasă pompă de căldură
 function pickHeatPumpClass(kW) {
-  const classes = [2.1, 4.1, 6.1, 8.1, 12.1, 14.1];
+  const classes = [2.1, 4.1, 6.1, 8.1, 12.1, 14.1, 18.1, 20.1, 30.1];
   for (const c of classes) if (c >= kW) return c;
   return 30.1;
 }
@@ -1490,7 +1543,7 @@ document.getElementById('seeResultsBtn').addEventListener('click', renderResults
 if(window.self!==window.top){var _siv=Element.prototype.scrollIntoView;Element.prototype.scrollIntoView=function(){};}
 </script><script id="rx-prodlink">
 (function(){
-var RULES = [[["edge","xl"],"/aer-apa-monobloc/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html"],[["trifazic"],"/aer-apa-monobloc/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html"],[["edge","pro"],"/aer-apa-monobloc/pompă-de-căldură-clivet-edge-pro-monobloc-r-290-wisan-pmp-2-1-14-1.html"],[["edge","f "],"/monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html"],[["edge f"],"/monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html"],[["wisan-pme"],"/monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html"],[["edge","evo"],"/monobloc/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html"],[["ezcool"],"/echipamente-de-aer-conditionat/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html"],[["essential"],"/echipamente-de-aer-conditionat/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html"],[["nativ"],"/echipamente-de-aer-conditionat/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html"],[["cristallo"],"/echipamente-de-aer-conditionat/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html"],[["stelvio"],"/echipamente-de-aer-conditionat/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html"],[["cffac"],"/ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html"],[["cffau"],"/ventiloconvectoare/ventiloconvector-aura-necarcasat-inverter-cffau.html"],[["cffc"],"/ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html"],[["cffu"],"/ventiloconvectoare/ventiloconvector-aura-necarcasat-3-viteze-cffu.html"],[["mood"],"/ventiloconvectoare/ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html"],[["elforoom"],"/ventiloconvectoare/ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html"],[["elfospace"],"/ventiloconvectoare/ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html"]];
+var RULES = [[["hydro", "tower"], "/pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html"], [["hydro", "box"], "/pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html"], [["hydro", "invisible"], "/pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html"], [["hydro", "mini"], "/pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html"], [["hybrid", "tower"], "/pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html"], [["hybrid", "box"], "/pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html"], [["easyhybrid"], "/pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html"], [["hybrid"], "/pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html"], [["sphera", "invisible"], "/pompe-de-caldura/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html"], [["sphera", "box"], "/pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html"], [["sphera"], "/pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html"], [["edge", "xl"], "/pompe-de-caldura-36/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html"], [["trifazic"], "/pompe-de-caldura-36/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html"], [["edge", "pro"], "/pompe-de-caldura-36/pompă-de-căldură-clivet-edge-pro-monobloc-r-290-wisan-pmp-2-1-14-1.html"], [["edge", "f "], "/pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html"], [["edge f"], "/pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html"], [["wisan-pme"], "/pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html"], [["edge", "evo"], "/pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s.html"], [["stelvio"], "/echipamente-de-aer-conditionat/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html"], [["aura", "3"], "/ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html"], [["aura"], "/ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html"], [["mood"], "/ventiloconvectoare/ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html"], [["elforoom"], "/ventiloconvectoare/ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html"], [["elfospace"], "/ventiloconvectoare/ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html"], [["aqua", "swan"], "/producție-apă-caldă/boiler-cu-pompa-de-caldura-aqua-swan-200l.html"], [["dsdh"], "/producție-apă-caldă/boiler-cu-pompa-de-caldura-aqua-f-dsdh-p-190l.html"], [["aqua f"], "/producție-apă-caldă/boiler-cu-pompa-de-caldura-aqua-f-dsdh-p-190l.html"], [["acs"], "/producție-apă-caldă/boiler-acm-cu-serpentină-clivet-acs-200-300-500-1000-litri.html"], [["ezcool"], "/echipamente-de-aer-conditionat/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html"], [["essential"], "/echipamente-de-aer-conditionat/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html"], [["nativ"], "/echipamente-de-aer-conditionat/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html"], [["cristallo"], "/echipamente-de-aer-conditionat/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html"]];
 function urlFor(name){
  var n = (' '+name+' ').toLowerCase();
  for(var i=0;i<RULES.length;i++){
