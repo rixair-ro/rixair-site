@@ -1070,7 +1070,7 @@ function heightFactor(h) { return Math.max(0.85, Math.min(1.25, h / 2.7)); }
 // =============================================================================
 const CATALOG = {
   // ========== POMPE DE CĂLDURĂ AER-APĂ (doar gama reală RIXAIR) ==========
-  heatPumps: [
+  heatPumps: [ /* DEPRECAT: rescris dinamic din capacitati reale Clivet — vezi HP_FAMILIES mai jos */
     // Edge EVO 2.0 EXC Monobloc R-32 (2.1-8.1)
     { kw: 2.1, family: 'Edge EVO 2.0 EXC 2.1 (WiSAN-YME)', power: '2,1 kW heating', cat: 'monoblock', refr: 'R-32', tags: ['Monobloc', 'R-32'], desc: 'Monobloc R-32 cu toate componentele frigorifice în unitatea exterioară. Doar conexiune hidraulică la interior — instalare rapidă.' },
     { kw: 2.1, family: 'Edge F 2.1 (WiSAN-PME R-290)', power: '2,1 kW heating', cat: 'monoblock-r290', refr: 'R-290', tags: ['Monobloc', 'R-290 Eco', 'GWP=3'], desc: 'Monobloc propan R-290 (GWP=3, refrigerant natural). Eficient până la -25°C, eligibil "Casa Verde Plus".' },
@@ -1129,6 +1129,54 @@ const CATALOG = {
 };
 
 // =============================================================================
+// CAPACITĂȚI REALE CLIVET — FIX: codul de model (2.1, 8.1, 12.1...) NU este kW!
+// kW termic, apă 35/30 °C, [Nominal la +7°C, Nominal la -7°C].
+// Surse: fișe tehnice WiSAN-YME (Edge EVO EXC/XL), WiSAN-PME (Edge F), WiSAN-PMP (Edge PRO).
+// =============================================================================
+const HP_FAMILIES = [
+  { line:'Edge EVO 2.0 EXC', odu:'WiSAN-YME', refr:'R-32', cat:'monoblock',
+    tags:['Monobloc','R-32'],
+    desc:'Monobloc R-32 — toate componentele frigorifice în unitatea exterioară, la interior doar conexiune hidraulică. Instalare rapidă.',
+    sizes:{ '2.1':[4.2,4.7], '3.1':[6.35,6.0], '4.1':[8.4,7.0], '5.1':[10.0,8.0], '6.1':[12.1,10.0], '7.1':[14.5,12.0], '8.1':[15.9,13.1] } },
+  { line:'Edge EVO XL', odu:'WiSAN-YME', refr:'R-32', cat:'monoblock',
+    tags:['Monobloc','R-32','XL','Trifazic'],
+    desc:'Monobloc R-32 de putere mare pentru case mari și vile. Disponibil monofazic și trifazic.',
+    sizes:{ '9.1':[18.0,18.0], '10.1':[22.0,21.0], '12.1':[26.0,22.0], '14.1':[30.1,23.0] } },
+  { line:'Edge F', odu:'WiSAN-PME', refr:'R-290', cat:'monoblock-r290',
+    tags:['Monobloc','R-290 Eco','GWP=3'],
+    desc:'Monobloc propan R-290 (GWP=3). Eficient până la -25°C, eligibil „Casa Verde Plus".',
+    sizes:{ '2.1':[4.5,4.5], '3.1':[6.2,5.9], '4.1':[8.4,7.0], '5.1':[10.0,8.0], '6.1':[12.0,10.0], '7.1':[14.0,11.5], '8.1':[15.0,12.7] } },
+  { line:'Edge PRO', odu:'WiSAN-PMP', refr:'R-290', cat:'monoblock-r290',
+    tags:['Premium','R-290 Eco','Silent'],
+    desc:'Monobloc R-290 premium, foarte silențios. Disponibil și trifazic (4.1T–8.1T).',
+    sizes:{ '2.1':[4.1,4.1], '3.1':[6.1,6.0], '4.1':[8.0,7.0], '5.1':[9.5,8.0], '6.1':[12.1,10.0], '7.1':[14.0,12.0], '8.1':[15.5,13.1] } }
+];
+// Reconstruiește catalogul cu capacitățile reale
+CATALOG.heatPumps = [];
+HP_FAMILIES.forEach(f => {
+  Object.entries(f.sizes).forEach(([size, cap]) => {
+    const capNom = cap[0], capCold = cap[1];
+    CATALOG.heatPumps.push({
+      size, capNom, capCold,
+      family: `${f.line} ${size} (${f.odu})`,
+      power: `${String(capNom).replace('.', ',')} kW nominal (+7°C) · ${String(capCold).replace('.', ',')} kW la −7°C`,
+      cat: f.cat, refr: f.refr, tags: f.tags.slice(), desc: f.desc
+    });
+  });
+});
+
+// Scara de dimensionare: cea mai mică treaptă a cărei capacitate la -7°C acoperă necesarul.
+// (valoarea = minimul capacității la -7°C între game, pentru siguranță)
+const HP_LADDER = [
+  ['2.1',4.1], ['3.1',5.9], ['4.1',7.0], ['5.1',8.0], ['6.1',10.0],
+  ['7.1',11.5], ['8.1',12.7], ['9.1',18.0], ['10.1',21.0], ['12.1',22.0], ['14.1',23.0]
+];
+function pickHeatPumpSize(reqKW) {
+  for (const [size, cap] of HP_LADDER) { if (cap >= reqKW) return size; }
+  return '14.1'; // peste ~23 kW: dimensionare specială / unități multiple
+}
+
+// =============================================================================
 // LOGICA DE CALCUL
 // =============================================================================
 function calculate(inp) {
@@ -1174,12 +1222,7 @@ function calculate(inp) {
   };
 }
 
-// Selectare clasă pompă de căldură
-function pickHeatPumpClass(kW) {
-  const classes = [2.1, 4.1, 6.1, 8.1, 12.1, 14.1];
-  for (const c of classes) if (c >= kW) return c;
-  return 30.1;
-}
+// (Selectarea pompei se face pe capacitatea reală — vezi pickHeatPumpSize mai sus)
 
 // =============================================================================
 // RENDER FORM DINAMIC
@@ -1309,19 +1352,14 @@ function buildRecommendations(state, result) {
   // === 1. Sistem principal ===
   recs.main = [];
   if (isHeating) {
-    const cls = pickHeatPumpClass(result.heatingKW);
-    // Toate variantele clasă (split + monobloc + R-290)
-    const matches = CATALOG.heatPumps.filter(p => p.kw === cls);
+    // Dimensionare pe sarcina de ÎNCĂLZIRE, după capacitatea reală la -7°C
+    const size = pickHeatPumpSize(result.heatingKW);
+    const matches = CATALOG.heatPumps.filter(p => p.size === size);
     matches.forEach((p, i) => {
       const rec = {...p};
       if (i === 0) rec.recommended = true;
       recs.main.push(rec);
     });
-    // Pentru >18 kW, adaugă și Thunder
-    if (cls >= 18) {
-      const commercial = CATALOG.heatPumps.filter(p => p.cat === 'commercial' && p.kw >= cls);
-      commercial.forEach(p => recs.main.push(p));
-    }
   } else if (isCooling) {
     // Splituri AC
     let btu;
@@ -1490,24 +1528,4 @@ document.getElementById('seeResultsBtn').addEventListener('click', renderResults
 if(window.self!==window.top){var _siv=Element.prototype.scrollIntoView;Element.prototype.scrollIntoView=function(){};}
 </script><script id="rx-prodlink">
 (function(){
-var RULES = [[["edge","xl"],"/aer-apa-monobloc/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html"],[["trifazic"],"/aer-apa-monobloc/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html"],[["edge","pro"],"/aer-apa-monobloc/pompă-de-căldură-clivet-edge-pro-monobloc-r-290-wisan-pmp-2-1-14-1.html"],[["edge","f "],"/monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html"],[["edge f"],"/monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html"],[["wisan-pme"],"/monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html"],[["edge","evo"],"/monobloc/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html"],[["ezcool"],"/echipamente-de-aer-conditionat/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html"],[["essential"],"/echipamente-de-aer-conditionat/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html"],[["nativ"],"/echipamente-de-aer-conditionat/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html"],[["cristallo"],"/echipamente-de-aer-conditionat/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html"],[["stelvio"],"/echipamente-de-aer-conditionat/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html"],[["cffac"],"/ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html"],[["cffau"],"/ventiloconvectoare/ventiloconvector-aura-necarcasat-inverter-cffau.html"],[["cffc"],"/ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html"],[["cffu"],"/ventiloconvectoare/ventiloconvector-aura-necarcasat-3-viteze-cffu.html"],[["mood"],"/ventiloconvectoare/ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html"],[["elforoom"],"/ventiloconvectoare/ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html"],[["elfospace"],"/ventiloconvectoare/ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html"]];
-function urlFor(name){
- var n = (' '+name+' ').toLowerCase();
- for(var i=0;i<RULES.length;i++){
-  var ok = RULES[i][0].every(function(t){return n.indexOf(t)>=0});
-  if(ok) return RULES[i][1];
- }
- return null;
-}
-document.addEventListener('click', function(e){
- var card = e.target.closest('.prod'); if(!card) return;
- var nm = card.querySelector('.prod-name'); if(!nm) return;
- var u = urlFor(nm.textContent||''); if(!u) return;
- (window.top||window).location.href = encodeURI(u);
-});
-var st = document.createElement('style');
-st.textContent='.prod{cursor:pointer}.prod:hover{box-shadow:0 6px 18px rgba(21,131,171,.25)!important;border-color:#1583ab!important}.prod .prod-name::after{content:" \\2197";color:#1583ab;font-size:13px}';
-document.head.appendChild(st);
-})();
-</script></body>
-</html>
+var RULES = [[["edge","xl"],"/aer-apa-monobloc/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html"],[["trifazic"],"/aer-apa-monobloc/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html"],[["edge","pro"],"/aer-apa-monobloc/pompă-de-căldură-clivet-edge-pro-monobloc-r-290-wisan-pmp-2-1-14-1.html"],[["edge","f "],"/monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html"],[["edge f"],"/monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html"],[["wisan-pme"],"/monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html"],[["edge","evo"],"/monobloc/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wis
