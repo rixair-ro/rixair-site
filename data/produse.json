@@ -587,12 +587,12 @@
   "nota_interna": "",
   "cat": "ventiloconvectoare",
   "nume_lung": "Ventiloconvector ELFORoom2 003.0–017.0 INVERTER",
-  "stoc": "in_stoc"
+  "stoc": "ascuns"
  },
  {
   "nr": 25,
   "slug": "ventiloconvector-aura-1-12-inverter-carcasat-necarcasat",
-  "nume": "Ventiloconvector Clivet AURA carcasat INVERTER (CFFC 1-12)",
+  "nume": "Ventiloconvector Clivet AURA carcasat INVERTER (CFFC 3-12)",
   "sku": "Clivet-AURA-1-CFFAC",
   "categorie": "vcv",
   "pret_tip": "la_cerere",
@@ -601,12 +601,14 @@
    {
     "nume": "AURA 1 (CFFC)",
     "pret": null,
-    "sku": "Clivet-AURA-1-CFFC"
+    "sku": "Clivet-AURA-1-CFFC",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "AURA 2 (CFFC)",
     "pret": null,
-    "sku": "Clivet-AURA-2-CFFC"
+    "sku": "Clivet-AURA-2-CFFC",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "AURA 3 (CFFC)",
@@ -641,17 +643,17 @@
   ],
   "descriere": "data/descrieri/25.html",
   "poza": "poze/p25.jpg",
-  "seo_title": "Ventiloconvector Clivet AURA carcasat INVERTER (CFFC 1-12) | RIXAIR",
+  "seo_title": "Ventiloconvector Clivet AURA carcasat INVERTER (CFFC 3-12) | RIXAIR",
   "seo_meta": "Ventiloconvector Clivet AURA INVERTER carcasat/necarcasat, 1,57-8,7 kW, silențios și eficient. Rezidențial și comercial. RIXAIR Timișoara.",
   "nota_interna": "",
   "cat": "ventiloconvectoare",
-  "nume_lung": "Ventiloconvector Clivet AURA carcasat INVERTER (CFFC 1-12)",
+  "nume_lung": "Ventiloconvector Clivet AURA carcasat INVERTER (CFFC 3-12)",
   "stoc": "fara_stoc"
  },
  {
   "nr": 26,
   "slug": "ventiloconvector-aura-1-12-3-viteze-carcasat-necarcasat",
-  "nume": "Ventiloconvector Clivet AURA carcasat 3 viteze (CFFAC 1-12)",
+  "nume": "Ventiloconvector Clivet AURA carcasat 3 viteze (CFFAC 3-12)",
   "sku": "Clivet-AURA-1-CFFC",
   "categorie": "vcv",
   "pret_tip": "la_cerere",
@@ -660,12 +662,14 @@
    {
     "nume": "AURA 1 (CFFAC) — la comandă",
     "pret": null,
-    "sku": "Clivet-AURA-1-CFFAC"
+    "sku": "Clivet-AURA-1-CFFAC",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "AURA 2 (CFFAC) — la comandă",
     "pret": null,
-    "sku": "Clivet-AURA-2-CFFAC"
+    "sku": "Clivet-AURA-2-CFFAC",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "AURA 3 (CFFAC) — la comandă",
@@ -702,12 +706,12 @@
   ],
   "descriere": "data/descrieri/26.html",
   "poza": "poze/p26.jpg",
-  "seo_title": "Ventiloconvector Clivet AURA carcasat 3 viteze (CFFAC 1-12) | RIXAIR",
+  "seo_title": "Ventiloconvector Clivet AURA carcasat 3 viteze (CFFAC 3-12) | RIXAIR",
   "seo_meta": "Ventiloconvector Clivet AURA carcasat/necarcasat, 3 viteze, 1,85-8,5 kW. Pentru rezidențial și comercial. Distribuitor oficial Clivet.",
   "nota_interna": "",
   "cat": "ventiloconvectoare",
-  "nume_lung": "Ventiloconvector Clivet AURA carcasat 3 viteze (CFFAC 1-12)",
-  "stoc": "in_stoc"
+  "nume_lung": "Ventiloconvector Clivet AURA carcasat 3 viteze (CFFAC 3-12)",
+  "stoc": "ascuns"
  },
  {
   "nr": 27,
@@ -758,7 +762,7 @@
  {
   "nr": 31,
   "slug": "ventiloconvector-aura-necarcasat-inverter-cffau",
-  "nume": "Ventiloconvector Clivet AURA necarcasat INVERTER (CFFU 1-12)",
+  "nume": "Ventiloconvector Clivet AURA necarcasat INVERTER (CFFU 3-12)",
   "sku": "Clivet-AURA-1-CFFAU",
   "categorie": "vcv",
   "pret_tip": "la_cerere",
@@ -767,12 +771,14 @@
    {
     "nume": "AURA 1 (CFFU)",
     "pret": null,
-    "sku": "Clivet-AURA-1-CFFU"
+    "sku": "Clivet-AURA-1-CFFU",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "AURA 2 (CFFU)",
     "pret": null,
-    "sku": "Clivet-AURA-2-CFFU"
+    "sku": "Clivet-AURA-2-CFFU",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "AURA 3 (CFFU)",
@@ -807,17 +813,17 @@
   ],
   "descriere": "data/descrieri/25.html",
   "poza": "poze/p25.jpg",
-  "seo_title": "Ventiloconvector Clivet AURA necarcasat INVERTER (CFFU 1-12) | RIXAIR",
+  "seo_title": "Ventiloconvector Clivet AURA necarcasat INVERTER (CFFU 3-12) | RIXAIR",
   "seo_meta": "Ventiloconvector Clivet AURA INVERTER carcasat/necarcasat, 1,57-8,7 kW, silențios și eficient. Rezidențial și comercial. RIXAIR Timișoara.",
   "nota_interna": "",
   "cat": "ventiloconvectoare",
-  "nume_lung": "Ventiloconvector Clivet AURA necarcasat INVERTER (CFFU 1-12)",
+  "nume_lung": "Ventiloconvector Clivet AURA necarcasat INVERTER (CFFU 3-12)",
   "stoc": "fara_stoc"
  },
  {
   "nr": 32,
   "slug": "ventiloconvector-aura-necarcasat-3-viteze-cffu",
-  "nume": "Ventiloconvector Clivet AURA necarcasat 3 viteze (CFFAU 1-12)",
+  "nume": "Ventiloconvector Clivet AURA necarcasat 3 viteze (CFFAU 3-12)",
   "sku": "Clivet-AURA-1-CFFU",
   "categorie": "vcv",
   "pret_tip": "la_cerere",
@@ -826,12 +832,14 @@
    {
     "nume": "AURA 1 (CFFAU)",
     "pret": null,
-    "sku": "Clivet-AURA-1-CFFAU"
+    "sku": "Clivet-AURA-1-CFFAU",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "AURA 2 (CFFAU)",
     "pret": null,
-    "sku": "Clivet-AURA-2-CFFAU"
+    "sku": "Clivet-AURA-2-CFFAU",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "AURA 3 (CFFAU)",
@@ -866,11 +874,11 @@
   ],
   "descriere": "data/descrieri/26.html",
   "poza": "poze/p26.jpg",
-  "seo_title": "Ventiloconvector Clivet AURA necarcasat 3 viteze (CFFAU 1-12) | RIXAIR",
+  "seo_title": "Ventiloconvector Clivet AURA necarcasat 3 viteze (CFFAU 3-12) | RIXAIR",
   "seo_meta": "Ventiloconvector Clivet AURA carcasat/necarcasat, 3 viteze, 1,85-8,5 kW. Pentru rezidențial și comercial. Distribuitor oficial Clivet.",
   "nota_interna": "",
   "cat": "ventiloconvectoare",
-  "nume_lung": "Ventiloconvector Clivet AURA necarcasat 3 viteze (CFFAU 1-12)",
-  "stoc": "fara_stoc"
+  "nume_lung": "Ventiloconvector Clivet AURA necarcasat 3 viteze (CFFAU 3-12)",
+  "stoc": "ascuns"
  }
 ]

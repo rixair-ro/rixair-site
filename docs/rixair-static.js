@@ -130,6 +130,24 @@ setInterval(function(){go(1)},6000);})();
 function sz(){try{var d=f.contentDocument;if(d&&d.body){var h=d.body.scrollHeight;if(h>200)f.style.height=h+'px';}}catch(e){}}
 f.addEventListener('load',function(){sz();setInterval(sz,600);});setTimeout(sz,1500);})();
 
+/* rx-hidden-owl: produsele ascunse din carusele isi ascund si containerul owl-item (altfel raman goluri) */
+function rxScoate(){
+ document.querySelectorAll('[data-rx-hidden="1"]').forEach(function(e){
+  var w=e.closest('.owl-item');
+  var h=e.closest('.product-box-h');
+  (w||h||e).remove();
+ });
+}
+rxScoate();
+document.addEventListener('DOMContentLoaded',function(){
+ rxScoate();
+ /* daca owl a apucat sa se initializeze cu itemii vechi, il reinitializam */
+ if(window.jQuery){setTimeout(function(){try{
+  jQuery('.owl-carousel').each(function(){
+   var d=jQuery(this).data('owlCarousel');if(d&&d.reinit)d.reinit();
+  });}catch(err){}},300);}
+});
+
 /* rxGapKiller: elimina marginea alba dinaintea footerului pe orice pagina */
 document.addEventListener('DOMContentLoaded',function(){
  var foot=document.querySelector('.footer-holder');

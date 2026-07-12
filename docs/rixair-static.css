@@ -177,3 +177,8 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 [data-rx-nostock] .stock-status{color:#c0392b!important}
 [data-rx-nostock] .stock-status i{display:none!important}
 [data-rx-nostock] .stock-status, [data-rx-nostock] .stock-status *{color:#c0392b!important}
+
+/* rx-hidden-wrap: containerele de carusel/grid ale produselor ascunse dispar complet (fara goluri) */
+.owl-item:has(> .product-box-h > [data-rx-hidden="1"]),
+.owl-item:has([data-rx-hidden="1"]),
+.product-box-h:has(> [data-rx-hidden="1"]){display:none!important}

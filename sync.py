@@ -100,7 +100,7 @@ for nr, p in sorted(PR.items()):
         # fara_stoc: ascunde cantitatea + butonul "Adauga in cos" (stil per-pagina, idempotent)
         h = re.sub(r'<style id="rx-nostock">.*?</style>', '', h, flags=re.S)
         if stoc == "fara_stoc":
-            h = h.replace('</head>', '<style id="rx-nostock">.add-section{display:none!important}#wrapper .stock-status,#wrapper .stock-status *{color:#c0392b!important}#wrapper .stock-status i{display:none!important}</style></head>', 1)
+            h = h.replace('</head>', '<style id="rx-nostock">.add-section{display:none!important}#wrapper [class*="-g-product-stock-status"],#wrapper [class*="-g-product-stock-status"] *{color:#c0392b!important}#wrapper [class*="-g-product-stock-status"] i{display:none!important}</style></head>', 1)
         save(rel, h)
     # ---- carduri pe listari ----
     for pid_s, files in info["listari"].items():
