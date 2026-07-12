@@ -1,800 +1,866 @@
 [
-  {
-    "nr": 1,
-    "slug": "pompa-de-caldura-monobloc-edge-evo-2-0-exc-r-32-wisan-yme-2-1-8-1",
-    "nume": "Pompă de căldură monobloc Edge EVO 2.0 EXC R-32 (WiSAN-YME) 2.1–8.1",
-    "sku": "CLV-EDGE-EVO-EXC",
-    "categorie": "pompe",
-    "pret_tip": "variante",
-    "pret_de_la": null,
-    "variante": [
-      {
-        "nume": "2.1 — 4.2 kW heating (Edge EVO EXC monofazic)",
-        "pret": 13786.24,
-        "sku": "CLV-EDGE-EVO-EXC-2-1-220M"
-      },
-      {
-        "nume": "3.1 — 5.4 kW heating (Edge EVO EXC monofazic)",
-        "pret": 15855.89,
-        "sku": "CLV-EDGE-EVO-EXC-3-1-220M"
-      },
-      {
-        "nume": "4.1 — 6.5 kW heating (Edge EVO EXC monofazic)",
-        "pret": 17236.67,
-        "sku": "CLV-EDGE-EVO-EXC-4-1-220M"
-      },
-      {
-        "nume": "5.1 — 7.5 kW heating (Edge EVO EXC monofazic)",
-        "pret": 19621.38,
-        "sku": "CLV-EDGE-EVO-EXC-5-1-220M"
-      },
-      {
-        "nume": "6.1 — 10.6 kW heating (Edge EVO EXC monofazic)",
-        "pret": 22265.57,
-        "sku": "CLV-EDGE-EVO-EXC-6-1-220M"
-      },
-      {
-        "nume": "7.1 — 12.0 kW heating (Edge EVO EXC monofazic)",
-        "pret": 24508.2,
-        "sku": "CLV-EDGE-EVO-EXC-7-1-220M"
-      },
-      {
-        "nume": "8.1 — 14.0 kW heating (Edge EVO EXC monofazic)",
-        "pret": 25583.18,
-        "sku": "CLV-EDGE-EVO-EXC-8-1-220M"
-      }
-    ],
-    "descriere": "data/descrieri/01.html",
-    "poza": "poze/p01.jpg",
-    "seo_title": "Pompă de Căldură Clivet Edge EVO 2.0 EXC Monobloc R-32 | RIXAIR",
-    "seo_meta": "Pompă de căldură monobloc aer-apă Clivet Edge EVO 2.0 EXC, R-32, fără freon în interior, A+++. Variante 2.1-8.1. Stoc Timișoara, RIXAIR.",
-    "nota_interna": "",
-    "cat": "monobloc",
-    "nume_lung": "Pompă de Căldură Clivet Edge EVO 2.0 EXC — Monobloc R-32 (WiSAN-YME 2.1 → 8.1)"
-  },
-  {
-    "nr": 2,
-    "slug": "pompa-de-caldura-monobloc-edge-evo-xl-trifazic-r-32-wisan-yme-6-1t-14-",
-    "nume": "Pompă de căldură monobloc Edge EVO XL / Trifazic R-32 (WiSAN-YME) 6.1T–14.1",
-    "sku": "CLV-EDGE-EVO-EXC-T",
-    "categorie": "pompe",
-    "pret_tip": "variante",
-    "pret_de_la": null,
-    "variante": [
-      {
-        "nume": "Edge EVO XL 6.1T (WiSAN-YME R-32)",
-        "pret": 22976.05,
-        "sku": "CLV-EDGE-EVO-EXC-XL-6-1T"
-      },
-      {
-        "nume": "Edge EVO XL 7.1T (WiSAN-YME R-32)",
-        "pret": 25274.28,
-        "sku": "CLV-EDGE-EVO-EXC-XL-7-1T"
-      },
-      {
-        "nume": "Edge EVO XL 8.1T (WiSAN-YME R-32)",
-        "pret": 26423.4,
-        "sku": "CLV-EDGE-EVO-EXC-XL-8-1T"
-      },
-      {
-        "nume": "Edge EVO XL 9.1 (WiSAN-YME R-32)",
-        "pret": 32505.66,
-        "sku": "CLV-EDGE-EVO-EXC-XL-9-1"
-      },
-      {
-        "nume": "Edge EVO XL 10.1 (WiSAN-YME R-32)",
-        "pret": 34689.59,
-        "sku": "CLV-EDGE-EVO-EXC-XL-10-1"
-      },
-      {
-        "nume": "Edge EVO XL 12.1 (WiSAN-YME R-32)",
-        "pret": 40632.84,
-        "sku": "CLV-EDGE-EVO-EXC-XL-12-1"
-      },
-      {
-        "nume": "Edge EVO XL 14.1 (WiSAN-YME R-32)",
-        "pret": 44395.24,
-        "sku": "CLV-EDGE-EVO-EXC-XL-14-1"
-      }
-    ],
-    "descriere": "data/descrieri/02.html",
-    "poza": "poze/p02.png",
-    "seo_title": "Pompă Clivet Edge EVO XL Trifazic 6.1T-14.1 R-32 | RIXAIR",
-    "seo_meta": "Pompă de căldură monobloc Clivet Edge EVO XL/trifazic pentru case mari și proiecte, până la ~30 kW. R-32, A+++. RIXAIR Timișoara.",
-    "nota_interna": "",
-    "cat": "monobloc",
-    "nume_lung": "Pompă de Căldură Clivet Edge EVO 2.0 EXC XL/Trifazic — Monobloc R-32 (WiSAN-YME 6.1T → 14.1)"
-  },
-  {
-    "nr": 3,
-    "slug": "pompa-de-caldura-monobloc-edge-f-r-290-wisan-pme-2-1-8-1",
-    "nume": "Pompă de căldură monobloc Edge F R-290 (WiSAN-PME) 2.1–8.1",
-    "sku": "EdgeF",
-    "categorie": "pompe",
-    "pret_tip": "variante",
-    "pret_de_la": null,
-    "variante": [
-      {
-        "nume": "Edge F 2.1 (WiSAN-PME R-290)",
-        "pret": 15797.19,
-        "sku": "EdgeF-2.1"
-      },
-      {
-        "nume": "Edge F 3.1 (WiSAN-PME R-290)",
-        "pret": 18259.12,
-        "sku": "EdgeF-3.1"
-      },
-      {
-        "nume": "Edge F 4.1 (WiSAN-PME R-290)",
-        "pret": 19902.46,
-        "sku": "EdgeF-4.1"
-      },
-      {
-        "nume": "Edge F 5.1 (WiSAN-PME R-290)",
-        "pret": 22741.29,
-        "sku": "EdgeF-5.1"
-      },
-      {
-        "nume": "Edge F 6.1 (WiSAN-PME R-290)",
-        "pret": 25885.89,
-        "sku": "EdgeF-6.1"
-      },
-      {
-        "nume": "Edge F 7.1 (WiSAN-PME R-290)",
-        "pret": 28554.81,
-        "sku": "EdgeF-7.1"
-      },
-      {
-        "nume": "Edge F 8.1 (WiSAN-PME R-290)",
-        "pret": 29833.66,
-        "sku": "EdgeF-8.1"
-      },
-      {
-        "nume": "Edge F 6.1T (WiSAN-PME R-290)",
-        "pret": 26732.3,
-        "sku": "EdgeF-6.1T"
-      },
-      {
-        "nume": "Edge F 7.1T (WiSAN-PME R-290)",
-        "pret": 29466.04,
-        "sku": "EdgeF-7.1T"
-      },
-      {
-        "nume": "Edge F 8.1T (WiSAN-PME R-290)",
-        "pret": 30834.5,
-        "sku": "EdgeF-8.1T"
-      }
-    ],
-    "descriere": "data/descrieri/03.html",
-    "poza": "poze/p03.png",
-    "seo_title": "Pompă de Căldură Clivet Edge F Monobloc R-290 | RIXAIR",
-    "seo_meta": "Pompă de căldură monobloc Clivet Edge F cu propan ecologic R-290 (GWP=3), eficiență superioară iarna. 2.1-8.1. RIXAIR Timișoara.",
-    "nota_interna": "pe Gomag pret vechi gresit 3.999",
-    "cat": "monobloc",
-    "nume_lung": "Pompă de căldură monobloc Edge F R-290 (WiSAN-PME) 2.1–8.1"
-  },
-  {
-    "nr": 4,
-    "slug": "pompa-de-caldura-monobloc-edge-pro-r-290-wisan-pmp-2-1-14-1",
-    "nume": "Pompă de căldură monobloc Edge PRO R-290 (WiSAN-PMP) 2.1–8.1",
-    "sku": "CLV-EDGE-PRO",
-    "categorie": "pompe",
-    "pret_tip": "variante",
-    "pret_de_la": null,
-    "variante": [
-      {
-        "nume": "Edge PRO 2.1 (WiSAN-PMP R-290)",
-        "pret": 19062.3,
-        "sku": "CLV-EDGE-PRO-2-1"
-      },
-      {
-        "nume": "Edge PRO 3.1 (WiSAN-PMP R-290)",
-        "pret": 21131.92,
-        "sku": "CLV-EDGE-PRO-3-1"
-      },
-      {
-        "nume": "Edge PRO 4.1 (WiSAN-PMP R-290)",
-        "pret": 22657.87,
-        "sku": "CLV-EDGE-PRO-4-1"
-      },
-      {
-        "nume": "Edge PRO 4.1T (WiSAN-PMP R-290)",
-        "pret": 23825.54,
-        "sku": "CLV-EDGE-PRO-4-1T"
-      },
-      {
-        "nume": "Edge PRO 5.1 (WiSAN-PMP R-290)",
-        "pret": 25641.85,
-        "sku": "CLV-EDGE-PRO-5-1"
-      },
-      {
-        "nume": "Edge PRO 5.1T (WiSAN-PMP R-290)",
-        "pret": 26957.79,
-        "sku": "CLV-EDGE-PRO-5-1T"
-      },
-      {
-        "nume": "Edge PRO 6.1 (WiSAN-PMP R-290)",
-        "pret": 30371.12,
-        "sku": "CLV-EDGE-PRO-6-1"
-      },
-      {
-        "nume": "Edge PRO 6.1T (WiSAN-PMP R-290)",
-        "pret": 31538.79,
-        "sku": "CLV-EDGE-PRO-6-1T"
-      },
-      {
-        "nume": "Edge PRO 7.1 (WiSAN-PMP R-290)",
-        "pret": 32209.11,
-        "sku": "CLV-EDGE-PRO-7-1"
-      },
-      {
-        "nume": "Edge PRO 7.1T (WiSAN-PMP R-290)",
-        "pret": 33098.71,
-        "sku": "CLV-EDGE-PRO-7-1T"
-      },
-      {
-        "nume": "Edge PRO 8.1 (WiSAN-PMP R-290)",
-        "pret": 33667.12,
-        "sku": "CLV-EDGE-PRO-8-1"
-      },
-      {
-        "nume": "Edge PRO 8.1T (WiSAN-PMP R-290)",
-        "pret": 34633.94,
-        "sku": "CLV-EDGE-PRO-8-1T"
-      }
-    ],
-    "descriere": "data/descrieri/04.html",
-    "poza": "poze/p04.png",
-    "seo_title": "Pompă de Căldură Clivet Edge PRO Premium R-290 | RIXAIR",
-    "seo_meta": "Pompă de căldură premium Clivet Edge PRO, R-290 ecologic, ultra-silențioasă, 2.1-14.1. Pentru case exigente. Distribuitor oficial Clivet.",
-    "nota_interna": "",
-    "cat": "monobloc",
-    "nume_lung": "Pompă de căldură monobloc Edge PRO R-290 (WiSAN-PMP) 2.1–8.1"
-  },
-  {
-    "nr": 14,
-    "slug": "aer-conditionat-split-ezcool-r-32-wi-fi-9000-24000-btu",
-    "nume": "Aer condiționat split EZCool R-32 Wi-Fi 9000–24000 BTU",
-    "sku": "CLV-EZCool",
-    "categorie": "ac",
-    "pret_tip": "variante",
-    "pret_de_la": null,
-    "variante": [
-      {
-        "nume": "9000 BTU — 2,6 kW răcire / 2,7 kW încălzire",
-        "pret": 1959.0,
-        "sku": "CLV-EZCool-9000BTU"
-      },
-      {
-        "nume": "12000 BTU — 3,2 kW răcire / 3,5 kW încălzire",
-        "pret": 2153.0,
-        "sku": "CLV-EZCool-12000BTU"
-      },
-      {
-        "nume": "18000 BTU — 5,3 kW răcire / 5,4 kW încălzire",
-        "pret": 3790.0,
-        "sku": "CLV-EZCool-18000BTU"
-      },
-      {
-        "nume": "24000 BTU — 5,9 kW răcire / 6,7 kW încălzire",
-        "pret": 4633.0,
-        "sku": "CLV-EZCool-24000BTU"
-      }
-    ],
-    "descriere": "data/descrieri/14.html",
-    "poza": "poze/p14.jpg",
-    "seo_title": "Aer Condiționat Clivet EZCool 9000-24000 BTU R-32 | RIXAIR",
-    "seo_meta": "Split inverter Clivet EZCool cu Wi-Fi, R-32, răcire și încălzire, 9000-24000 BTU. Distribuitor oficial Clivet, livrare din stoc, Timișoara.",
-    "nota_interna": "",
-    "cat": "single-split",
-    "nume_lung": "Aer Conditionat Clivet EZCool — Split Inverter R-32 (9000-24000 BTU)"
-  },
-  {
-    "nr": 15,
-    "slug": "aer-conditionat-split-essential-2-9000-24000-btu",
-    "nume": "Aer condiționat split Essential 2 9000–24000 BTU",
-    "sku": "CLV-Essential2",
-    "categorie": "ac",
-    "pret_tip": "variante",
-    "pret_de_la": null,
-    "variante": [
-      {
-        "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire",
-        "pret": 1922.0,
-        "sku": "CLV-Essential2-9000BTU"
-      },
-      {
-        "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire",
-        "pret": 2115.0,
-        "sku": "CLV-Essential2-12000BTU"
-      },
-      {
-        "nume": "18000 BTU — 5,3 kW răcire / 5,6 kW încălzire",
-        "pret": 3696.0,
-        "sku": "CLV-Essential2-18000BTU"
-      },
-      {
-        "nume": "24000 BTU — 7,0 kW răcire / 7,3 kW încălzire",
-        "pret": 4285.0,
-        "sku": "CLV-Essential2-24000BTU"
-      }
-    ],
-    "descriere": "data/descrieri/15.html",
-    "poza": "poze/p15.jpg",
-    "seo_title": "Aer Condiționat Clivet Essential 2 9000-24000 BTU | RIXAIR",
-    "seo_meta": "Split compact Clivet Essential 2, inverter R-32, ideal dormitoare și birouri. 9000-24000 BTU. Consultanță gratuită RIXAIR Timișoara.",
-    "nota_interna": "",
-    "cat": "single-split",
-    "nume_lung": "Aer Conditionat Clivet Essential 2 — Split Inverter R-32 (9000-24000 BTU)"
-  },
-  {
-    "nr": 16,
-    "slug": "aer-conditionat-split-nativ-9000-24000-btu",
-    "nume": "Aer condiționat split NATIV 9000–24000 BTU",
-    "sku": "CLV-NATIV",
-    "categorie": "ac",
-    "pret_tip": "variante",
-    "pret_de_la": null,
-    "variante": [
-      {
-        "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire",
-        "pret": 1959.0,
-        "sku": "CLV-NATIV-9000BTU"
-      },
-      {
-        "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire",
-        "pret": 2153.0,
-        "sku": "CLV-NATIV-12000BTU"
-      },
-      {
-        "nume": "18000 BTU — 5,3 kW răcire / 5,6 kW încălzire",
-        "pret": 3360.0,
-        "sku": "CLV-NATIV-18000BTU"
-      },
-      {
-        "nume": "24000 BTU — 7,0 kW răcire / 7,3 kW încălzire",
-        "pret": 4927.0,
-        "sku": "CLV-NATIV-24000BTU"
-      }
-    ],
-    "descriere": "data/descrieri/16.html",
-    "poza": "poze/p16.jpg",
-    "seo_title": "Aer Condiționat Clivet NATIV Design Silvery 9-24k BTU | RIXAIR",
-    "seo_meta": "Split Clivet NATIV cu design slivery și mod eco, inverter R-32, consum redus. 9000-24000 BTU. Distribuitor oficial Clivet Timișoara.",
-    "nota_interna": "",
-    "cat": "single-split",
-    "nume_lung": "Aer Conditionat Clivet NATIV — Split Inverter R-32 Design Slivery (9000-24000 BTU)"
-  },
-  {
-    "nr": 17,
-    "slug": "aer-conditionat-split-cristallo-2-design-9000-18000-btu",
-    "nume": "Aer condiționat split Cristallo 2 design 9000–24000 BTU",
-    "sku": "CLV-Cristallo2",
-    "categorie": "ac",
-    "pret_tip": "variante",
-    "pret_de_la": null,
-    "variante": [
-      {
-        "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire",
-        "pret": 3062.0,
-        "sku": "CLV-Cristallo2-9000BTU"
-      },
-      {
-        "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire",
-        "pret": 3169.0,
-        "sku": "CLV-Cristallo2-12000BTU"
-      },
-      {
-        "nume": "18000 BTU — 5,3 kW răcire / 5,4 kW încălzire",
-        "pret": 5080.0,
-        "sku": "CLV-Cristallo2-18000BTU"
-      },
-      {
-        "nume": "24000 BTU — 5,9 kW răcire / 6,7 kW încălzire",
-        "pret": 6189.0,
-        "sku": "CLV-Cristallo2-24000BTU"
-      }
-    ],
-    "descriere": "data/descrieri/17.html",
-    "poza": "poze/p17.jpg",
-    "seo_title": "Aer Condiționat Clivet Cristallo 2 Premium Design | RIXAIR",
-    "seo_meta": "Split premium Clivet Cristallo 2 cu panou frontal din cristal, inverter R-32, pentru livinguri elegante. RIXAIR — distribuitor oficial Clivet.",
-    "nota_interna": "",
-    "cat": "single-split",
-    "nume_lung": "Aer Conditionat Clivet Cristallo 2 — Split Inverter R-32 Premium Design Cristal (9000-24000 BTU)"
-  },
-  {
-    "nr": 18,
-    "slug": "aer-conditionat-split-stelvio-9000-12000-btu",
-    "nume": "Aer condiționat split Stelvio 9000–12000 BTU",
-    "sku": "CLV-Stelvio",
-    "categorie": "ac",
-    "pret_tip": "variante",
-    "pret_de_la": null,
-    "variante": [
-      {
-        "nume": "9000 BTU — 2,6 kW răcire / 4,1 kW încălzire",
-        "pret": 5014.0,
-        "sku": "CLV-Stelvio-9000BTU"
-      },
-      {
-        "nume": "12000 BTU — 3,5 kW răcire / 4,2 kW încălzire",
-        "pret": 5170.0,
-        "sku": "CLV-Stelvio-12000BTU"
-      }
-    ],
-    "descriere": "data/descrieri/18.html",
-    "poza": "poze/p18.jpg",
-    "seo_title": "AC Clivet Stelvio — Proiectat pentru Încălzire | RIXAIR",
-    "seo_meta": "Split Clivet Stelvio A+++/A+++, proiectat special pentru încălzire eficientă iarna. R-32, performanță la temperaturi negative. RIXAIR Timișoara.",
-    "nota_interna": "",
-    "cat": "single-split",
-    "nume_lung": "Aer Conditionat Clivet Stelvio — Split Inverter R-32 Premium pentru Încălzire (9000-12000 BTU)"
-  },
-  {
-    "nr": 23,
-    "slug": "caseta-industriala-elfospace-box3-007-0-041-0-inverter",
-    "nume": "Casetă industrială ELFOSpace BOX3 007.0–041.0 INVERTER",
-    "sku": "ELFOSpace-BOX3",
-    "categorie": "vcv",
-    "pret_tip": "de_la",
-    "pret_de_la": 2197,
-    "variante": [
-      {
-        "nume": "ELFOSpace BOX3 007.0",
-        "pret": null,
-        "sku": "ELFOSpace-BOX3-007-inverter"
-      },
-      {
-        "nume": "ELFOSpace BOX3 011.0",
-        "pret": null,
-        "sku": "ELFOSpace-BOX3-011-inverter"
-      },
-      {
-        "nume": "ELFOSpace BOX3 015.0",
-        "pret": null,
-        "sku": "ELFOSpace-BOX3-015-inverter"
-      },
-      {
-        "nume": "ELFOSpace BOX3 021.0",
-        "pret": null,
-        "sku": "ELFOSpace-BOX3-021-inverter"
-      },
-      {
-        "nume": "ELFOSpace BOX3 031.0",
-        "pret": null,
-        "sku": "ELFOSpace-BOX3-031-inverter"
-      },
-      {
-        "nume": "ELFOSpace BOX3 041.0",
-        "pret": null,
-        "sku": "ELFOSpace-BOX3-041-inverter"
-      }
-    ],
-    "descriere": "data/descrieri/23.html",
-    "poza": "poze/p23.jpg",
-    "seo_title": "Casetă Clivet ELFOSpace BOX3 Inverter | RIXAIR",
-    "seo_meta": "Casetă Clivet ELFOSpace BOX3 inverter, 2,61-10,07 kW, pentru spații comerciale și industriale. Distribuitor oficial Clivet, Timișoara.",
-    "nota_interna": "",
-    "cat": "ventiloconvectoare",
-    "nume_lung": "Casetă industrială ELFOSpace BOX3 007.0–041.0 INVERTER"
-  },
-  {
-    "nr": 24,
-    "slug": "ventiloconvector-elforoom2-003-0-017-0-inverter",
-    "nume": "Ventiloconvector ELFORoom2 003.0–017.0 INVERTER",
-    "sku": "Clivet-ELFORoom2",
-    "categorie": "vcv",
-    "pret_tip": "de_la",
-    "pret_de_la": 2945,
-    "variante": [
-      {
-        "nume": "ELFORoom² 003.0",
-        "pret": null,
-        "sku": "Clivet-ELFORoom2-003-inverter"
-      },
-      {
-        "nume": "ELFORoom² 005.0",
-        "pret": null,
-        "sku": "Clivet-ELFORoom2-005-inverter"
-      },
-      {
-        "nume": "ELFORoom² 011.0",
-        "pret": null,
-        "sku": "Clivet-ELFORoom2-011-inverter"
-      },
-      {
-        "nume": "ELFORoom² 015.0",
-        "pret": null,
-        "sku": "Clivet-ELFORoom2-015-inverter"
-      },
-      {
-        "nume": "ELFORoom² 017.0",
-        "pret": null,
-        "sku": "Clivet-ELFORoom2-017-inverter"
-      }
-    ],
-    "descriere": "data/descrieri/24.html",
-    "poza": "poze/p24.jpg",
-    "seo_title": "Ventiloconvector Clivet ELFORoom2 Inverter | RIXAIR",
-    "seo_meta": "Ventiloconvector compact Clivet ELFORoom2 inverter, 1,02-4,32 kW încălzire, pentru spații rezidențiale mici. Stoc RIXAIR Timișoara.",
-    "nota_interna": "",
-    "cat": "ventiloconvectoare",
-    "nume_lung": "Ventiloconvector ELFORoom2 003.0–017.0 INVERTER"
-  },
-  {
-    "nr": 25,
-    "slug": "ventiloconvector-aura-1-12-inverter-carcasat-necarcasat",
-    "nume": "Ventiloconvector Clivet AURA carcasat INVERTER (CFFAC 1-12)",
-    "sku": "Clivet-AURA-1-CFFAC",
-    "categorie": "vcv",
-    "pret_tip": "la_cerere",
-    "pret_de_la": null,
-    "variante": [
-      {
-        "nume": "AURA 1 (CFFAC)",
-        "pret": null,
-        "sku": "Clivet-AURA-1-CFFAC"
-      },
-      {
-        "nume": "AURA 2 (CFFAC)",
-        "pret": null,
-        "sku": "Clivet-AURA-2-CFFAC"
-      },
-      {
-        "nume": "AURA 3 (CFFAC)",
-        "pret": null,
-        "sku": "Clivet-AURA-3-CFFAC"
-      },
-      {
-        "nume": "AURA 4 (CFFAC)",
-        "pret": null,
-        "sku": "Clivet-AURA-4-CFFAC"
-      },
-      {
-        "nume": "AURA 6 (CFFAC)",
-        "pret": null,
-        "sku": "Clivet-AURA-6-CFFAC"
-      },
-      {
-        "nume": "AURA 8 (CFFAC)",
-        "pret": null,
-        "sku": "Clivet-AURA-8-CFFAC"
-      },
-      {
-        "nume": "AURA 10 (CFFAC)",
-        "pret": null,
-        "sku": "Clivet-AURA-10-CFFAC"
-      },
-      {
-        "nume": "AURA 12 (CFFAC)",
-        "pret": null,
-        "sku": "Clivet-AURA-12-CFFAC"
-      }
-    ],
-    "descriere": "data/descrieri/25.html",
-    "poza": "poze/p25.jpg",
-    "seo_title": "Ventiloconvector Clivet AURA carcasat INVERTER (CFFAC 1-12) | RIXAIR",
-    "seo_meta": "Ventiloconvector Clivet AURA INVERTER carcasat/necarcasat, 1,57-8,7 kW, silențios și eficient. Rezidențial și comercial. RIXAIR Timișoara.",
-    "nota_interna": "",
-    "cat": "ventiloconvectoare",
-    "nume_lung": "Ventiloconvector Clivet AURA carcasat INVERTER (CFFAC 1-12)"
-  },
-  {
-    "nr": 26,
-    "slug": "ventiloconvector-aura-1-12-3-viteze-carcasat-necarcasat",
-    "nume": "Ventiloconvector Clivet AURA carcasat 3 viteze (CFFC 1-12)",
-    "sku": "Clivet-AURA-1-CFFC",
-    "categorie": "vcv",
-    "pret_tip": "la_cerere",
-    "pret_de_la": null,
-    "variante": [
-      {
-        "nume": "AURA 1 (CFFC)",
-        "pret": null,
-        "sku": "Clivet-AURA-1-CFFC"
-      },
-      {
-        "nume": "AURA 2 (CFFC)",
-        "pret": null,
-        "sku": "Clivet-AURA-2-CFFC"
-      },
-      {
-        "nume": "AURA 3 (CFFC)",
-        "pret": null,
-        "sku": "Clivet-AURA-3-CFFC"
-      },
-      {
-        "nume": "AURA 4 (CFFC)",
-        "pret": null,
-        "sku": "Clivet-AURA-4-CFFC"
-      },
-      {
-        "nume": "AURA 6 (CFFC)",
-        "pret": null,
-        "sku": "Clivet-AURA-6-CFFC"
-      },
-      {
-        "nume": "AURA 8 (CFFC)",
-        "pret": null,
-        "sku": "Clivet-AURA-8-CFFC"
-      },
-      {
-        "nume": "AURA 10 (CFFC)",
-        "pret": null,
-        "sku": "Clivet-AURA-10-CFFC"
-      },
-      {
-        "nume": "AURA 12 (CFFC)",
-        "pret": null,
-        "sku": "Clivet-AURA-12-CFFC"
-      }
-    ],
-    "descriere": "data/descrieri/26.html",
-    "poza": "poze/p26.jpg",
-    "seo_title": "Ventiloconvector Clivet AURA carcasat 3 viteze (CFFC 1-12) | RIXAIR",
-    "seo_meta": "Ventiloconvector Clivet AURA carcasat/necarcasat, 3 viteze, 1,85-8,5 kW. Pentru rezidențial și comercial. Distribuitor oficial Clivet.",
-    "nota_interna": "",
-    "cat": "ventiloconvectoare",
-    "nume_lung": "Ventiloconvector Clivet AURA carcasat 3 viteze (CFFC 1-12)"
-  },
-  {
-    "nr": 27,
-    "slug": "ventiloconvector-de-perete-mood-1-5-inverter-cfw-2",
-    "nume": "Ventiloconvector de perete MOOD 1–5 INVERTER CFW-2",
-    "sku": "Clivet-MOOD-1-cfw2",
-    "categorie": "vcv",
-    "pret_tip": "de_la",
-    "pret_de_la": 2549,
-    "variante": [
-      {
-        "nume": "MOOD 1",
-        "pret": null,
-        "sku": "Clivet-MOOD-1-cfw2-inverter"
-      },
-      {
-        "nume": "MOOD 2",
-        "pret": 2729,
-        "sku": "Clivet-MOOD-2-cfw2-inverter"
-      },
-      {
-        "nume": "MOOD 3",
-        "pret": 2549,
-        "sku": "Clivet-MOOD-3-cfw2-inverter"
-      },
-      {
-        "nume": "MOOD 4",
-        "pret": 3109,
-        "sku": "Clivet-MOOD-4-cfw2-inverter"
-      },
-      {
-        "nume": "MOOD 5",
-        "pret": 3199,
-        "sku": "Clivet-MOOD-5-cfw2-inverter"
-      }
-    ],
-    "descriere": "data/descrieri/27.html",
-    "poza": "poze/p27.png",
-    "seo_title": "Ventiloconvector Clivet MOOD CFW-2 de Perete | RIXAIR",
-    "seo_meta": "Ventiloconvector de perete Clivet MOOD, design elegant, 2,12-5,26 kW încălzire. Ideal cu pompe de căldură. Stoc Timișoara, RIXAIR.",
-    "nota_interna": "",
-    "cat": "ventiloconvectoare",
-    "nume_lung": "Ventiloconvector de perete MOOD 1–5 INVERTER CFW-2"
-  },
-  {
-    "nr": 31,
-    "slug": "ventiloconvector-aura-necarcasat-inverter-cffau",
-    "nume": "Ventiloconvector Clivet AURA necarcasat INVERTER (CFFAU 1-12)",
-    "sku": "Clivet-AURA-1-CFFAU",
-    "categorie": "vcv",
-    "pret_tip": "la_cerere",
-    "pret_de_la": null,
-    "variante": [
-      {
-        "nume": "AURA 1 (CFFAU)",
-        "pret": null,
-        "sku": "Clivet-AURA-1-CFFAU"
-      },
-      {
-        "nume": "AURA 2 (CFFAU)",
-        "pret": null,
-        "sku": "Clivet-AURA-2-CFFAU"
-      },
-      {
-        "nume": "AURA 3 (CFFAU)",
-        "pret": null,
-        "sku": "Clivet-AURA-3-CFFAU"
-      },
-      {
-        "nume": "AURA 4 (CFFAU)",
-        "pret": null,
-        "sku": "Clivet-AURA-4-CFFAU"
-      },
-      {
-        "nume": "AURA 6 (CFFAU)",
-        "pret": null,
-        "sku": "Clivet-AURA-6-CFFAU"
-      },
-      {
-        "nume": "AURA 8 (CFFAU)",
-        "pret": null,
-        "sku": "Clivet-AURA-8-CFFAU"
-      },
-      {
-        "nume": "AURA 10 (CFFAU)",
-        "pret": null,
-        "sku": "Clivet-AURA-10-CFFAU"
-      },
-      {
-        "nume": "AURA 12 (CFFAU)",
-        "pret": null,
-        "sku": "Clivet-AURA-12-CFFAU"
-      }
-    ],
-    "descriere": "data/descrieri/25.html",
-    "poza": "poze/p25.jpg",
-    "seo_title": "Ventiloconvector Clivet AURA necarcasat INVERTER (CFFAU 1-12) | RIXAIR",
-    "seo_meta": "Ventiloconvector Clivet AURA INVERTER carcasat/necarcasat, 1,57-8,7 kW, silențios și eficient. Rezidențial și comercial. RIXAIR Timișoara.",
-    "nota_interna": "",
-    "cat": "ventiloconvectoare",
-    "nume_lung": "Ventiloconvector Clivet AURA necarcasat INVERTER (CFFAU 1-12)"
-  },
-  {
-    "nr": 32,
-    "slug": "ventiloconvector-aura-necarcasat-3-viteze-cffu",
-    "nume": "Ventiloconvector Clivet AURA necarcasat 3 viteze (CFFU 1-12)",
-    "sku": "Clivet-AURA-1-CFFU",
-    "categorie": "vcv",
-    "pret_tip": "la_cerere",
-    "pret_de_la": null,
-    "variante": [
-      {
-        "nume": "AURA 1 (CFFU)",
-        "pret": null,
-        "sku": "Clivet-AURA-1-CFFU"
-      },
-      {
-        "nume": "AURA 2 (CFFU)",
-        "pret": null,
-        "sku": "Clivet-AURA-2-CFFU"
-      },
-      {
-        "nume": "AURA 3 (CFFU)",
-        "pret": null,
-        "sku": "Clivet-AURA-3-CFFU"
-      },
-      {
-        "nume": "AURA 4 (CFFU)",
-        "pret": null,
-        "sku": "Clivet-AURA-4-CFFU"
-      },
-      {
-        "nume": "AURA 6 (CFFU)",
-        "pret": null,
-        "sku": "Clivet-AURA-6-CFFU"
-      },
-      {
-        "nume": "AURA 8 (CFFU)",
-        "pret": null,
-        "sku": "Clivet-AURA-8-CFFU"
-      },
-      {
-        "nume": "AURA 10 (CFFU)",
-        "pret": null,
-        "sku": "Clivet-AURA-10-CFFU"
-      },
-      {
-        "nume": "AURA 12 (CFFU)",
-        "pret": null,
-        "sku": "Clivet-AURA-12-CFFU"
-      }
-    ],
-    "descriere": "data/descrieri/26.html",
-    "poza": "poze/p26.jpg",
-    "seo_title": "Ventiloconvector Clivet AURA necarcasat 3 viteze (CFFU 1-12) | RIXAIR",
-    "seo_meta": "Ventiloconvector Clivet AURA carcasat/necarcasat, 3 viteze, 1,85-8,5 kW. Pentru rezidențial și comercial. Distribuitor oficial Clivet.",
-    "nota_interna": "",
-    "cat": "ventiloconvectoare",
-    "nume_lung": "Ventiloconvector Clivet AURA necarcasat 3 viteze (CFFU 1-12)"
-  }
+ {
+  "nr": 1,
+  "slug": "pompa-de-caldura-monobloc-edge-evo-2-0-exc-r-32-wisan-yme-2-1-8-1",
+  "nume": "Pompă de căldură monobloc Edge EVO 2.0 EXC R-32 (WiSAN-YME) 2.1–8.1",
+  "sku": "CLV-EDGE-EVO-EXC",
+  "categorie": "pompe",
+  "pret_tip": "variante",
+  "pret_de_la": null,
+  "variante": [
+   {
+    "nume": "2.1 — 4.2 kW heating (Edge EVO EXC monofazic) — la comandă",
+    "pret": 13786.24,
+    "sku": "CLV-EDGE-EVO-EXC-2-1-220M"
+   },
+   {
+    "nume": "3.1 — 5.4 kW heating (Edge EVO EXC monofazic) — în stoc",
+    "pret": 15855.89,
+    "sku": "CLV-EDGE-EVO-EXC-3-1-220M",
+    "cantitate": 2,
+    "stoc": "in_stoc"
+   },
+   {
+    "nume": "4.1 — 6.5 kW heating (Edge EVO EXC monofazic) — la comandă",
+    "pret": 17236.67,
+    "sku": "CLV-EDGE-EVO-EXC-4-1-220M"
+   },
+   {
+    "nume": "5.1 — 7.5 kW heating (Edge EVO EXC monofazic) — la comandă",
+    "pret": 19621.38,
+    "sku": "CLV-EDGE-EVO-EXC-5-1-220M"
+   },
+   {
+    "nume": "6.1 — 10.6 kW heating (Edge EVO EXC monofazic) — la comandă",
+    "pret": 22265.57,
+    "sku": "CLV-EDGE-EVO-EXC-6-1-220M"
+   },
+   {
+    "nume": "7.1 — 12.0 kW heating (Edge EVO EXC monofazic) — la comandă",
+    "pret": 24508.2,
+    "sku": "CLV-EDGE-EVO-EXC-7-1-220M"
+   },
+   {
+    "nume": "8.1 — 14.0 kW heating (Edge EVO EXC monofazic) — la comandă",
+    "pret": 25583.18,
+    "sku": "CLV-EDGE-EVO-EXC-8-1-220M"
+   }
+  ],
+  "descriere": "data/descrieri/01.html",
+  "poza": "poze/p01.jpg",
+  "seo_title": "Pompă de Căldură Clivet Edge EVO 2.0 EXC Monobloc R-32 | RIXAIR",
+  "seo_meta": "Pompă de căldură monobloc aer-apă Clivet Edge EVO 2.0 EXC, R-32, fără freon în interior, A+++. Variante 2.1-8.1. Stoc Timișoara, RIXAIR.",
+  "nota_interna": "",
+  "cat": "monobloc",
+  "nume_lung": "Pompă de Căldură Clivet Edge EVO 2.0 EXC — Monobloc R-32 (WiSAN-YME 2.1 → 8.1)",
+  "stoc": "in_stoc"
+ },
+ {
+  "nr": 2,
+  "slug": "pompa-de-caldura-monobloc-edge-evo-xl-trifazic-r-32-wisan-yme-6-1t-14-",
+  "nume": "Pompă de căldură monobloc Edge EVO XL / Trifazic R-32 (WiSAN-YME) 6.1T–14.1",
+  "sku": "CLV-EDGE-EVO-EXC-T",
+  "categorie": "pompe",
+  "pret_tip": "variante",
+  "pret_de_la": null,
+  "variante": [
+   {
+    "nume": "Edge EVO XL 6.1T (WiSAN-YME R-32) — în stoc",
+    "pret": 22976.05,
+    "sku": "CLV-EDGE-EVO-EXC-XL-6-1T",
+    "cantitate": 2,
+    "stoc": "in_stoc"
+   },
+   {
+    "nume": "Edge EVO XL 7.1T (WiSAN-YME R-32) — la comandă",
+    "pret": 25274.28,
+    "sku": "CLV-EDGE-EVO-EXC-XL-7-1T"
+   },
+   {
+    "nume": "Edge EVO XL 8.1T (WiSAN-YME R-32) — în stoc",
+    "pret": 26423.4,
+    "sku": "CLV-EDGE-EVO-EXC-XL-8-1T",
+    "cantitate": 2,
+    "stoc": "in_stoc"
+   },
+   {
+    "nume": "Edge EVO XL 9.1 (WiSAN-YME R-32) — la comandă",
+    "pret": 32505.66,
+    "sku": "CLV-EDGE-EVO-EXC-XL-9-1"
+   },
+   {
+    "nume": "Edge EVO XL 10.1 (WiSAN-YME R-32) — la comandă",
+    "pret": 34689.59,
+    "sku": "CLV-EDGE-EVO-EXC-XL-10-1"
+   },
+   {
+    "nume": "Edge EVO XL 12.1 (WiSAN-YME R-32) — în stoc",
+    "pret": 40632.84,
+    "sku": "CLV-EDGE-EVO-EXC-XL-12-1",
+    "cantitate": 1,
+    "stoc": "in_stoc"
+   },
+   {
+    "nume": "Edge EVO XL 14.1 (WiSAN-YME R-32) — la comandă",
+    "pret": 44395.24,
+    "sku": "CLV-EDGE-EVO-EXC-XL-14-1"
+   }
+  ],
+  "descriere": "data/descrieri/02.html",
+  "poza": "poze/p02.png",
+  "seo_title": "Pompă Clivet Edge EVO XL Trifazic 6.1T-14.1 R-32 | RIXAIR",
+  "seo_meta": "Pompă de căldură monobloc Clivet Edge EVO XL/trifazic pentru case mari și proiecte, până la ~30 kW. R-32, A+++. RIXAIR Timișoara.",
+  "nota_interna": "",
+  "cat": "monobloc",
+  "nume_lung": "Pompă de Căldură Clivet Edge EVO 2.0 EXC XL/Trifazic — Monobloc R-32 (WiSAN-YME 6.1T → 14.1)",
+  "stoc": "in_stoc"
+ },
+ {
+  "nr": 3,
+  "slug": "pompa-de-caldura-monobloc-edge-f-r-290-wisan-pme-2-1-8-1",
+  "nume": "Pompă de căldură monobloc Edge F R-290 (WiSAN-PME) 2.1–8.1",
+  "sku": "EdgeF",
+  "categorie": "pompe",
+  "pret_tip": "variante",
+  "pret_de_la": null,
+  "variante": [
+   {
+    "nume": "Edge F 2.1 (WiSAN-PME R-290) — la comandă",
+    "pret": 15797.19,
+    "sku": "EdgeF-2.1"
+   },
+   {
+    "nume": "Edge F 3.1 (WiSAN-PME R-290) — la comandă",
+    "pret": 18259.12,
+    "sku": "EdgeF-3.1"
+   },
+   {
+    "nume": "Edge F 4.1 (WiSAN-PME R-290) — în stoc",
+    "pret": 19902.46,
+    "sku": "EdgeF-4.1",
+    "cantitate": 1,
+    "stoc": "in_stoc"
+   },
+   {
+    "nume": "Edge F 5.1 (WiSAN-PME R-290) — în stoc",
+    "pret": 22741.29,
+    "sku": "EdgeF-5.1",
+    "cantitate": 1,
+    "stoc": "in_stoc"
+   },
+   {
+    "nume": "Edge F 6.1 (WiSAN-PME R-290) — la comandă",
+    "pret": 25885.89,
+    "sku": "EdgeF-6.1"
+   },
+   {
+    "nume": "Edge F 7.1 (WiSAN-PME R-290) — la comandă",
+    "pret": 28554.81,
+    "sku": "EdgeF-7.1"
+   },
+   {
+    "nume": "Edge F 8.1 (WiSAN-PME R-290) — la comandă",
+    "pret": 29833.66,
+    "sku": "EdgeF-8.1"
+   },
+   {
+    "nume": "Edge F 6.1T (WiSAN-PME R-290) — în stoc",
+    "pret": 26732.3,
+    "sku": "EdgeF-6.1T",
+    "cantitate": 1,
+    "stoc": "in_stoc"
+   },
+   {
+    "nume": "Edge F 7.1T (WiSAN-PME R-290) — în stoc",
+    "pret": 29466.04,
+    "sku": "EdgeF-7.1T",
+    "cantitate": 1,
+    "stoc": "in_stoc"
+   },
+   {
+    "nume": "Edge F 8.1T (WiSAN-PME R-290) — la comandă",
+    "pret": 30834.5,
+    "sku": "EdgeF-8.1T"
+   }
+  ],
+  "descriere": "data/descrieri/03.html",
+  "poza": "poze/p03.png",
+  "seo_title": "Pompă de Căldură Clivet Edge F Monobloc R-290 | RIXAIR",
+  "seo_meta": "Pompă de căldură monobloc Clivet Edge F cu propan ecologic R-290 (GWP=3), eficiență superioară iarna. 2.1-8.1. RIXAIR Timișoara.",
+  "nota_interna": "pe Gomag pret vechi gresit 3.999",
+  "cat": "monobloc",
+  "nume_lung": "Pompă de căldură monobloc Edge F R-290 (WiSAN-PME) 2.1–8.1",
+  "stoc": "in_stoc"
+ },
+ {
+  "nr": 4,
+  "slug": "pompa-de-caldura-monobloc-edge-pro-r-290-wisan-pmp-2-1-14-1",
+  "nume": "Pompă de căldură monobloc Edge PRO R-290 (WiSAN-PMP) 2.1–8.1",
+  "sku": "CLV-EDGE-PRO",
+  "categorie": "pompe",
+  "pret_tip": "variante",
+  "pret_de_la": null,
+  "variante": [
+   {
+    "nume": "Edge PRO 2.1 (WiSAN-PMP R-290) — la comandă",
+    "pret": 19062.3,
+    "sku": "CLV-EDGE-PRO-2-1"
+   },
+   {
+    "nume": "Edge PRO 3.1 (WiSAN-PMP R-290) — la comandă",
+    "pret": 21131.92,
+    "sku": "CLV-EDGE-PRO-3-1"
+   },
+   {
+    "nume": "Edge PRO 4.1 (WiSAN-PMP R-290) — la comandă",
+    "pret": 22657.87,
+    "sku": "CLV-EDGE-PRO-4-1"
+   },
+   {
+    "nume": "Edge PRO 4.1T (WiSAN-PMP R-290) — la comandă",
+    "pret": 23825.54,
+    "sku": "CLV-EDGE-PRO-4-1T"
+   },
+   {
+    "nume": "Edge PRO 5.1 (WiSAN-PMP R-290) — în stoc",
+    "pret": 25641.85,
+    "sku": "CLV-EDGE-PRO-5-1",
+    "cantitate": 1,
+    "stoc": "in_stoc"
+   },
+   {
+    "nume": "Edge PRO 5.1T (WiSAN-PMP R-290) — la comandă",
+    "pret": 26957.79,
+    "sku": "CLV-EDGE-PRO-5-1T"
+   },
+   {
+    "nume": "Edge PRO 6.1 (WiSAN-PMP R-290) — la comandă",
+    "pret": 30371.12,
+    "sku": "CLV-EDGE-PRO-6-1"
+   },
+   {
+    "nume": "Edge PRO 6.1T (WiSAN-PMP R-290) — la comandă",
+    "pret": 31538.79,
+    "sku": "CLV-EDGE-PRO-6-1T"
+   },
+   {
+    "nume": "Edge PRO 7.1 (WiSAN-PMP R-290) — la comandă",
+    "pret": 32209.11,
+    "sku": "CLV-EDGE-PRO-7-1"
+   },
+   {
+    "nume": "Edge PRO 7.1T (WiSAN-PMP R-290) — la comandă",
+    "pret": 33098.71,
+    "sku": "CLV-EDGE-PRO-7-1T"
+   },
+   {
+    "nume": "Edge PRO 8.1 (WiSAN-PMP R-290) — la comandă",
+    "pret": 33667.12,
+    "sku": "CLV-EDGE-PRO-8-1"
+   },
+   {
+    "nume": "Edge PRO 8.1T (WiSAN-PMP R-290) — la comandă",
+    "pret": 34633.94,
+    "sku": "CLV-EDGE-PRO-8-1T"
+   }
+  ],
+  "descriere": "data/descrieri/04.html",
+  "poza": "poze/p04.png",
+  "seo_title": "Pompă de Căldură Clivet Edge PRO Premium R-290 | RIXAIR",
+  "seo_meta": "Pompă de căldură premium Clivet Edge PRO, R-290 ecologic, ultra-silențioasă, 2.1-14.1. Pentru case exigente. Distribuitor oficial Clivet.",
+  "nota_interna": "",
+  "cat": "monobloc",
+  "nume_lung": "Pompă de căldură monobloc Edge PRO R-290 (WiSAN-PMP) 2.1–8.1",
+  "stoc": "in_stoc"
+ },
+ {
+  "nr": 14,
+  "slug": "aer-conditionat-split-ezcool-r-32-wi-fi-9000-24000-btu",
+  "nume": "Aer condiționat split EZCool R-32 Wi-Fi 9000–24000 BTU",
+  "sku": "CLV-EZCool",
+  "categorie": "ac",
+  "pret_tip": "variante",
+  "pret_de_la": null,
+  "variante": [
+   {
+    "nume": "9000 BTU — 2,6 kW răcire / 2,7 kW încălzire",
+    "pret": 1965.46,
+    "sku": "CLV-EZCool-9000BTU",
+    "stoc": "in_stoc",
+    "cantitate": 1
+   },
+   {
+    "nume": "12000 BTU — 3,2 kW răcire / 3,5 kW încălzire",
+    "pret": 2065.13,
+    "sku": "CLV-EZCool-12000BTU",
+    "stoc": "in_stoc",
+    "cantitate": 1
+   },
+   {
+    "nume": "18000 BTU — 5,3 kW răcire / 5,4 kW încălzire",
+    "pret": 3607.39,
+    "sku": "CLV-EZCool-18000BTU",
+    "stoc": "in_stoc",
+    "cantitate": 1
+   },
+   {
+    "nume": "24000 BTU — 5,9 kW răcire / 6,7 kW încălzire",
+    "pret": 4626.53,
+    "sku": "CLV-EZCool-24000BTU",
+    "stoc": "fara_stoc"
+   }
+  ],
+  "descriere": "data/descrieri/14.html",
+  "poza": "poze/p14.jpg",
+  "seo_title": "Aer Condiționat Clivet EZCool 9000-24000 BTU R-32 | RIXAIR",
+  "seo_meta": "Split inverter Clivet EZCool cu Wi-Fi, R-32, răcire și încălzire, 9000-24000 BTU. Distribuitor oficial Clivet, livrare din stoc, Timișoara.",
+  "nota_interna": "",
+  "cat": "single-split",
+  "nume_lung": "Aer Conditionat Clivet EZCool — Split Inverter R-32 (9000-24000 BTU)",
+  "stoc": "in_stoc"
+ },
+ {
+  "nr": 15,
+  "slug": "aer-conditionat-split-essential-2-9000-24000-btu",
+  "nume": "Aer condiționat split Essential 2 9000–24000 BTU",
+  "sku": "CLV-Essential2",
+  "categorie": "ac",
+  "pret_tip": "variante",
+  "pret_de_la": null,
+  "variante": [
+   {
+    "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire",
+    "pret": 1711.36,
+    "sku": "CLV-Essential2-9000BTU",
+    "stoc": "in_stoc",
+    "cantitate": 2
+   },
+   {
+    "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire",
+    "pret": 1945.14,
+    "sku": "CLV-Essential2-12000BTU",
+    "stoc": "in_stoc",
+    "cantitate": 4
+   },
+   {
+    "nume": "18000 BTU — 5,3 kW răcire / 5,6 kW încălzire",
+    "pret": 3731.46,
+    "sku": "CLV-Essential2-18000BTU",
+    "stoc": "fara_stoc"
+   },
+   {
+    "nume": "24000 BTU — 7,0 kW răcire / 7,3 kW încălzire",
+    "pret": 3811.5,
+    "sku": "CLV-Essential2-24000BTU",
+    "stoc": "in_stoc",
+    "cantitate": 3
+   }
+  ],
+  "descriere": "data/descrieri/15.html",
+  "poza": "poze/p15.jpg",
+  "seo_title": "Aer Condiționat Clivet Essential 2 9000-24000 BTU | RIXAIR",
+  "seo_meta": "Split compact Clivet Essential 2, inverter R-32, ideal dormitoare și birouri. 9000-24000 BTU. Consultanță gratuită RIXAIR Timișoara.",
+  "nota_interna": "",
+  "cat": "single-split",
+  "nume_lung": "Aer Conditionat Clivet Essential 2 — Split Inverter R-32 (9000-24000 BTU)",
+  "stoc": "in_stoc"
+ },
+ {
+  "nr": 16,
+  "slug": "aer-conditionat-split-nativ-9000-24000-btu",
+  "nume": "Aer condiționat split NATIV 9000–24000 BTU",
+  "sku": "CLV-NATIV",
+  "categorie": "ac",
+  "pret_tip": "variante",
+  "pret_de_la": null,
+  "variante": [
+   {
+    "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire",
+    "pret": 1978.17,
+    "sku": "CLV-NATIV-9000BTU",
+    "stoc": "fara_stoc"
+   },
+   {
+    "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire",
+    "pret": 2173.83,
+    "sku": "CLV-NATIV-12000BTU",
+    "stoc": "fara_stoc"
+   },
+   {
+    "nume": "18000 BTU — 5,3 kW răcire / 5,6 kW încălzire",
+    "pret": 3391.98,
+    "sku": "CLV-NATIV-18000BTU",
+    "stoc": "in_stoc",
+    "cantitate": 1
+   },
+   {
+    "nume": "24000 BTU — 7,0 kW răcire / 7,3 kW încălzire",
+    "pret": 4974.64,
+    "sku": "CLV-NATIV-24000BTU",
+    "stoc": "fara_stoc"
+   }
+  ],
+  "descriere": "data/descrieri/16.html",
+  "poza": "poze/p16.jpg",
+  "seo_title": "Aer Condiționat Clivet NATIV Design Silvery 9-24k BTU | RIXAIR",
+  "seo_meta": "Split Clivet NATIV cu design slivery și mod eco, inverter R-32, consum redus. 9000-24000 BTU. Distribuitor oficial Clivet Timișoara.",
+  "nota_interna": "",
+  "cat": "single-split",
+  "nume_lung": "Aer Conditionat Clivet NATIV — Split Inverter R-32 Design Slivery (9000-24000 BTU)",
+  "stoc": "in_stoc"
+ },
+ {
+  "nr": 17,
+  "slug": "aer-conditionat-split-cristallo-2-design-9000-18000-btu",
+  "nume": "Aer condiționat split Cristallo 2 design 9000–24000 BTU",
+  "sku": "CLV-Cristallo2",
+  "categorie": "ac",
+  "pret_tip": "variante",
+  "pret_de_la": null,
+  "variante": [
+   {
+    "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire",
+    "pret": 3091.44,
+    "sku": "CLV-Cristallo2-9000BTU",
+    "stoc": "fara_stoc"
+   },
+   {
+    "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire",
+    "pret": 3199.44,
+    "sku": "CLV-Cristallo2-12000BTU",
+    "stoc": "in_stoc",
+    "cantitate": 1
+   },
+   {
+    "nume": "18000 BTU — 5,3 kW răcire / 5,4 kW încălzire",
+    "pret": 5129.01,
+    "sku": "CLV-Cristallo2-18000BTU",
+    "stoc": "fara_stoc"
+   },
+   {
+    "nume": "24000 BTU — 5,9 kW răcire / 6,7 kW încălzire",
+    "pret": 6248.32,
+    "sku": "CLV-Cristallo2-24000BTU",
+    "stoc": "fara_stoc"
+   }
+  ],
+  "descriere": "data/descrieri/17.html",
+  "poza": "poze/p17.jpg",
+  "seo_title": "Aer Condiționat Clivet Cristallo 2 Premium Design | RIXAIR",
+  "seo_meta": "Split premium Clivet Cristallo 2 cu panou frontal din cristal, inverter R-32, pentru livinguri elegante. RIXAIR — distribuitor oficial Clivet.",
+  "nota_interna": "",
+  "cat": "single-split",
+  "nume_lung": "Aer Conditionat Clivet Cristallo 2 — Split Inverter R-32 Premium Design Cristal (9000-24000 BTU)",
+  "stoc": "in_stoc"
+ },
+ {
+  "nr": 18,
+  "slug": "aer-conditionat-split-stelvio-9000-12000-btu",
+  "nume": "Aer condiționat split Stelvio 9000–12000 BTU",
+  "sku": "CLV-Stelvio",
+  "categorie": "ac",
+  "pret_tip": "variante",
+  "pret_de_la": null,
+  "variante": [
+   {
+    "nume": "9000 BTU — 2,6 kW răcire / 4,1 kW încălzire",
+    "pret": 5062.31,
+    "sku": "CLV-Stelvio-9000BTU",
+    "stoc": "fara_stoc"
+   },
+   {
+    "nume": "12000 BTU — 3,5 kW răcire / 4,2 kW încălzire",
+    "pret": 5219.85,
+    "sku": "CLV-Stelvio-12000BTU",
+    "stoc": "fara_stoc"
+   }
+  ],
+  "descriere": "data/descrieri/18.html",
+  "poza": "poze/p18.jpg",
+  "seo_title": "AC Clivet Stelvio — Proiectat pentru Încălzire | RIXAIR",
+  "seo_meta": "Split Clivet Stelvio A+++/A+++, proiectat special pentru încălzire eficientă iarna. R-32, performanță la temperaturi negative. RIXAIR Timișoara.",
+  "nota_interna": "",
+  "cat": "single-split",
+  "nume_lung": "Aer Conditionat Clivet Stelvio — Split Inverter R-32 Premium pentru Încălzire (9000-12000 BTU)",
+  "stoc": "fara_stoc"
+ },
+ {
+  "nr": 23,
+  "slug": "caseta-industriala-elfospace-box3-007-0-041-0-inverter",
+  "nume": "Casetă industrială ELFOSpace BOX3 007.0–041.0 INVERTER",
+  "sku": "ELFOSpace-BOX3",
+  "categorie": "vcv",
+  "pret_tip": "de_la",
+  "pret_de_la": 2197,
+  "variante": [
+   {
+    "nume": "ELFOSpace BOX3 007.0",
+    "pret": null,
+    "sku": "ELFOSpace-BOX3-007-inverter"
+   },
+   {
+    "nume": "ELFOSpace BOX3 011.0",
+    "pret": null,
+    "sku": "ELFOSpace-BOX3-011-inverter"
+   },
+   {
+    "nume": "ELFOSpace BOX3 015.0",
+    "pret": null,
+    "sku": "ELFOSpace-BOX3-015-inverter"
+   },
+   {
+    "nume": "ELFOSpace BOX3 021.0",
+    "pret": null,
+    "sku": "ELFOSpace-BOX3-021-inverter"
+   },
+   {
+    "nume": "ELFOSpace BOX3 031.0",
+    "pret": null,
+    "sku": "ELFOSpace-BOX3-031-inverter"
+   },
+   {
+    "nume": "ELFOSpace BOX3 041.0",
+    "pret": null,
+    "sku": "ELFOSpace-BOX3-041-inverter"
+   }
+  ],
+  "descriere": "data/descrieri/23.html",
+  "poza": "poze/p23.jpg",
+  "seo_title": "Casetă Clivet ELFOSpace BOX3 Inverter | RIXAIR",
+  "seo_meta": "Casetă Clivet ELFOSpace BOX3 inverter, 2,61-10,07 kW, pentru spații comerciale și industriale. Distribuitor oficial Clivet, Timișoara.",
+  "nota_interna": "",
+  "cat": "ventiloconvectoare",
+  "nume_lung": "Casetă industrială ELFOSpace BOX3 007.0–041.0 INVERTER",
+  "stoc": "fara_stoc"
+ },
+ {
+  "nr": 24,
+  "slug": "ventiloconvector-elforoom2-003-0-017-0-inverter",
+  "nume": "Ventiloconvector ELFORoom2 003.0–017.0 INVERTER",
+  "sku": "Clivet-ELFORoom2",
+  "categorie": "vcv",
+  "pret_tip": "de_la",
+  "pret_de_la": 2945,
+  "variante": [
+   {
+    "nume": "ELFORoom² 003.0 — la comandă",
+    "pret": null,
+    "sku": "Clivet-ELFORoom2-003-inverter"
+   },
+   {
+    "nume": "ELFORoom² 005.0 — la comandă",
+    "pret": null,
+    "sku": "Clivet-ELFORoom2-005-inverter"
+   },
+   {
+    "nume": "ELFORoom² 011.0 — la comandă",
+    "pret": null,
+    "sku": "Clivet-ELFORoom2-011-inverter"
+   },
+   {
+    "nume": "ELFORoom² 015.0 — în stoc",
+    "pret": null,
+    "sku": "Clivet-ELFORoom2-015-inverter",
+    "cantitate": 1,
+    "stoc": "in_stoc"
+   },
+   {
+    "nume": "ELFORoom² 017.0 — la comandă",
+    "pret": null,
+    "sku": "Clivet-ELFORoom2-017-inverter"
+   }
+  ],
+  "descriere": "data/descrieri/24.html",
+  "poza": "poze/p24.jpg",
+  "seo_title": "Ventiloconvector Clivet ELFORoom2 Inverter | RIXAIR",
+  "seo_meta": "Ventiloconvector compact Clivet ELFORoom2 inverter, 1,02-4,32 kW încălzire, pentru spații rezidențiale mici. Stoc RIXAIR Timișoara.",
+  "nota_interna": "",
+  "cat": "ventiloconvectoare",
+  "nume_lung": "Ventiloconvector ELFORoom2 003.0–017.0 INVERTER",
+  "stoc": "in_stoc"
+ },
+ {
+  "nr": 25,
+  "slug": "ventiloconvector-aura-1-12-inverter-carcasat-necarcasat",
+  "nume": "Ventiloconvector Clivet AURA carcasat INVERTER (CFFAC 1-12)",
+  "sku": "Clivet-AURA-1-CFFAC",
+  "categorie": "vcv",
+  "pret_tip": "la_cerere",
+  "pret_de_la": null,
+  "variante": [
+   {
+    "nume": "AURA 1 (CFFAC) — la comandă",
+    "pret": null,
+    "sku": "Clivet-AURA-1-CFFAC"
+   },
+   {
+    "nume": "AURA 2 (CFFAC) — la comandă",
+    "pret": null,
+    "sku": "Clivet-AURA-2-CFFAC"
+   },
+   {
+    "nume": "AURA 3 (CFFAC) — la comandă",
+    "pret": null,
+    "sku": "Clivet-AURA-3-CFFAC"
+   },
+   {
+    "nume": "AURA 4 (CFFAC) — la comandă",
+    "pret": null,
+    "sku": "Clivet-AURA-4-CFFAC"
+   },
+   {
+    "nume": "AURA 6 (CFFAC) — la comandă",
+    "pret": null,
+    "sku": "Clivet-AURA-6-CFFAC"
+   },
+   {
+    "nume": "AURA 8 (CFFAC) — la comandă",
+    "pret": null,
+    "sku": "Clivet-AURA-8-CFFAC"
+   },
+   {
+    "nume": "AURA 10 (CFFAC) — la comandă",
+    "pret": null,
+    "sku": "Clivet-AURA-10-CFFAC"
+   },
+   {
+    "nume": "AURA 12 (CFFAC) — în stoc",
+    "pret": null,
+    "sku": "Clivet-AURA-12-CFFAC",
+    "cantitate": 3,
+    "stoc": "in_stoc"
+   }
+  ],
+  "descriere": "data/descrieri/25.html",
+  "poza": "poze/p25.jpg",
+  "seo_title": "Ventiloconvector Clivet AURA carcasat INVERTER (CFFAC 1-12) | RIXAIR",
+  "seo_meta": "Ventiloconvector Clivet AURA INVERTER carcasat/necarcasat, 1,57-8,7 kW, silențios și eficient. Rezidențial și comercial. RIXAIR Timișoara.",
+  "nota_interna": "",
+  "cat": "ventiloconvectoare",
+  "nume_lung": "Ventiloconvector Clivet AURA carcasat INVERTER (CFFAC 1-12)",
+  "stoc": "in_stoc"
+ },
+ {
+  "nr": 26,
+  "slug": "ventiloconvector-aura-1-12-3-viteze-carcasat-necarcasat",
+  "nume": "Ventiloconvector Clivet AURA carcasat 3 viteze (CFFC 1-12)",
+  "sku": "Clivet-AURA-1-CFFC",
+  "categorie": "vcv",
+  "pret_tip": "la_cerere",
+  "pret_de_la": null,
+  "variante": [
+   {
+    "nume": "AURA 1 (CFFC)",
+    "pret": null,
+    "sku": "Clivet-AURA-1-CFFC"
+   },
+   {
+    "nume": "AURA 2 (CFFC)",
+    "pret": null,
+    "sku": "Clivet-AURA-2-CFFC"
+   },
+   {
+    "nume": "AURA 3 (CFFC)",
+    "pret": null,
+    "sku": "Clivet-AURA-3-CFFC"
+   },
+   {
+    "nume": "AURA 4 (CFFC)",
+    "pret": null,
+    "sku": "Clivet-AURA-4-CFFC"
+   },
+   {
+    "nume": "AURA 6 (CFFC)",
+    "pret": null,
+    "sku": "Clivet-AURA-6-CFFC"
+   },
+   {
+    "nume": "AURA 8 (CFFC)",
+    "pret": null,
+    "sku": "Clivet-AURA-8-CFFC"
+   },
+   {
+    "nume": "AURA 10 (CFFC)",
+    "pret": null,
+    "sku": "Clivet-AURA-10-CFFC"
+   },
+   {
+    "nume": "AURA 12 (CFFC)",
+    "pret": null,
+    "sku": "Clivet-AURA-12-CFFC"
+   }
+  ],
+  "descriere": "data/descrieri/26.html",
+  "poza": "poze/p26.jpg",
+  "seo_title": "Ventiloconvector Clivet AURA carcasat 3 viteze (CFFC 1-12) | RIXAIR",
+  "seo_meta": "Ventiloconvector Clivet AURA carcasat/necarcasat, 3 viteze, 1,85-8,5 kW. Pentru rezidențial și comercial. Distribuitor oficial Clivet.",
+  "nota_interna": "",
+  "cat": "ventiloconvectoare",
+  "nume_lung": "Ventiloconvector Clivet AURA carcasat 3 viteze (CFFC 1-12)",
+  "stoc": "fara_stoc"
+ },
+ {
+  "nr": 27,
+  "slug": "ventiloconvector-de-perete-mood-1-5-inverter-cfw-2",
+  "nume": "Ventiloconvector de perete MOOD 1–5 INVERTER CFW-2",
+  "sku": "Clivet-MOOD-1-cfw2",
+  "categorie": "vcv",
+  "pret_tip": "de_la",
+  "pret_de_la": 2549,
+  "variante": [
+   {
+    "nume": "MOOD 1 — la comandă",
+    "pret": null,
+    "sku": "Clivet-MOOD-1-cfw2-inverter"
+   },
+   {
+    "nume": "MOOD 2 — în stoc",
+    "pret": 2729,
+    "sku": "Clivet-MOOD-2-cfw2-inverter",
+    "cantitate": 1,
+    "stoc": "in_stoc"
+   },
+   {
+    "nume": "MOOD 3 — la comandă",
+    "pret": 2549,
+    "sku": "Clivet-MOOD-3-cfw2-inverter"
+   },
+   {
+    "nume": "MOOD 4 — la comandă",
+    "pret": 3109,
+    "sku": "Clivet-MOOD-4-cfw2-inverter"
+   },
+   {
+    "nume": "MOOD 5 — la comandă",
+    "pret": 3199,
+    "sku": "Clivet-MOOD-5-cfw2-inverter"
+   }
+  ],
+  "descriere": "data/descrieri/27.html",
+  "poza": "poze/p27.png",
+  "seo_title": "Ventiloconvector Clivet MOOD CFW-2 de Perete | RIXAIR",
+  "seo_meta": "Ventiloconvector de perete Clivet MOOD, design elegant, 2,12-5,26 kW încălzire. Ideal cu pompe de căldură. Stoc Timișoara, RIXAIR.",
+  "nota_interna": "",
+  "cat": "ventiloconvectoare",
+  "nume_lung": "Ventiloconvector de perete MOOD 1–5 INVERTER CFW-2",
+  "stoc": "in_stoc"
+ },
+ {
+  "nr": 31,
+  "slug": "ventiloconvector-aura-necarcasat-inverter-cffau",
+  "nume": "Ventiloconvector Clivet AURA necarcasat INVERTER (CFFAU 1-12)",
+  "sku": "Clivet-AURA-1-CFFAU",
+  "categorie": "vcv",
+  "pret_tip": "la_cerere",
+  "pret_de_la": null,
+  "variante": [
+   {
+    "nume": "AURA 1 (CFFAU)",
+    "pret": null,
+    "sku": "Clivet-AURA-1-CFFAU"
+   },
+   {
+    "nume": "AURA 2 (CFFAU)",
+    "pret": null,
+    "sku": "Clivet-AURA-2-CFFAU"
+   },
+   {
+    "nume": "AURA 3 (CFFAU)",
+    "pret": null,
+    "sku": "Clivet-AURA-3-CFFAU"
+   },
+   {
+    "nume": "AURA 4 (CFFAU)",
+    "pret": null,
+    "sku": "Clivet-AURA-4-CFFAU"
+   },
+   {
+    "nume": "AURA 6 (CFFAU)",
+    "pret": null,
+    "sku": "Clivet-AURA-6-CFFAU"
+   },
+   {
+    "nume": "AURA 8 (CFFAU)",
+    "pret": null,
+    "sku": "Clivet-AURA-8-CFFAU"
+   },
+   {
+    "nume": "AURA 10 (CFFAU)",
+    "pret": null,
+    "sku": "Clivet-AURA-10-CFFAU"
+   },
+   {
+    "nume": "AURA 12 (CFFAU)",
+    "pret": null,
+    "sku": "Clivet-AURA-12-CFFAU"
+   }
+  ],
+  "descriere": "data/descrieri/25.html",
+  "poza": "poze/p25.jpg",
+  "seo_title": "Ventiloconvector Clivet AURA necarcasat INVERTER (CFFAU 1-12) | RIXAIR",
+  "seo_meta": "Ventiloconvector Clivet AURA INVERTER carcasat/necarcasat, 1,57-8,7 kW, silențios și eficient. Rezidențial și comercial. RIXAIR Timișoara.",
+  "nota_interna": "",
+  "cat": "ventiloconvectoare",
+  "nume_lung": "Ventiloconvector Clivet AURA necarcasat INVERTER (CFFAU 1-12)",
+  "stoc": "fara_stoc"
+ },
+ {
+  "nr": 32,
+  "slug": "ventiloconvector-aura-necarcasat-3-viteze-cffu",
+  "nume": "Ventiloconvector Clivet AURA necarcasat 3 viteze (CFFU 1-12)",
+  "sku": "Clivet-AURA-1-CFFU",
+  "categorie": "vcv",
+  "pret_tip": "la_cerere",
+  "pret_de_la": null,
+  "variante": [
+   {
+    "nume": "AURA 1 (CFFU)",
+    "pret": null,
+    "sku": "Clivet-AURA-1-CFFU"
+   },
+   {
+    "nume": "AURA 2 (CFFU)",
+    "pret": null,
+    "sku": "Clivet-AURA-2-CFFU"
+   },
+   {
+    "nume": "AURA 3 (CFFU)",
+    "pret": null,
+    "sku": "Clivet-AURA-3-CFFU"
+   },
+   {
+    "nume": "AURA 4 (CFFU)",
+    "pret": null,
+    "sku": "Clivet-AURA-4-CFFU"
+   },
+   {
+    "nume": "AURA 6 (CFFU)",
+    "pret": null,
+    "sku": "Clivet-AURA-6-CFFU"
+   },
+   {
+    "nume": "AURA 8 (CFFU)",
+    "pret": null,
+    "sku": "Clivet-AURA-8-CFFU"
+   },
+   {
+    "nume": "AURA 10 (CFFU)",
+    "pret": null,
+    "sku": "Clivet-AURA-10-CFFU"
+   },
+   {
+    "nume": "AURA 12 (CFFU)",
+    "pret": null,
+    "sku": "Clivet-AURA-12-CFFU"
+   }
+  ],
+  "descriere": "data/descrieri/26.html",
+  "poza": "poze/p26.jpg",
+  "seo_title": "Ventiloconvector Clivet AURA necarcasat 3 viteze (CFFU 1-12) | RIXAIR",
+  "seo_meta": "Ventiloconvector Clivet AURA carcasat/necarcasat, 3 viteze, 1,85-8,5 kW. Pentru rezidențial și comercial. Distribuitor oficial Clivet.",
+  "nota_interna": "",
+  "cat": "ventiloconvectoare",
+  "nume_lung": "Ventiloconvector Clivet AURA necarcasat 3 viteze (CFFU 1-12)",
+  "stoc": "fara_stoc"
+ }
 ]

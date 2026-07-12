@@ -168,3 +168,12 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 
 /* rx-temp-hide: butonul de calculator din header ascuns temporar (sterge blocul ca sa revina) */
 .rx-calcbtn{display:none!important}
+
+/* rx-vhero-fade: ascunde ecranul de incarcare YouTube; video-ul apare dupa ce a pornit */
+.rx-vhero iframe{opacity:0;animation:rxVheroIn 1.2s ease 6.8s forwards}
+@keyframes rxVheroIn{to{opacity:1}}
+
+/* rx-nostock: eticheta rosie pe cardurile produselor fara stoc (fara iconita de bifat) */
+[data-rx-nostock] .stock-status{color:#c0392b!important}
+[data-rx-nostock] .stock-status i{display:none!important}
+[data-rx-nostock] .stock-status, [data-rx-nostock] .stock-status *{color:#c0392b!important}

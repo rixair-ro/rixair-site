@@ -26,10 +26,10 @@ Deno.serve(async (req) => {
     if (!Array.isArray(items) || !items.length) throw new Error("cos gol");
 
     const catalog = await (await fetch(CATALOG_URL)).json();
-    const skuMap = new Map<string, { nume: string; pret: number | null; produs: string }>();
+    const skuMap = new Map<string, { nume: string; pret: number | null; produs: string; stoc: string | null; cantitate: number | null }>();
     for (const p of catalog) {
-      for (const v of (p.variante ?? [])) skuMap.set(v.sku, { nume: v.nume, pret: v.pret, produs: p.nume });
-      if (p.sku && !skuMap.has(p.sku)) skuMap.set(p.sku, { nume: p.nume, pret: p.pret_de_la ?? null, produs: p.nume });
+      for (const v of (p.variante ?? [])) skuMap.set(v.sku, { nume: v.nume, pret: v.pret, produs: p.nume, stoc: v.stoc ?? p.stoc ?? null, cantitate: v.cantitate ?? null });
+      if (p.sku && !skuMap.has(p.sku)) skuMap.set(p.sku, { nume: p.nume, pret: p.pret_de_la ?? null, produs: p.nume, stoc: p.stoc ?? null, cantitate: null });
     }
 
     let total = 0;
@@ -37,7 +37,9 @@ Deno.serve(async (req) => {
       const v = skuMap.get(it.sku);
       if (!v) throw new Error("produs necunoscut: " + it.sku);
       if (!v.pret) throw new Error("produs fara pret online: " + it.sku);
+      if (v.stoc === "fara_stoc" || v.stoc === "ascuns") throw new Error("nu este in stoc: " + v.nume);
       const qty = Math.max(1, Math.min(99, it.qty | 0));
+      if (v.cantitate != null && qty > v.cantitate) throw new Error("stoc insuficient pentru " + v.nume + " (disponibil: " + v.cantitate + " buc.)");
       const suma = v.pret * qty;
       total += suma;
       return { descriere: v.produs + " — " + v.nume, cantitate: qty, suma, sku: it.sku };

@@ -8,7 +8,12 @@ function badge(){var n=qget().reduce(function(s,i){return s+(i.qty||1)},0);
  document.querySelectorAll('.cart-drop .count, ._showCartHeader .count').forEach(function(b){b.textContent=n;});}
 function toast(m){var o=document.querySelector('.rx-toast');if(o)o.remove();var t=document.createElement('div');t.className='rx-toast';t.innerHTML=m;document.body.appendChild(t);setTimeout(function(){t.remove()},4000);}
 function fmtL(p){if(p==null||isNaN(p))return 'la cerere';return p.toLocaleString('ro-RO',{minimumFractionDigits:2,maximumFractionDigits:2})+' Lei';}
-function qadd(it){var l=qget(),k=null;for(var i=0;i<l.length;i++)if(l[i].sku===it.sku)k=l[i];if(k)k.qty+=it.qty;else l.push(it);qset(l);
+function qadd(it){var l=qget(),k=null;for(var i=0;i<l.length;i++)if(l[i].sku===it.sku)k=l[i];
+ var max=(it.stoc!=null)?it.stoc:(k&&k.stoc!=null?k.stoc:null);
+ if(k){if(it.stoc!=null)k.stoc=it.stoc;var dorit=k.qty+it.qty;k.qty=(max!=null)?Math.min(dorit,max):dorit;
+  if(max!=null&&dorit>max){qset(l);toast('&#9888; Stoc disponibil: doar '+max+' buc. &#8212; <a href="/cos-de-cumparaturi">vezi cererea</a>');return;}}
+ else{if(max!=null&&it.qty>max){it.qty=max;l.push(it);qset(l);toast('&#9888; Stoc disponibil: doar '+max+' buc. &#8212; <a href="/cos-de-cumparaturi">vezi cererea</a>');return;}l.push(it);}
+ qset(l);
  toast('&#10003; Ad&#259;ugat la cererea de ofert&#259; &#8212; <a href="/cos-de-cumparaturi">vezi cererea</a>');}
 /* adauga in cos -> cerere */
 document.addEventListener('click',function(e){
@@ -18,7 +23,7 @@ document.addEventListener('click',function(e){
  var it=null;
  if(window.RXPROD){it={sku:RXPROD.sku,nume:RXPROD.nume,pret:RXPROD.pret,img:RXPROD.img,qty:1};
   var q=document.querySelector('input[name="quantity"]');if(q)it.qty=Math.max(1,parseInt(q.value)||1);
-  var s=document.querySelector('.rxVar');if(s){var o=s.options[s.selectedIndex];it.sku=o.getAttribute('data-sku')||it.sku;it.varianta=o.text;var pn=(o.getAttribute('data-pret')||'').replace(/\./g,'').replace(',','.');it.pret=pn?parseFloat(pn):null;}
+  var s=document.querySelector('.rxVar');if(s){var o=s.options[s.selectedIndex];it.sku=o.getAttribute('data-sku')||it.sku;it.varianta=o.text;var pn=(o.getAttribute('data-pret')||'').replace(/\./g,'').replace(',','.');it.pret=pn?parseFloat(pn):null;var st=o.getAttribute('data-stoc');it.stoc=st?parseInt(st):null;if(it.stoc!=null&&it.qty>it.stoc)it.qty=it.stoc;}
  } else {
   var card=t.closest('.product-box');
   if(card){var nm=card.querySelector('[data-name]');var im=card.querySelector('img');
@@ -54,7 +59,7 @@ function renderCerere(host){
  var t='<h1 style="font-size:24px;margin:10px 0">Cererea mea de ofert&#259;</h1><table class="rx-t"><tr><th></th><th>Produs</th><th>Variant&#259; / Cod</th><th>Pre&#539; orientativ</th><th>Cant.</th><th></th></tr>',tot=0,inc=true;
  l.forEach(function(i,x){if(i.pret)tot+=i.pret*i.qty;else inc=false;
   t+='<tr><td>'+(i.img?'<img src="'+i.img+'">':'')+'</td><td>'+i.nume+'</td><td>'+(i.varianta||'')+'<br><small>'+i.sku+'</small></td><td>'+fmtL(i.pret)+'</td>'+
-  '<td><span class="rx-qty"><button class="rx-x" data-a="m" data-x="'+x+'">&#8722;</button><b>'+i.qty+'</b><button class="rx-x" style="color:#2e7d32" data-a="p" data-x="'+x+'">+</button></span></td>'+
+  '<td><span class="rx-qty"><button class="rx-x" data-a="m" data-x="'+x+'">&#8722;</button><b>'+i.qty+'</b><button class="rx-x" style="color:#2e7d32" data-a="p" data-x="'+x+'">+</button></span>'+(i.stoc!=null?'<br><small style="color:#789">stoc: '+i.stoc+' buc.</small>':'')+'</td>'+
   '<td><button class="rx-x" data-a="d" data-x="'+x+'">&#10005;</button></td></tr>';});
  t+='</table><p style="font-size:16px"><b>Total orientativ'+(inc?'':' (par&#539;ial)')+': '+fmtL(tot)+'</b> <small>cu TVA &#183; pre&#539;ul final se confirm&#259; prin ofert&#259;</small></p>';
  var toate_cu_pret = l.length>0 && l.every(function(i){return i.pret;});
@@ -67,7 +72,10 @@ function renderCerere(host){
  host.innerHTML=t;
  host.querySelectorAll('.rx-x').forEach(function(b){b.addEventListener('click',function(){
   var l=qget(),x=+b.getAttribute('data-x'),a=b.getAttribute('data-a');
-  if(a==='d')l.splice(x,1);else l[x].qty=Math.max(1,l[x].qty+(a==='p'?1:-1));
+  if(a==='d')l.splice(x,1);
+  else{var nou=Math.max(1,l[x].qty+(a==='p'?1:-1));
+   if(a==='p'&&l[x].stoc!=null&&nou>l[x].stoc){nou=l[x].stoc;toast('&#9888; Stoc disponibil: doar '+l[x].stoc+' buc.');}
+   l[x].qty=nou;}
   qset(l);renderCerere(host);});});
  var sb=host.querySelector('#rxSend');if(sb)sb.addEventListener('click',function(){
   var l=qget(),b='Buna ziua,\n\nDoresc o oferta pentru:\n\n';
@@ -148,16 +156,29 @@ document.addEventListener('DOMContentLoaded',function(){
   }
   return {t:base, sku:bsku};
  }
+ var stEl=document.querySelector('.stock-status');
+ var stBase=stEl?stEl.textContent.trim():'';
+ function stocSel(){var s=document.querySelector('.rxVar');if(!s||!s.options||!s.options.length)return null;
+  var o=s.options[s.selectedIndex]||s.options[0];var v=o.getAttribute('data-stoc');return v?parseInt(v):null;}
  function apply(){
   var w=want();
   if(f.textContent!==w.t) f.textContent=w.t;
   if(sk&&w.sku&&sk.textContent!==w.sku) sk.textContent=w.sku;
   if(window.RXPROD&&w.sku) window.RXPROD.sku=w.sku;
+  var n=stocSel();
+  if(stEl){var vrut=(n!=null)?('In stoc: '+n+' buc.'):stBase;
+   var ic=stEl.querySelector('i');var txt=(ic?ic.outerHTML:'')+vrut;
+   if(stEl.innerHTML!==txt)stEl.innerHTML=txt;}
+  var q=document.querySelector('input[name="quantity"]');
+  if(q&&n!=null){q.setAttribute('max',n);if(parseInt(q.value)>n)q.value=n;}
  }
  apply();
  try{new MutationObserver(apply).observe(f,{childList:true,characterData:true,subtree:true});}catch(e){}
  document.addEventListener('change',function(e){if(e.target&&e.target.classList&&e.target.classList.contains('rxVar'))setTimeout(apply,0);},true);
  setTimeout(apply,400); setTimeout(apply,1500);
+ document.addEventListener('click',function(e){
+  if(e.target.closest&&(e.target.closest('#qtyplus')||e.target.closest('#qtyminus')))setTimeout(apply,30);
+ },true);
 })();
 
 /* rx-buy-guard: butonul ADAUGA IN COS + selectorul de cantitate raman mereu prezente si vizibile */
