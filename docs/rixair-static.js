@@ -60,9 +60,10 @@ function renderCerere(host){
  var toate_cu_pret = l.length>0 && l.every(function(i){return i.pret;});
  t+='<p>';
  if(toate_cu_pret) t+='<button class="rx-b" id="rxPay" style="background:#f4c340">&#128179; Pl&#259;te&#537;te cu cardul</button>';
- t+='<button class="rx-b'+(toate_cu_pret?' o':'')+'" id="rxSend">&#9993; Trimite cererea pe email</button><button class="rx-b o" id="rxClear">Gole&#537;te</button></p>';
+ if(!toate_cu_pret) t+='<button class="rx-b" id="rxSend">&#9993; Trimite cererea pe email</button>';
+ t+='<button class="rx-b o" id="rxClear">Gole&#537;te</button></p>';
  if(!toate_cu_pret && l.some(function(i){return !i.pret;})) t+='<p style="font-size:13px;color:#888">Unele produse au pre&#539; la cerere &#8212; pentru ele trimite cererea pe email.</p>';
- t+='<p style="font-size:13px;color:#666">Se deschide emailul t&#259;u cu lista completat&#259; &#8212; adaug&#259; numele &#537;i telefonul. Sau sun&#259;-ne direct.</p>';
+ if(!toate_cu_pret) t+='<p style="font-size:13px;color:#666">Se deschide emailul t&#259;u cu lista completat&#259; &#8212; adaug&#259; numele &#537;i telefonul. Sau sun&#259;-ne direct.</p>';
  host.innerHTML=t;
  host.querySelectorAll('.rx-x').forEach(function(b){b.addEventListener('click',function(){
   var l=qget(),x=+b.getAttribute('data-x'),a=b.getAttribute('data-a');

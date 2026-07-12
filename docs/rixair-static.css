@@ -127,3 +127,44 @@ body.rx-cos table.rx-t td:nth-child(5){white-space:nowrap}
 .carousel-slide .product-box .image img,.product-listing .product-box .image img{max-height:200px!important;object-fit:contain}
 .carousel-slide .product-box .box-holder .top-side-box,.product-listing .product-box .box-holder .top-side-box{-webkit-box-flex:0!important;-ms-flex:0 0 auto!important;flex:0 0 auto!important}
 .carousel-slide .product-box .box-holder .bottom-side-box,.product-listing .product-box .box-holder .bottom-side-box{-ms-flex-item-align:start!important;align-self:flex-start!important;margin-top:0!important}
+
+/* ============ RX polish v47 ============ */
+
+/* rx-heading-accent: titluri de sectiune cu bara galbena de brand */
+.title-carousel .title{color:#0d2d4e}
+.title-carousel hr{display:block!important;width:56px!important;margin:10px 0 4px!important;border:none!important;border-top:4px solid #f4c340!important;border-radius:2px;background:none!important;height:0!important}
+
+/* rx-card-clean: FARA umbre si FARA miscare pe cardurile de produs — ramane doar chenarul galben la hover (din tema) */
+.product-listing .product-box .box-holder,.carousel-slide .product-box .box-holder{border-radius:17px;background:#fff;box-shadow:none!important;transform:none!important}
+.product-listing .product-box:hover .box-holder,.carousel-slide .product-box:hover .box-holder,
+.product-listing .product-box:active .box-holder,.carousel-slide .product-box:active .box-holder{box-shadow:none!important;transform:none!important}
+.product-listing .product-box .image img,.carousel-slide .product-box .image img,
+.product-listing .product-box:hover .image img,.carousel-slide .product-box:hover .image img{transform:none!important;transition:none!important}
+
+/* rx-price-pop: pretul mai vizibil pe carduri */
+.carousel-slide .price,.product-listing .price,.product-box .price{color:#0d2d4e!important;font-weight:700!important}
+
+/* rx-btn-hover: butoane cos/comanda cu feedback la hover */
+.btn.add2cart,.btn-cart{transition:filter .15s ease,transform .1s ease}
+.btn.add2cart:hover,.btn-cart:hover{filter:brightness(.94)}
+.btn.add2cart:active,.btn-cart:active{transform:scale(.98)}
+.rx-b{transition:background .15s ease}
+.rx-b:hover{background:#0d7193}
+.rx-b.o:hover{background:#e8f4fa}
+
+/* rx-showroom-lizibil: text lizibil pe banner-ul Showroom (id 4337/4349/4373 = acelasi banner pe pagini diferite) */
+.-g-banner-fixed.-g-component-id-4337 .-g-banner-fixed-content,
+.-g-banner-fixed.-g-component-id-4349 .-g-banner-fixed-content,
+.-g-banner-fixed.-g-component-id-4373 .-g-banner-fixed-content{background:rgba(10,36,60,.48)!important;border-radius:18px;padding:28px 44px!important;-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px)}
+.-g-banner-fixed.-g-component-id-4337 .title,.-g-banner-fixed.-g-component-id-4337 .subtitle,
+.-g-banner-fixed.-g-component-id-4349 .title,.-g-banner-fixed.-g-component-id-4349 .subtitle,
+.-g-banner-fixed.-g-component-id-4373 .title,.-g-banner-fixed.-g-component-id-4373 .subtitle{text-shadow:0 2px 10px rgba(0,0,0,.5)}
+
+/* rx-footer-linkuri: linkurile din footer deasupra graficii decorative */
+.footer-holder a{position:relative;z-index:2}
+
+/* rx-focus: accesibilitate — contur vizibil la navigarea cu tastatura */
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #f4c340;outline-offset:2px}
+
+/* rx-temp-hide: butonul de calculator din header ascuns temporar (sterge blocul ca sa revina) */
+.rx-calcbtn{display:none!important}
