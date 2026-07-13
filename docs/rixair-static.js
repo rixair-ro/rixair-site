@@ -7,7 +7,7 @@ function qset(l){localStorage.setItem('rx_cerere',JSON.stringify(l));badge();}
 function badge(){var n=qget().reduce(function(s,i){return s+(i.qty||1)},0);
  document.querySelectorAll('.cart-drop .count, ._showCartHeader .count').forEach(function(b){b.textContent=n;});}
 function toast(m){var o=document.querySelector('.rx-toast');if(o)o.remove();var t=document.createElement('div');t.className='rx-toast';t.innerHTML=m;document.body.appendChild(t);setTimeout(function(){t.remove()},4000);}
-function fmtL(p){if(p==null||isNaN(p))return 'la cerere';return p.toLocaleString('ro-RO',{minimumFractionDigits:2,maximumFractionDigits:2})+' Lei';}
+function fmtL(p){if(p==null||isNaN(p))return 'la cerere';var d=(p%1===0)?0:2;return p.toLocaleString('ro-RO',{minimumFractionDigits:d,maximumFractionDigits:2})+' Lei';}
 function qadd(it){var l=qget(),k=null;for(var i=0;i<l.length;i++)if(l[i].sku===it.sku)k=l[i];
  var max=(it.stoc!=null)?it.stoc:(k&&k.stoc!=null?k.stoc:null);
  if(k){if(it.stoc!=null)k.stoc=it.stoc;var dorit=k.qty+it.qty;k.qty=(max!=null)?Math.min(dorit,max):dorit;

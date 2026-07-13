@@ -11,7 +11,8 @@ MAP = {int(k): v for k, v in json.load(open(D("data/pagini_map.json"), encoding=
 
 def fmt(x):
     s = "%.2f" % float(x); a, b = s.split(".")
-    return re.sub(r"(?<=\d)(?=(\d{3})+$)", ".", a) + "," + b
+    a = re.sub(r"(?<=\d)(?=(\d{3})+$)", ".", a)
+    return a if b == "00" else a + "," + b
 
 def vviz(p):
     """variantele afisate pe site: cele cu stoc != fara_stoc (daca toate ar fi ascunse, se afiseaza toate)"""
