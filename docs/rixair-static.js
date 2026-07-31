@@ -29,6 +29,7 @@ document.addEventListener('click',function(e){
   if(card){var nm=card.querySelector('[data-name]');var im=card.querySelector('img');
    it={sku:'produs-'+(card.getAttribute('data-product-id')||''),nume:(nm?nm.getAttribute('data-name'):(card.textContent.trim().slice(0,80))),pret:null,img:(im?im.getAttribute('src'):''),qty:1};}
  }
+ if(window.RXBLOCK){toast('&#9888; Acest model nu este &#238;n stoc.');return;}
  if(it)qadd(it);
 },true);
 /* variante -> pret */
@@ -174,19 +175,31 @@ document.addEventListener('DOMContentLoaded',function(){
   }
   return {t:base, sku:bsku};
  }
- var stEl=document.querySelector('.stock-status');
- var stBase=stEl?stEl.textContent.trim():'';
- function stocSel(){var s=document.querySelector('.rxVar');if(!s||!s.options||!s.options.length)return null;
-  var o=s.options[s.selectedIndex]||s.options[0];var v=o.getAttribute('data-stoc');return v?parseInt(v):null;}
+ var stEl=document.querySelector('[class*="-g-product-stock-status"]')||document.querySelector('.stock-status');
+ function selOpt(){var s=document.querySelector('.rxVar');if(!s||!s.options||!s.options.length)return null;
+  return s.options[s.selectedIndex]||s.options[0];}
  function apply(){
   var w=want();
   if(f.textContent!==w.t) f.textContent=w.t;
   if(sk&&w.sku&&sk.textContent!==w.sku) sk.textContent=w.sku;
   if(window.RXPROD&&w.sku) window.RXPROD.sku=w.sku;
-  var n=stocSel();
-  if(stEl){var vrut=(n!=null)?('In stoc: '+n+' buc.'):stBase;
-   var ic=stEl.querySelector('i');var txt=(ic?ic.outerHTML:'')+vrut;
-   if(stEl.innerHTML!==txt)stEl.innerHTML=txt;}
+  var o=selOpt();
+  var stare=o?(o.getAttribute('data-stare')||'la_comanda'):'la_comanda';
+  var n=o&&o.getAttribute('data-stoc')?parseInt(o.getAttribute('data-stoc')):null;
+  window.RXBLOCK=(stare==='fara_stoc');
+  if(stEl){
+   var vrut, culoare;
+   if(stare==='fara_stoc'){vrut='Nu este în stoc';culoare='#c0392b';}
+   else if(stare==='in_stoc'){vrut=(n!=null)?('In stoc: '+n+' buc.'):'In stoc';culoare='';}
+   else {vrut='La comandă';culoare='';}
+   var ic=stEl.querySelector('i');
+   var txt=((ic&&stare!=='fara_stoc')?ic.outerHTML:'')+vrut;
+   if(stEl.innerHTML!==txt)stEl.innerHTML=txt;
+   if(culoare){stEl.style.setProperty('color',culoare,'important');}else{stEl.style.removeProperty('color');}
+   stEl.querySelectorAll('*').forEach(function(x){if(culoare){x.style.setProperty('color',culoare,'important');}else{x.style.removeProperty('color');}});
+  }
+  var sec=document.querySelector('[class*="-g-product-add-section-"]');
+  if(sec) sec.style.display=window.RXBLOCK?'none':'';
   var q=document.querySelector('input[name="quantity"]');
   if(q&&n!=null){q.setAttribute('max',n);if(parseInt(q.value)>n)q.value=n;}
  }
@@ -214,7 +227,8 @@ document.addEventListener('DOMContentLoaded',function(){
    s=document.querySelector('[class*="-g-product-add-section-"]');
   }
   if(s){
-   s.classList.remove('hide'); s.style.display='';
+   s.classList.remove('hide');
+   if(!window.RXBLOCK) s.style.display='';
    s.querySelectorAll('.hide').forEach(function(e){e.classList.remove('hide');});
   }
   var st=document.querySelector('[class*="stock-status"]');

@@ -1,7 +1,6 @@
 <!DOCTYPE html><html lang="ro"><head><meta charset="utf-8"><meta name="robots" content="noindex">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>Finalizare comandă | RIXAIR</title><meta property="og:title" content="Finalizare comandă | RIXAIR"/>
 <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;600;700&display=swap" rel="stylesheet">
-<script src="https://js.stripe.com/v3/"></script>
 <style>
 :root{--rx:#1583ab;--rx2:#0f6a8b;--gold:#f4c340}
 *{box-sizing:border-box}
@@ -17,7 +16,7 @@ h1{font-size:24px;margin:0 0 4px}
 .li{display:flex;justify-content:space-between;gap:10px;padding:9px 0;border-bottom:1px solid #eef2f5;font-size:14px}
 .li small{color:#789;display:block}
 .tot{display:flex;justify-content:space-between;font-weight:700;font-size:18px;margin-top:14px}
-.tot .tva{font-size:12px;color:#789;font-weight:400}
+.tva{font-size:12px;color:#789;font-weight:400}
 #pay-btn{margin-top:18px;width:100%;background:var(--gold);color:#222;border:0;border-radius:26px;padding:15px;font-size:16px;font-weight:700;font-family:inherit;cursor:pointer}
 #pay-btn:disabled{opacity:.6;cursor:default}
 .muted{font-size:12px;color:#8a99a3;margin-top:12px;text-align:center}
@@ -30,17 +29,29 @@ h1{font-size:24px;margin:0 0 4px}
 .in:focus{outline:none;border-color:var(--rx);box-shadow:0 0 0 3px rgba(21,131,171,.12)}
 .in.bad{border-color:#e0857d;background:#fff7f6}
 .secure{display:flex;align-items:center;justify-content:center;gap:6px;font-size:12px;color:#789;margin-top:10px}
-.spin{display:inline-block;width:16px;height:16px;border:2px solid #fff;border-top-color:transparent;border-radius:50%;animation:s .7s linear infinite;vertical-align:-3px;margin-right:6px}
+.spin{display:inline-block;width:16px;height:16px;border:2px solid #222;border-top-color:transparent;border-radius:50%;animation:s .7s linear infinite;vertical-align:-3px;margin-right:6px}
 @keyframes s{to{transform:rotate(360deg)}}
-.load{padding:40px;text-align:center;color:#789}
 </style></head>
 <body><div class="wrap">
 <div class="top"><a href="/cos-de-cumparaturi">&#8592; Înapoi la coș</a></div>
 <h1>Finalizare comandă</h1>
-<p style="margin:0 0 18px;color:#678;font-size:14px">Plată securizată cu cardul prin Stripe · livrare în toată România</p>
+<p style="margin:0 0 18px;color:#678;font-size:14px">Plată securizată cu cardul prin <b>BT iPay · Banca Transilvania</b> · livrare în toată România</p>
 <div class="grid">
   <div class="card">
-    <div id="pay-area"><div class="load"><span class="spin" style="border-color:#1583ab;border-top-color:transparent"></span> Se pregătește plata…</div></div>
+    <div id="pay-area">
+      <div class="field"><div class="lbl">Email *</div><input class="in" id="f-email" type="email" placeholder="adresa@exemplu.ro"></div>
+      <div class="row2">
+        <div class="field"><div class="lbl">Nume complet *</div><input class="in" id="f-nume" placeholder="Prenume Nume"></div>
+        <div class="field"><div class="lbl">Telefon *</div><input class="in" id="f-tel" placeholder="07xx xxx xxx"></div>
+      </div>
+      <div class="row2">
+        <div class="field"><div class="lbl">Județ *</div><select class="in" id="f-judet"></select></div>
+        <div class="field"><div class="lbl">Localitate *</div><input class="in" id="f-loc" placeholder="Localitatea"></div>
+      </div>
+      <div class="field"><div class="lbl">Adresă (stradă, nr.) *</div><input class="in" id="f-adr" placeholder="Str. Exemplu nr. 1"></div>
+      <button id="pay-btn">Plătește cu cardul</button>
+      <div class="secure">🔒 Ești redirecționat pe pagina securizată Banca Transilvania · 3-D Secure</div>
+    </div>
     <div class="err" id="err"></div>
   </div>
   <div class="card sum">
@@ -48,23 +59,23 @@ h1{font-size:24px;margin:0 0 4px}
     <div id="items"></div>
     <div class="tot"><span>Total</span><span id="total">—</span></div>
     <div class="tva">Prețuri cu TVA inclus (21%)</div>
-    <div class="secure">🔒 Date card criptate · 3-D Secure</div>
   </div>
 </div>
 <p class="muted">RIXAR IMOB S.R.L. · CUI RO40039921 · 0722 975 518 · office@rixar.ro</p>
 </div>
 
 <script>
-var FN='https://uyynocwfvwmgttckgvzu.supabase.co/functions/v1/create-payment-intent';
-var SUCCESS=location.origin+'/plata-reusita.html';
+var FN='https://uyynocwfvwmgttckgvzu.supabase.co/functions/v1/btipay-create-order';
 var JUDETE=["Alba","Arad","Argeș","Bacău","Bihor","Bistrița-Năsăud","Botoșani","Brașov","Brăila","București","Buzău","Caraș-Severin","Călărași","Cluj","Constanța","Covasna","Dâmbovița","Dolj","Galați","Giurgiu","Gorj","Harghita","Hunedoara","Ialomița","Iași","Ilfov","Maramureș","Mehedinți","Mureș","Neamț","Olt","Prahova","Satu Mare","Sălaj","Sibiu","Suceava","Teleorman","Timiș","Tulcea","Vaslui","Vâlcea","Vrancea"];
-function lei(n){return (n==null||isNaN(n))?'—':Number(n).toLocaleString('ro-RO',{minimumFractionDigits:(n%1===0)?0:2,maximumFractionDigits:2})+' Lei';}
+function lei(n){if(n==null||isNaN(n))return '—';return Number(n).toLocaleString('ro-RO',{minimumFractionDigits:(n%1===0)?0:2,maximumFractionDigits:2})+' Lei';}
 function cart(){try{return JSON.parse(localStorage.getItem('rx_cerere')||'[]')}catch(e){return[]}}
 function showErr(m){var e=document.getElementById('err');e.textContent=m;e.style.display='block';e.scrollIntoView({behavior:'smooth',block:'center'});}
 
 (function(){
   var l=cart();
   var items=document.getElementById('items');
+  document.getElementById('f-judet').innerHTML='<option value="">Alege județul…</option>'+JUDETE.map(function(j){return '<option>'+j+'</option>';}).join('');
+  document.getElementById('f-email').value=localStorage.getItem('rx_email')||'';
   if(!l.length){
     document.getElementById('pay-area').innerHTML='<p>Coșul e gol. <a href="/" style="color:#1583ab;font-weight:600">Mergi la catalog</a></p>';
     items.innerHTML='<p style="color:#789;font-size:14px">Niciun produs.</p>';return;
@@ -75,56 +86,35 @@ function showErr(m){var e=document.getElementById('err');e.textContent=m;e.style
     document.getElementById('pay-area').innerHTML='<p>Unele produse au preț la cerere — pentru ele te rugăm <a href="/cos-de-cumparaturi" style="color:#1583ab;font-weight:600">trimite cererea pe email</a>.</p>';
     return;
   }
+  var tot=l.reduce(function(s,i){return s+i.pret*i.qty},0);
+  document.getElementById('total').textContent=lei(tot);
 
-  var payload={items:l.map(function(i){return {sku:i.sku,qty:i.qty};}), email:(localStorage.getItem('rx_email')||undefined)};
-  fetch(FN,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)})
-   .then(function(r){return r.json();})
-   .then(function(d){
-     if(d.error) throw new Error(d.error);
-     if(!d.publishableKey) throw new Error('Cheia Stripe (publishable) nu este configurată încă pe server.');
-     document.getElementById('total').textContent=lei(d.total);
-     mountStripe(d.publishableKey, d.clientSecret);
-   })
-   .catch(function(e){
-     document.getElementById('pay-area').innerHTML='';
-     showErr('Plata nu a putut porni: '+e.message+' Poți reveni la coș și trimite cererea pe email.');
-   });
-
-  function mountStripe(pk, clientSecret){
-    var stripe=Stripe(pk);
-    var appearance={theme:'stripe',variables:{colorPrimary:'#1583ab',fontFamily:'Signika, sans-serif',borderRadius:'10px'}};
-    var elements=stripe.elements({clientSecret:clientSecret, appearance:appearance, locale:'ro'});
-    var jOpts='<option value="">Alege județul…</option>'+JUDETE.map(function(j){return '<option>'+j+'</option>';}).join('');
-    document.getElementById('pay-area').innerHTML=
-      '<div class="field"><div class="lbl">Email</div><input class="in" id="f-email" type="email" placeholder="adresa@exemplu.ro" value="'+(localStorage.getItem('rx_email')||'')+'"></div>'+
-      '<div class="row2"><div class="field"><div class="lbl">Nume complet</div><input class="in" id="f-nume" placeholder="Prenume Nume"></div>'+
-      '<div class="field"><div class="lbl">Telefon</div><input class="in" id="f-tel" type="tel" placeholder="07xx xxx xxx"></div></div>'+
-      '<div class="row2"><div class="field"><div class="lbl">Județ</div><select class="in" id="f-judet">'+jOpts+'</select></div>'+
-      '<div class="field"><div class="lbl">Localitate</div><input class="in" id="f-oras" placeholder="Oraș / comună"></div></div>'+
-      '<div class="row2"><div class="field"><div class="lbl">Adresă (stradă, număr)</div><input class="in" id="f-adresa" placeholder="Str. ... nr. ..."></div>'+
-      '<div class="field"><div class="lbl">Cod poștal</div><input class="in" id="f-cod" placeholder="opțional"></div></div>'+
-      '<div class="field"><div class="lbl">Date card</div><div id="el-payment"></div></div>'+
-      '<button id="pay-btn">Plătește în siguranță</button>';
-    var payEl=elements.create('payment',{layout:'tabs',fields:{billingDetails:{name:'never',email:'never',phone:'never',address:'never'}}});
-    payEl.mount('#el-payment');
-
-    function val(id){return (document.getElementById(id).value||'').trim();}
-    function mark(id,ok){document.getElementById(id).classList.toggle('bad',!ok);}
-    document.getElementById('pay-btn').addEventListener('click',function(){
-      var btn=this;
-      var email=val('f-email'),nume=val('f-nume'),tel=val('f-tel'),judet=val('f-judet'),oras=val('f-oras'),adresa=val('f-adresa'),cod=val('f-cod');
-      var okE=/.+@.+\..+/.test(email);mark('f-email',okE);mark('f-nume',!!nume);mark('f-tel',tel.length>=6);mark('f-judet',!!judet);mark('f-oras',!!oras);mark('f-adresa',!!adresa);
-      if(!(okE&&nume&&tel.length>=6&&judet&&oras&&adresa)){showErr('Te rugăm completează email, nume, telefon, județ, localitate și adresă.');return;}
-      try{localStorage.setItem('rx_email',email);}catch(e){}
-      btn.disabled=true;btn.innerHTML='<span class="spin"></span>Se procesează…';
-      document.getElementById('err').style.display='none';
-      var det={name:nume,email:email,phone:tel,address:{country:'RO',state:judet,city:oras,line1:adresa,postal_code:cod||undefined}};
-      stripe.confirmPayment({elements:elements,confirmParams:{return_url:SUCCESS,payment_method_data:{billing_details:det},shipping:{name:nume,phone:tel,address:{country:'RO',state:judet,city:oras,line1:adresa,postal_code:cod||undefined}}}})
-       .then(function(res){
-         if(res.error){btn.disabled=false;btn.textContent='Plătește în siguranță';showErr(res.error.message||'Plata a fost respinsă.');}
-       });
+  document.getElementById('pay-btn').addEventListener('click',function(){
+    var v=function(id){return document.getElementById(id)};
+    var ok=true;
+    ['f-email','f-nume','f-tel','f-judet','f-loc','f-adr'].forEach(function(id){
+      var el=v(id); var good=el.value && el.value.trim().length>1;
+      if(id==='f-email') good=/.+@.+\..+/.test(el.value);
+      el.classList.toggle('bad',!good); if(!good) ok=false;
     });
-  }
+    if(!ok){showErr('Completează câmpurile marcate.');return;}
+    var btn=this; btn.disabled=true; btn.innerHTML='<span class="spin"></span>Se deschide plata…';
+    try{localStorage.setItem('rx_email',v('f-email').value.trim());}catch(e){}
+    fetch(FN,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
+      items:l.map(function(i){return {sku:i.sku,qty:i.qty};}),
+      email:v('f-email').value.trim(), nume:v('f-nume').value.trim(), telefon:v('f-tel').value.trim(),
+      adresa:{judet:v('f-judet').value, localitate:v('f-loc').value.trim(), adresa:v('f-adr').value.trim()}
+    })})
+    .then(function(r){return r.json();})
+    .then(function(d){
+      if(d.error) throw new Error(d.error);
+      if(!d.formUrl) throw new Error('răspuns neașteptat de la server');
+      location.href=d.formUrl;   // pagina securizata BT
+    })
+    .catch(function(e){
+      btn.disabled=false; btn.textContent='Plătește cu cardul';
+      showErr('Plata nu a putut porni: '+e.message);
+    });
+  });
 })();
-</script>
-</body></html>
+</script></body></html>

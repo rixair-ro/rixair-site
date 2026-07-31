@@ -293,28 +293,28 @@
   "pret_de_la": null,
   "variante": [
    {
-    "nume": "9000 BTU — 2,6 kW răcire / 2,7 kW încălzire",
+    "nume": "9000 BTU — 2,6 kW răcire / 2,7 kW încălzire — în stoc",
     "pret": 1970,
     "sku": "CLV-EZCool-9000BTU",
     "stoc": "in_stoc",
     "cantitate": 1
    },
    {
-    "nume": "12000 BTU — 3,2 kW răcire / 3,5 kW încălzire",
+    "nume": "12000 BTU — 3,2 kW răcire / 3,5 kW încălzire — în stoc",
     "pret": 2070,
     "sku": "CLV-EZCool-12000BTU",
     "stoc": "in_stoc",
     "cantitate": 1
    },
    {
-    "nume": "18000 BTU — 5,3 kW răcire / 5,4 kW încălzire",
+    "nume": "18000 BTU — 5,3 kW răcire / 5,4 kW încălzire — în stoc",
     "pret": 3610,
     "sku": "CLV-EZCool-18000BTU",
     "stoc": "in_stoc",
     "cantitate": 1
    },
    {
-    "nume": "24000 BTU — 5,9 kW răcire / 6,7 kW încălzire",
+    "nume": "24000 BTU — 5,9 kW răcire / 6,7 kW încălzire — nu este în stoc",
     "pret": 4630,
     "sku": "CLV-EZCool-24000BTU",
     "stoc": "fara_stoc"
@@ -339,27 +339,27 @@
   "pret_de_la": null,
   "variante": [
    {
-    "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire",
+    "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire — în stoc",
     "pret": 1710,
     "sku": "CLV-Essential2-9000BTU",
     "stoc": "in_stoc",
     "cantitate": 2
    },
    {
-    "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire",
+    "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire — în stoc",
     "pret": 1950,
     "sku": "CLV-Essential2-12000BTU",
     "stoc": "in_stoc",
     "cantitate": 4
    },
    {
-    "nume": "18000 BTU — 5,3 kW răcire / 5,6 kW încălzire",
+    "nume": "18000 BTU — 5,3 kW răcire / 5,6 kW încălzire — nu este în stoc",
     "pret": 3730,
     "sku": "CLV-Essential2-18000BTU",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "24000 BTU — 7,0 kW răcire / 7,3 kW încălzire",
+    "nume": "24000 BTU — 7,0 kW răcire / 7,3 kW încălzire — în stoc",
     "pret": 3810,
     "sku": "CLV-Essential2-24000BTU",
     "stoc": "in_stoc",
@@ -385,26 +385,26 @@
   "pret_de_la": null,
   "variante": [
    {
-    "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire",
+    "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire — nu este în stoc",
     "pret": 1980,
     "sku": "CLV-NATIV-9000BTU",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire",
+    "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire — nu este în stoc",
     "pret": 2170,
     "sku": "CLV-NATIV-12000BTU",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "18000 BTU — 5,3 kW răcire / 5,6 kW încălzire",
+    "nume": "18000 BTU — 5,3 kW răcire / 5,6 kW încălzire — în stoc",
     "pret": 3390,
     "sku": "CLV-NATIV-18000BTU",
     "stoc": "in_stoc",
     "cantitate": 1
    },
    {
-    "nume": "24000 BTU — 7,0 kW răcire / 7,3 kW încălzire",
+    "nume": "24000 BTU — 7,0 kW răcire / 7,3 kW încălzire — nu este în stoc",
     "pret": 4970,
     "sku": "CLV-NATIV-24000BTU",
     "stoc": "fara_stoc"
@@ -429,26 +429,26 @@
   "pret_de_la": null,
   "variante": [
    {
-    "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire",
+    "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire — nu este în stoc",
     "pret": 3090,
     "sku": "CLV-Cristallo2-9000BTU",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire",
+    "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire — în stoc",
     "pret": 3200,
     "sku": "CLV-Cristallo2-12000BTU",
     "stoc": "in_stoc",
     "cantitate": 1
    },
    {
-    "nume": "18000 BTU — 5,3 kW răcire / 5,4 kW încălzire",
+    "nume": "18000 BTU — 5,3 kW răcire / 5,4 kW încălzire — nu este în stoc",
     "pret": 5130,
     "sku": "CLV-Cristallo2-18000BTU",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "24000 BTU — 5,9 kW răcire / 6,7 kW încălzire",
+    "nume": "24000 BTU — 5,9 kW răcire / 6,7 kW încălzire — nu este în stoc",
     "pret": 6250,
     "sku": "CLV-Cristallo2-24000BTU",
     "stoc": "fara_stoc"
@@ -473,13 +473,13 @@
   "pret_de_la": null,
   "variante": [
    {
-    "nume": "9000 BTU — 2,6 kW răcire / 4,1 kW încălzire",
+    "nume": "9000 BTU — 2,6 kW răcire / 4,1 kW încălzire — nu este în stoc",
     "pret": 5060,
     "sku": "CLV-Stelvio-9000BTU",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "12000 BTU — 3,5 kW răcire / 4,2 kW încălzire",
+    "nume": "12000 BTU — 3,5 kW răcire / 4,2 kW încălzire — nu este în stoc",
     "pret": 5220,
     "sku": "CLV-Stelvio-12000BTU",
     "stoc": "fara_stoc"
@@ -504,34 +504,40 @@
   "pret_de_la": null,
   "variante": [
    {
-    "nume": "ELFOSpace BOX3 007.0",
-    "pret": 1880,
-    "sku": "ELFOSpace-BOX3-007-inverter"
+    "nume": "ELFOSpace BOX3 007.0 — nu este în stoc",
+    "pret": 2730,
+    "sku": "ELFOSpace-BOX3-007-inverter",
+    "stoc": "fara_stoc"
    },
    {
-    "nume": "ELFOSpace BOX3 011.0",
-    "pret": 1970,
-    "sku": "ELFOSpace-BOX3-011-inverter"
+    "nume": "ELFOSpace BOX3 011.0 — nu este în stoc",
+    "pret": 2860,
+    "sku": "ELFOSpace-BOX3-011-inverter",
+    "stoc": "fara_stoc"
    },
    {
-    "nume": "ELFOSpace BOX3 015.0",
-    "pret": 1990,
-    "sku": "ELFOSpace-BOX3-015-inverter"
+    "nume": "ELFOSpace BOX3 015.0 — nu este în stoc",
+    "pret": 2890,
+    "sku": "ELFOSpace-BOX3-015-inverter",
+    "stoc": "fara_stoc"
    },
    {
-    "nume": "ELFOSpace BOX3 021.0",
-    "pret": 2100,
-    "sku": "ELFOSpace-BOX3-021-inverter"
+    "nume": "ELFOSpace BOX3 021.0 — nu este în stoc",
+    "pret": 3040,
+    "sku": "ELFOSpace-BOX3-021-inverter",
+    "stoc": "fara_stoc"
    },
    {
-    "nume": "ELFOSpace BOX3 031.0",
-    "pret": 2480,
-    "sku": "ELFOSpace-BOX3-031-inverter"
+    "nume": "ELFOSpace BOX3 031.0 — nu este în stoc",
+    "pret": 3600,
+    "sku": "ELFOSpace-BOX3-031-inverter",
+    "stoc": "fara_stoc"
    },
    {
-    "nume": "ELFOSpace BOX3 041.0",
-    "pret": 2780,
-    "sku": "ELFOSpace-BOX3-041-inverter"
+    "nume": "ELFOSpace BOX3 041.0 — nu este în stoc",
+    "pret": 4030,
+    "sku": "ELFOSpace-BOX3-041-inverter",
+    "stoc": "fara_stoc"
    }
   ],
   "descriere": "data/descrieri/23.html",
@@ -554,30 +560,34 @@
   "variante": [
    {
     "nume": "ELFORoom² 003.0 — nu este în stoc",
-    "pret": 2020,
-    "sku": "Clivet-ELFORoom2-003-inverter"
+    "pret": 2930,
+    "sku": "Clivet-ELFORoom2-003-inverter",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "ELFORoom² 005.0 — nu este în stoc",
-    "pret": 2240,
-    "sku": "Clivet-ELFORoom2-005-inverter"
+    "pret": 3250,
+    "sku": "Clivet-ELFORoom2-005-inverter",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "ELFORoom² 011.0 — nu este în stoc",
-    "pret": 2450,
-    "sku": "Clivet-ELFORoom2-011-inverter"
+    "pret": 3550,
+    "sku": "Clivet-ELFORoom2-011-inverter",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "ELFORoom² 015.0 — în stoc",
-    "pret": 2760,
+    "pret": 4010,
     "sku": "Clivet-ELFORoom2-015-inverter",
     "cantitate": 1,
     "stoc": "in_stoc"
    },
    {
     "nume": "ELFORoom² 017.0 — nu este în stoc",
-    "pret": 3040,
-    "sku": "Clivet-ELFORoom2-017-inverter"
+    "pret": 4410,
+    "sku": "Clivet-ELFORoom2-017-inverter",
+    "stoc": "fara_stoc"
    }
   ],
   "descriere": "data/descrieri/24.html",
@@ -673,32 +683,37 @@
    },
    {
     "nume": "AURA 3 (CFFAC) — nu este în stoc",
-    "pret": 780,
-    "sku": "Clivet-AURA-3-CFFAC"
+    "pret": 1130,
+    "sku": "Clivet-AURA-3-CFFAC",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "AURA 4 (CFFAC) — nu este în stoc",
-    "pret": 820,
-    "sku": "Clivet-AURA-4-CFFAC"
+    "pret": 1190,
+    "sku": "Clivet-AURA-4-CFFAC",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "AURA 6 (CFFAC) — nu este în stoc",
-    "pret": 920,
-    "sku": "Clivet-AURA-6-CFFAC"
+    "pret": 1330,
+    "sku": "Clivet-AURA-6-CFFAC",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "AURA 8 (CFFAC) — nu este în stoc",
-    "pret": 1010,
-    "sku": "Clivet-AURA-8-CFFAC"
+    "pret": 1460,
+    "sku": "Clivet-AURA-8-CFFAC",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "AURA 10 (CFFAC) — nu este în stoc",
-    "pret": 1210,
-    "sku": "Clivet-AURA-10-CFFAC"
+    "pret": 1760,
+    "sku": "Clivet-AURA-10-CFFAC",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "AURA 12 (CFFAC) — în stoc",
-    "pret": 1330,
+    "pret": 1930,
     "sku": "Clivet-AURA-12-CFFAC",
     "cantitate": 3,
     "stoc": "in_stoc"
@@ -725,7 +740,8 @@
    {
     "nume": "MOOD 1 — nu este în stoc",
     "pret": 2270,
-    "sku": "Clivet-MOOD-1-cfw2-inverter"
+    "sku": "Clivet-MOOD-1-cfw2-inverter",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "MOOD 2 — în stoc",
@@ -737,17 +753,20 @@
    {
     "nume": "MOOD 3 — nu este în stoc",
     "pret": 2510,
-    "sku": "Clivet-MOOD-3-cfw2-inverter"
+    "sku": "Clivet-MOOD-3-cfw2-inverter",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "MOOD 4 — nu este în stoc",
     "pret": 2700,
-    "sku": "Clivet-MOOD-4-cfw2-inverter"
+    "sku": "Clivet-MOOD-4-cfw2-inverter",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "MOOD 5 — nu este în stoc",
     "pret": 2770,
-    "sku": "Clivet-MOOD-5-cfw2-inverter"
+    "sku": "Clivet-MOOD-5-cfw2-inverter",
+    "stoc": "fara_stoc"
    }
   ],
   "descriere": "data/descrieri/27.html",
@@ -843,33 +862,39 @@
    },
    {
     "nume": "AURA 3 (CFFAU) — nu este în stoc",
-    "pret": 630,
-    "sku": "Clivet-AURA-3-CFFAU"
+    "pret": 920,
+    "sku": "Clivet-AURA-3-CFFAU",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "AURA 4 (CFFAU) — nu este în stoc",
-    "pret": 680,
-    "sku": "Clivet-AURA-4-CFFAU"
+    "pret": 990,
+    "sku": "Clivet-AURA-4-CFFAU",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "AURA 6 (CFFAU) — nu este în stoc",
-    "pret": 800,
-    "sku": "Clivet-AURA-6-CFFAU"
+    "pret": 1150,
+    "sku": "Clivet-AURA-6-CFFAU",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "AURA 8 (CFFAU) — nu este în stoc",
-    "pret": 880,
-    "sku": "Clivet-AURA-8-CFFAU"
+    "pret": 1280,
+    "sku": "Clivet-AURA-8-CFFAU",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "AURA 10 (CFFAU) — nu este în stoc",
-    "pret": 1070,
-    "sku": "Clivet-AURA-10-CFFAU"
+    "pret": 1560,
+    "sku": "Clivet-AURA-10-CFFAU",
+    "stoc": "fara_stoc"
    },
    {
     "nume": "AURA 12 (CFFAU) — nu este în stoc",
-    "pret": 1180,
-    "sku": "Clivet-AURA-12-CFFAU"
+    "pret": 1720,
+    "sku": "Clivet-AURA-12-CFFAU",
+    "stoc": "fara_stoc"
    }
   ],
   "descriere": "data/descrieri/26.html",

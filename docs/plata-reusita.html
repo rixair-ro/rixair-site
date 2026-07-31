@@ -1,17 +1,57 @@
 <!DOCTYPE html><html lang="ro"><head><meta charset="utf-8"><meta name="robots" content="noindex">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>Plată reușită | RIXAIR</title><meta property="og:title" content="Plată reușită | RIXAIR"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Stare plată | RIXAIR</title>
 <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;600;700&display=swap" rel="stylesheet">
-<style>body{font-family:'Signika',sans-serif;background:#fff;color:#333;display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0}
-.c{text-align:center;max-width:560px;padding:30px}
-.ic{width:88px;height:88px;border-radius:50%;background:#e8f5e9;color:#2e7d32;font-size:44px;line-height:88px;margin:0 auto 22px}
-h1{font-size:28px;margin:0 0 10px}p{font-size:16px;color:#556;line-height:1.55}
-a.b{display:inline-block;margin-top:22px;background:#1583ab;color:#fff;text-decoration:none;border-radius:24px;padding:13px 30px;font-weight:700}</style></head>
-<body><div class="c">
-<div class="ic">✓</div>
-<h1>Mulțumim! Plata a fost efectuată.</h1>
-<p>Comanda ta a fost înregistrată. Primești confirmarea pe email, iar un coleg te va contacta pentru detaliile de livrare.</p>
-<p style="font-size:14px;color:#789">RIXAR IMOB S.R.L. · 0722 975 518 · office@rixar.ro</p>
-<a class="b" href="/">Înapoi la magazin</a>
+<style>
+*{box-sizing:border-box}
+body{font-family:'Signika',sans-serif;background:#f4f7f9;color:#243;margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+.card{background:#fff;border-radius:16px;box-shadow:0 4px 22px rgba(20,60,90,.1);padding:36px;max-width:520px;text-align:center}
+.ic{font-size:52px;margin-bottom:8px}
+h1{font-size:24px;margin:0 0 8px}
+p{color:#567;font-size:15px;line-height:1.55;margin:8px 0}
+.b{display:inline-block;background:#1583ab;color:#fff;border-radius:24px;padding:13px 28px;font-weight:700;font-size:14.5px;text-decoration:none;margin-top:14px}
+.b.o{background:#fff;color:#1583ab;border:2px solid #1583ab;margin-left:8px}
+.spin{display:inline-block;width:26px;height:26px;border:3px solid #1583ab;border-top-color:transparent;border-radius:50%;animation:s .8s linear infinite}
+@keyframes s{to{transform:rotate(360deg)}}
+.muted{font-size:12px;color:#8a99a3;margin-top:18px}
+</style></head>
+<body><div class="card" id="c">
+  <div class="ic"><span class="spin"></span></div>
+  <h1>Verificăm plata…</h1>
+  <p>Un moment, confirmăm starea plății cu Banca Transilvania.</p>
 </div>
-<script>try{localStorage.removeItem('rx_cerere');}catch(e){}</script>
-</body></html>
+<script>
+var VF='https://uyynocwfvwmgttckgvzu.supabase.co/functions/v1/btipay-verify';
+function lei(n){if(n==null||isNaN(n))return '';return Number(n).toLocaleString('ro-RO',{minimumFractionDigits:(n%1===0)?0:2,maximumFractionDigits:2})+' Lei';}
+function draw(ic,t,p,links){
+  document.getElementById('c').innerHTML='<div class="ic">'+ic+'</div><h1>'+t+'</h1><p>'+p+'</p>'+links+
+  '<p class="muted">RIXAR IMOB S.R.L. · 0722 975 518 · office@rixar.ro</p>';
+}
+(function(){
+  var q=new URLSearchParams(location.search);
+  var orderId=q.get('orderId');
+  if(!orderId){
+    draw('✅','Comandă înregistrată','Dacă ai finalizat plata, vei primi un email de confirmare în scurt timp.','<a class="b" href="/">Prima pagină</a>');
+    return;
+  }
+  fetch(VF,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({orderId:orderId})})
+  .then(function(r){return r.json();})
+  .then(function(d){
+    if(d.error) throw new Error(d.error);
+    if(d.status==='platita'){
+      try{localStorage.setItem('rx_cerere','[]');}catch(e){}
+      draw('🎉','Plată confirmată!','Comanda <b>#'+d.numar+'</b> în valoare de <b>'+lei(d.total)+'</b> a fost plătită cu succes. Ai primit un email de confirmare, iar un coleg te va contacta pentru livrare.',
+        '<a class="b" href="/">Înapoi la magazin</a>');
+    } else if(d.status==='in_asteptare'){
+      draw('⏳','Plata este în curs','Banca încă procesează plata pentru comanda #'+d.numar+'. Reîncarcă pagina în câteva momente.',
+        '<a class="b" href="javascript:location.reload()">Reîncarcă</a><a class="b o" href="/">Prima pagină</a>');
+    } else {
+      draw('❌','Plata nu a fost finalizată', (d.btError?d.btError+'. ':'')+'Comanda #'+d.numar+' nu a fost debitată. Poți încerca din nou din coș.',
+        '<a class="b" href="/plata/">Încearcă din nou</a><a class="b o" href="/cos-de-cumparaturi">Vezi coșul</a>');
+    }
+  })
+  .catch(function(e){
+    draw('⚠️','Nu am putut verifica plata', e.message+'. Dacă ai plătit, vei primi email de confirmare; ne poți contacta la 0722 975 518.',
+      '<a class="b" href="/">Prima pagină</a>');
+  });
+})();
+</script></body></html>

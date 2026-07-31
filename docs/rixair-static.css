@@ -182,3 +182,6 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .owl-item:has(> .product-box-h > [data-rx-hidden="1"]),
 .owl-item:has([data-rx-hidden="1"]),
 .product-box-h:has(> [data-rx-hidden="1"]){display:none!important}
+
+/* rx-carduri-egale: titlurile ocupa mereu 3 randuri -> toate cardurile au aceeasi inaltime */
+.carousel-slide .product-box .title,.product-listing .product-box .title{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;min-height:66px;line-height:22px}

@@ -15,9 +15,9 @@ def fmt(x):
     return a if b == "00" else a + "," + b
 
 def vviz(p):
-    """variantele afisate pe site: cele cu stoc != fara_stoc (daca toate ar fi ascunse, se afiseaza toate)"""
+    """variantele afisate pe site: cele cu PRET (fara pret nu apar); fallback: toate"""
     vs = p.get("variante") or []
-    viz = [v for v in vs if v.get("stoc") != "fara_stoc"]
+    viz = [v for v in vs if v.get("pret")]
     return viz if viz else vs
 
 def pmin(p):
@@ -65,9 +65,11 @@ for nr, p in sorted(PR.items()):
         if p.get("variante"):
             def opt(v):
                 stocattr = ' data-stoc="%d"' % v["cantitate"] if v.get("cantitate") else ""
-                return '<option data-pret="%s" data-prnum="%s" data-sku="%s"%s>%s</option>' % (
+                st = v.get("stoc")
+                stare = "in_stoc" if st == "in_stoc" else ("fara_stoc" if st == "fara_stoc" else "la_comanda")
+                return '<option data-pret="%s" data-prnum="%s" data-sku="%s" data-stare="%s"%s>%s</option>' % (
                     fmt(v["pret"]) if v.get("pret") else "", v["pret"] if v.get("pret") else "",
-                    H.escape(v["sku"]), stocattr, H.escape(v["nume"]))
+                    H.escape(v["sku"]), stare, stocattr, H.escape(v["nume"]))
             variante_afisate = vviz(p)
             if any(v.get("grup") for v in variante_afisate):
                 opts = ""; gcur = None; deschis = False
