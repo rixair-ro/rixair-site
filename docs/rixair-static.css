@@ -191,3 +191,6 @@ body.rx-cos .logo-h img, body.rx-cos .main-header img, body.rx-cos header .logo 
 body.rx-cos .main-header{padding:8px 36px!important;border-bottom:1px solid #f0f0f0}
 body.rx-cos #shoppingcart{padding-top:0!important}
 body.rx-cos #shoppingcart h1{margin:14px 0 16px!important}
+
+/* rx-tabele-late: tabelele tehnice din descrieri ocupa toata latimea */
+._descriptionTab table{width:100%}
