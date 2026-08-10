@@ -185,3 +185,9 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 
 /* rx-carduri-egale: titlurile ocupa mereu 3 randuri -> toate cardurile au aceeasi inaltime */
 .carousel-slide .product-box .title,.product-listing .product-box .title{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;min-height:66px;line-height:22px}
+
+/* rx-cos-compact: pe cos/cauta logo-ul mic si continutul sus (invinge rx-logo-big) */
+body.rx-cos .logo-h img, body.rx-cos .main-header img, body.rx-cos header .logo img{height:84px!important;max-height:84px!important}
+body.rx-cos .main-header{padding:8px 36px!important;border-bottom:1px solid #f0f0f0}
+body.rx-cos #shoppingcart{padding-top:0!important}
+body.rx-cos #shoppingcart h1{margin:14px 0 16px!important}

@@ -1,4 +1,3 @@
-var RX_CHECKOUT_URL='https://uyynocwfvwmgttckgvzu.supabase.co/functions/v1/stripe-checkout';
 
 (function(){
 var EMAIL='office@rixar.ro';
