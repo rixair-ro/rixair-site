@@ -14,11 +14,17 @@ function qadd(it){var l=qget(),k=null;for(var i=0;i<l.length;i++)if(l[i].sku===i
  else{if(max!=null&&it.qty>max){it.qty=max;l.push(it);qset(l);toast('&#9888; Stoc disponibil: doar '+max+' buc. &#8212; <a href="/cos-de-cumparaturi">vezi cererea</a>');return;}l.push(it);}
  qset(l);
  toast('&#10003; Ad&#259;ugat la cererea de ofert&#259; &#8212; <a href="/cos-de-cumparaturi">vezi cererea</a>');}
-/* adauga in cos -> cerere */
+/* adauga in cos -> cerere (cu animatie de apasare + mic delay) */
 document.addEventListener('click',function(e){
  var t=e.target.closest('[onclick*="addToCart"],[href*="addToCart"],.__productAddToCart');
  if(!t)return;
  e.preventDefault();e.stopPropagation();e.stopImmediatePropagation();
+ if(t.getAttribute('data-rx-busy'))return;
+ t.setAttribute('data-rx-busy','1');
+ t.classList.remove('rx-press'); void t.offsetWidth; t.classList.add('rx-press');
+ setTimeout(function(){ t.classList.remove('rx-press'); t.removeAttribute('data-rx-busy'); rxDoAdd(t); },340);
+},true);
+function rxDoAdd(t){
  var it=null;
  if(window.RXPROD){it={sku:RXPROD.sku,nume:RXPROD.nume,pret:RXPROD.pret,img:RXPROD.img,qty:1};
   var q=document.querySelector('input[name="quantity"]');if(q)it.qty=Math.max(1,parseInt(q.value)||1);
@@ -29,8 +35,24 @@ document.addEventListener('click',function(e){
    it={sku:'produs-'+(card.getAttribute('data-product-id')||''),nume:(nm?nm.getAttribute('data-name'):(card.textContent.trim().slice(0,80))),pret:null,img:(im?im.getAttribute('src'):''),qty:1};}
  }
  if(window.RXBLOCK){toast('&#9888; Acest model nu este &#238;n stoc.');return;}
- if(it)qadd(it);
-},true);
+ if(it){qadd(it);
+  var ad=document.querySelector('.rx-addon.rx-on');
+  if(ad)qadd({sku:ad.getAttribute('data-sku'), nume:ad.getAttribute('data-nume'),
+              pret:parseFloat(ad.getAttribute('data-pret')), img:'', qty:1,
+              stoc:parseInt(ad.getAttribute('data-stoc')||'2')});
+ }
+}
+/* accesoriu optional (ex. controler KJRP-86R) -> checkbox; se adauga in cos impreuna cu produsul */
+(function(){
+ document.querySelectorAll('.rx-addon').forEach(function(b){
+  var base=(b.textContent||'').replace(/^\s*\+\s*/,'').trim();
+  b.innerHTML='<span class="rx-cb"></span><span class="rx-lb"></span>';
+  var lb=b.querySelector('.rx-lb');
+  function paint(){lb.textContent=(b.classList.contains('rx-on')?'+ ':'')+base;}
+  paint();
+  b.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();b.classList.toggle('rx-on');paint();});
+ });
+})();
 /* variante -> pret */
 document.addEventListener('change',function(e){
  if(!e.target.classList.contains('rxVar'))return;
@@ -199,6 +221,7 @@ document.addEventListener('DOMContentLoaded',function(){
   }
   var sec=document.querySelector('[class*="-g-product-add-section-"]');
   if(sec) sec.style.display=window.RXBLOCK?'none':'';
+  document.querySelectorAll('.rx-addon').forEach(function(b){b.style.display=window.RXBLOCK?'none':'';});
   var q=document.querySelector('input[name="quantity"]');
   if(q&&n!=null){q.setAttribute('max',n);if(parseInt(q.value)>n)q.value=n;}
  }

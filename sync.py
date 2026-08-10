@@ -67,9 +67,10 @@ for nr, p in sorted(PR.items()):
                 stocattr = ' data-stoc="%d"' % v["cantitate"] if v.get("cantitate") else ""
                 st = v.get("stoc")
                 stare = "in_stoc" if st == "in_stoc" else ("fara_stoc" if st == "fara_stoc" else "la_comanda")
+                suf = {"in_stoc": " — în stoc", "fara_stoc": " — nu este în stoc", "la_comanda": " — la comandă"}[stare]
                 return '<option data-pret="%s" data-prnum="%s" data-sku="%s" data-stare="%s"%s>%s</option>' % (
                     fmt(v["pret"]) if v.get("pret") else "", v["pret"] if v.get("pret") else "",
-                    H.escape(v["sku"]), stare, stocattr, H.escape(v["nume"]))
+                    H.escape(v["sku"]), stare, stocattr, H.escape(v["nume"]) + suf)
             variante_afisate = vviz(p)
             if any(v.get("grup") for v in variante_afisate):
                 opts = ""; gcur = None; deschis = False

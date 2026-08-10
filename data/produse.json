@@ -9,39 +9,39 @@
   "pret_de_la": null,
   "variante": [
    {
-    "nume": "2.1 — 4.2 kW heating (Edge EVO EXC monofazic) — la comandă",
+    "nume": "2.1 — 4.2 kW încălzire",
     "pret": 13790,
     "sku": "CLV-EDGE-EVO-EXC-2-1-220M"
    },
    {
-    "nume": "3.1 — 5.4 kW heating (Edge EVO EXC monofazic) — în stoc",
+    "nume": "3.1 — 5.4 kW încălzire",
     "pret": 15860,
     "sku": "CLV-EDGE-EVO-EXC-3-1-220M",
     "cantitate": 2,
     "stoc": "in_stoc"
    },
    {
-    "nume": "4.1 — 6.5 kW heating (Edge EVO EXC monofazic) — la comandă",
+    "nume": "4.1 — 6.5 kW încălzire",
     "pret": 17240,
     "sku": "CLV-EDGE-EVO-EXC-4-1-220M"
    },
    {
-    "nume": "5.1 — 7.5 kW heating (Edge EVO EXC monofazic) — la comandă",
+    "nume": "5.1 — 7.5 kW încălzire",
     "pret": 19620,
     "sku": "CLV-EDGE-EVO-EXC-5-1-220M"
    },
    {
-    "nume": "6.1 — 10.6 kW heating (Edge EVO EXC monofazic) — la comandă",
+    "nume": "6.1 — 10.6 kW încălzire",
     "pret": 22270,
     "sku": "CLV-EDGE-EVO-EXC-6-1-220M"
    },
    {
-    "nume": "7.1 — 12.0 kW heating (Edge EVO EXC monofazic) — la comandă",
+    "nume": "7.1 — 12.0 kW încălzire",
     "pret": 24510,
     "sku": "CLV-EDGE-EVO-EXC-7-1-220M"
    },
    {
-    "nume": "8.1 — 14.0 kW heating (Edge EVO EXC monofazic) — la comandă",
+    "nume": "8.1 — 14.0 kW încălzire",
     "pret": 25580,
     "sku": "CLV-EDGE-EVO-EXC-8-1-220M"
    }
@@ -65,43 +65,43 @@
   "pret_de_la": null,
   "variante": [
    {
-    "nume": "Edge EVO XL 6.1T (WiSAN-YME R-32) — în stoc",
+    "nume": "Edge EVO XL 6.1T",
     "pret": 22980,
     "sku": "CLV-EDGE-EVO-EXC-XL-6-1T",
     "cantitate": 2,
     "stoc": "in_stoc"
    },
    {
-    "nume": "Edge EVO XL 7.1T (WiSAN-YME R-32) — la comandă",
+    "nume": "Edge EVO XL 7.1T",
     "pret": 25270,
     "sku": "CLV-EDGE-EVO-EXC-XL-7-1T"
    },
    {
-    "nume": "Edge EVO XL 8.1T (WiSAN-YME R-32) — în stoc",
+    "nume": "Edge EVO XL 8.1T",
     "pret": 26420,
     "sku": "CLV-EDGE-EVO-EXC-XL-8-1T",
     "cantitate": 2,
     "stoc": "in_stoc"
    },
    {
-    "nume": "Edge EVO XL 9.1 (WiSAN-YME R-32) — la comandă",
+    "nume": "Edge EVO XL 9.1",
     "pret": 32510,
     "sku": "CLV-EDGE-EVO-EXC-XL-9-1"
    },
    {
-    "nume": "Edge EVO XL 10.1 (WiSAN-YME R-32) — la comandă",
+    "nume": "Edge EVO XL 10.1",
     "pret": 34690,
     "sku": "CLV-EDGE-EVO-EXC-XL-10-1"
    },
    {
-    "nume": "Edge EVO XL 12.1 (WiSAN-YME R-32) — în stoc",
+    "nume": "Edge EVO XL 12.1",
     "pret": 40630,
     "sku": "CLV-EDGE-EVO-EXC-XL-12-1",
     "cantitate": 1,
     "stoc": "in_stoc"
    },
    {
-    "nume": "Edge EVO XL 14.1 (WiSAN-YME R-32) — la comandă",
+    "nume": "Edge EVO XL 14.1",
     "pret": 44400,
     "sku": "CLV-EDGE-EVO-EXC-XL-14-1"
    }
@@ -125,62 +125,64 @@
   "pret_de_la": null,
   "variante": [
    {
-    "nume": "Edge F 2.1 (WiSAN-PME R-290) — la comandă",
+    "nume": "Edge F 2.1",
     "pret": 15800,
     "sku": "EdgeF-2.1"
    },
    {
-    "nume": "Edge F 3.1 (WiSAN-PME R-290) — la comandă",
+    "nume": "Edge F 3.1",
     "pret": 18260,
     "sku": "EdgeF-3.1"
    },
    {
-    "nume": "Edge F 4.1 (WiSAN-PME R-290) — în stoc",
+    "nume": "Edge F 4.1",
     "pret": 19900,
     "sku": "EdgeF-4.1",
     "cantitate": 1,
     "stoc": "in_stoc"
    },
    {
-    "nume": "Edge F 5.1 (WiSAN-PME R-290) — în stoc",
+    "nume": "Edge F 5.1",
     "pret": 22740,
     "sku": "EdgeF-5.1",
     "cantitate": 1,
     "stoc": "in_stoc"
    },
    {
-    "nume": "Edge F 6.1 (WiSAN-PME R-290) — la comandă",
+    "nume": "Edge F 6.1",
     "pret": 25890,
     "sku": "EdgeF-6.1"
    },
    {
-    "nume": "Edge F 7.1 (WiSAN-PME R-290) — la comandă",
+    "nume": "Edge F 7.1",
     "pret": 28550,
     "sku": "EdgeF-7.1"
    },
    {
-    "nume": "Edge F 8.1 (WiSAN-PME R-290) — la comandă",
+    "nume": "Edge F 8.1",
     "pret": 29830,
     "sku": "EdgeF-8.1"
    },
    {
-    "nume": "Edge F 6.1T (WiSAN-PME R-290) — în stoc",
+    "nume": "Edge F 6.1T",
     "pret": 26730,
     "sku": "EdgeF-6.1T",
     "cantitate": 1,
     "stoc": "in_stoc"
    },
    {
-    "nume": "Edge F 7.1T (WiSAN-PME R-290) — în stoc",
+    "nume": "Edge F 7.1T",
     "pret": 29470,
     "sku": "EdgeF-7.1T",
     "cantitate": 1,
     "stoc": "in_stoc"
    },
    {
-    "nume": "Edge F 8.1T (WiSAN-PME R-290) — la comandă",
+    "nume": "Edge F 8.1T",
     "pret": 30830,
-    "sku": "EdgeF-8.1T"
+    "sku": "EdgeF-8.1T",
+    "stoc": "in_stoc",
+    "cantitate": 1
    }
   ],
   "descriere": "data/descrieri/03.html",
@@ -202,85 +204,106 @@
   "pret_de_la": null,
   "variante": [
    {
-    "nume": "Edge PRO 2.1 (WiSAN-PMP R-290) — la comandă",
+    "nume": "Edge PRO 2.1",
     "pret": 19060,
     "sku": "CLV-EDGE-PRO-2-1"
    },
    {
-    "nume": "Edge PRO 3.1 (WiSAN-PMP R-290) — la comandă",
+    "nume": "Edge PRO 3.1",
     "pret": 21130,
     "sku": "CLV-EDGE-PRO-3-1"
    },
    {
-    "nume": "Edge PRO 4.1 (WiSAN-PMP R-290) — la comandă",
+    "nume": "Edge PRO 4.1",
     "pret": 22660,
     "sku": "CLV-EDGE-PRO-4-1"
    },
    {
-    "nume": "Edge PRO 4.1T (WiSAN-PMP R-290) — la comandă",
+    "nume": "Edge PRO 4.1T",
     "pret": 23830,
     "sku": "CLV-EDGE-PRO-4-1T"
    },
    {
-    "nume": "Edge PRO 5.1 (WiSAN-PMP R-290) — în stoc",
+    "nume": "Edge PRO 5.1",
     "pret": 25640,
     "sku": "CLV-EDGE-PRO-5-1",
     "cantitate": 1,
     "stoc": "in_stoc"
    },
    {
-    "nume": "Edge PRO 5.1T (WiSAN-PMP R-290) — la comandă",
+    "nume": "Edge PRO 5.1T",
     "pret": 26960,
     "sku": "CLV-EDGE-PRO-5-1T"
    },
    {
-    "nume": "Edge PRO 6.1 (WiSAN-PMP R-290) — la comandă",
+    "nume": "Edge PRO 6.1",
     "pret": 30370,
     "sku": "CLV-EDGE-PRO-6-1"
    },
    {
-    "nume": "Edge PRO 6.1T (WiSAN-PMP R-290) — la comandă",
-    "pret": 31540,
-    "sku": "CLV-EDGE-PRO-6-1T"
-   },
-   {
-    "nume": "Edge PRO 7.1 (WiSAN-PMP R-290) — la comandă",
+    "nume": "Edge PRO 7.1",
     "pret": 32210,
     "sku": "CLV-EDGE-PRO-7-1"
    },
    {
-    "nume": "Edge PRO 7.1T (WiSAN-PMP R-290) — la comandă",
+    "nume": "Edge PRO 8.1",
+    "pret": 33670,
+    "sku": "CLV-EDGE-PRO-8-1"
+   }
+  ],
+  "descriere": "data/descrieri/04.html",
+  "poza": "poze/p04.png",
+  "seo_title": "Pompă de Căldură Clivet Edge PRO Premium R-290 | RIXAIR",
+  "seo_meta": "Pompă de căldură premium Clivet Edge PRO, R-290 ecologic, ultra-silențioasă, 2.1-8.1. Pentru case exigente. Distribuitor oficial Clivet.",
+  "nota_interna": "",
+  "cat": "monobloc",
+  "nume_lung": "Pompă de căldură monobloc Edge PRO R-290 (WiSAN-PMP) 2.1–8.1",
+  "stoc": "in_stoc"
+ },
+ {
+  "nr": 5,
+  "slug": "pompa-de-caldura-monobloc-edge-pro-trifazic-r-290-wisan-pmp-6-1t-14-1",
+  "nume": "Pompă de căldură monobloc Edge PRO Trifazic R-290 (WiSAN-PMP) 6.1T–14.1",
+  "sku": "CLV-EDGE-PRO-T",
+  "categorie": "pompe",
+  "pret_tip": "variante",
+  "pret_de_la": null,
+  "variante": [
+   {
+    "nume": "Edge PRO 6.1T",
+    "pret": 31540,
+    "sku": "CLV-EDGE-PRO-6-1T",
+    "stoc": "in_stoc",
+    "cantitate": 1
+   },
+   {
+    "nume": "Edge PRO 7.1T",
     "pret": 33100,
     "sku": "CLV-EDGE-PRO-7-1T"
    },
    {
-    "nume": "Edge PRO 8.1 (WiSAN-PMP R-290) — la comandă",
-    "pret": 33670,
-    "sku": "CLV-EDGE-PRO-8-1"
-   },
-   {
-    "nume": "Edge PRO 8.1T (WiSAN-PMP R-290) — la comandă",
+    "nume": "Edge PRO 8.1T",
     "pret": 34630,
     "sku": "CLV-EDGE-PRO-8-1T"
    },
    {
-    "nume": "Edge PRO 12.1 (WiSAN-PMP R-290) — la comandă",
+    "nume": "Edge PRO L 12.1",
     "pret": 59720,
     "sku": "CLV-EDGE-PRO-12-1"
    },
    {
-    "nume": "Edge PRO 14.1 (WiSAN-PMP R-290) — la comandă",
+    "nume": "Edge PRO L 14.1",
     "pret": 61090,
     "sku": "CLV-EDGE-PRO-14-1"
    }
   ],
   "descriere": "data/descrieri/04.html",
   "poza": "poze/p04.png",
-  "seo_title": "Pompă de Căldură Clivet Edge PRO Premium R-290 | RIXAIR",
-  "seo_meta": "Pompă de căldură premium Clivet Edge PRO, R-290 ecologic, ultra-silențioasă, 2.1-14.1. Pentru case exigente. Distribuitor oficial Clivet.",
+  "seo_title": "Pompă de Căldură Clivet Edge PRO Trifazic R-290 | RIXAIR",
+  "seo_meta": "Pompă de căldură premium Clivet Edge PRO trifazic, R-290 ecologic, ultra-silențioasă, 6.1T-14.1. Distribuitor oficial Clivet.",
   "nota_interna": "",
   "cat": "monobloc",
-  "nume_lung": "Pompă de căldură monobloc Edge PRO R-290 (WiSAN-PMP) 2.1–8.1",
+  "nume_lung": "Pompă de căldură monobloc Edge PRO Trifazic R-290 (WiSAN-PMP) 6.1T–14.1",
   "stoc": "in_stoc"
  },
  {
@@ -293,28 +316,28 @@
   "pret_de_la": null,
   "variante": [
    {
-    "nume": "9000 BTU — 2,6 kW răcire / 2,7 kW încălzire — în stoc",
+    "nume": "9000 BTU — 2,6 kW răcire / 2,7 kW încălzire",
     "pret": 1970,
     "sku": "CLV-EZCool-9000BTU",
     "stoc": "in_stoc",
-    "cantitate": 1
+    "cantitate": 5
    },
    {
-    "nume": "12000 BTU — 3,2 kW răcire / 3,5 kW încălzire — în stoc",
+    "nume": "12000 BTU — 3,2 kW răcire / 3,5 kW încălzire",
     "pret": 2070,
     "sku": "CLV-EZCool-12000BTU",
     "stoc": "in_stoc",
-    "cantitate": 1
+    "cantitate": 15
    },
    {
-    "nume": "18000 BTU — 5,3 kW răcire / 5,4 kW încălzire — în stoc",
+    "nume": "18000 BTU — 5,3 kW răcire / 5,4 kW încălzire",
     "pret": 3610,
     "sku": "CLV-EZCool-18000BTU",
     "stoc": "in_stoc",
-    "cantitate": 1
+    "cantitate": 5
    },
    {
-    "nume": "24000 BTU — 5,9 kW răcire / 6,7 kW încălzire — nu este în stoc",
+    "nume": "24000 BTU — 5,9 kW răcire / 6,7 kW încălzire",
     "pret": 4630,
     "sku": "CLV-EZCool-24000BTU",
     "stoc": "fara_stoc"
@@ -339,31 +362,31 @@
   "pret_de_la": null,
   "variante": [
    {
-    "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire — în stoc",
+    "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire",
     "pret": 1710,
     "sku": "CLV-Essential2-9000BTU",
     "stoc": "in_stoc",
     "cantitate": 2
    },
    {
-    "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire — în stoc",
+    "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire",
     "pret": 1950,
     "sku": "CLV-Essential2-12000BTU",
     "stoc": "in_stoc",
     "cantitate": 4
    },
    {
-    "nume": "18000 BTU — 5,3 kW răcire / 5,6 kW încălzire — nu este în stoc",
+    "nume": "18000 BTU — 5,3 kW răcire / 5,6 kW încălzire",
     "pret": 3730,
     "sku": "CLV-Essential2-18000BTU",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "24000 BTU — 7,0 kW răcire / 7,3 kW încălzire — în stoc",
+    "nume": "24000 BTU — 7,0 kW răcire / 7,3 kW încălzire",
     "pret": 3810,
     "sku": "CLV-Essential2-24000BTU",
     "stoc": "in_stoc",
-    "cantitate": 3
+    "cantitate": 2
    }
   ],
   "descriere": "data/descrieri/15.html",
@@ -385,26 +408,26 @@
   "pret_de_la": null,
   "variante": [
    {
-    "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire — nu este în stoc",
+    "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire",
     "pret": 1980,
     "sku": "CLV-NATIV-9000BTU",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire — nu este în stoc",
+    "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire",
     "pret": 2170,
     "sku": "CLV-NATIV-12000BTU",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "18000 BTU — 5,3 kW răcire / 5,6 kW încălzire — în stoc",
+    "nume": "18000 BTU — 5,3 kW răcire / 5,6 kW încălzire",
     "pret": 3390,
     "sku": "CLV-NATIV-18000BTU",
     "stoc": "in_stoc",
     "cantitate": 1
    },
    {
-    "nume": "24000 BTU — 7,0 kW răcire / 7,3 kW încălzire — nu este în stoc",
+    "nume": "24000 BTU — 7,0 kW răcire / 7,3 kW încălzire",
     "pret": 4970,
     "sku": "CLV-NATIV-24000BTU",
     "stoc": "fara_stoc"
@@ -429,26 +452,26 @@
   "pret_de_la": null,
   "variante": [
    {
-    "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire — nu este în stoc",
+    "nume": "9000 BTU — 2,6 kW răcire / 2,9 kW încălzire",
     "pret": 3090,
     "sku": "CLV-Cristallo2-9000BTU",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire — în stoc",
+    "nume": "12000 BTU — 3,5 kW răcire / 3,8 kW încălzire",
     "pret": 3200,
     "sku": "CLV-Cristallo2-12000BTU",
     "stoc": "in_stoc",
     "cantitate": 1
    },
    {
-    "nume": "18000 BTU — 5,3 kW răcire / 5,4 kW încălzire — nu este în stoc",
+    "nume": "18000 BTU — 5,3 kW răcire / 5,4 kW încălzire",
     "pret": 5130,
     "sku": "CLV-Cristallo2-18000BTU",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "24000 BTU — 5,9 kW răcire / 6,7 kW încălzire — nu este în stoc",
+    "nume": "24000 BTU — 5,9 kW răcire / 6,7 kW încălzire",
     "pret": 6250,
     "sku": "CLV-Cristallo2-24000BTU",
     "stoc": "fara_stoc"
@@ -473,13 +496,13 @@
   "pret_de_la": null,
   "variante": [
    {
-    "nume": "9000 BTU — 2,6 kW răcire / 4,1 kW încălzire — nu este în stoc",
+    "nume": "9000 BTU — 2,6 kW răcire / 4,1 kW încălzire",
     "pret": 5060,
     "sku": "CLV-Stelvio-9000BTU",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "12000 BTU — 3,5 kW răcire / 4,2 kW încălzire — nu este în stoc",
+    "nume": "12000 BTU — 3,5 kW răcire / 4,2 kW încălzire",
     "pret": 5220,
     "sku": "CLV-Stelvio-12000BTU",
     "stoc": "fara_stoc"
@@ -504,37 +527,37 @@
   "pret_de_la": null,
   "variante": [
    {
-    "nume": "ELFOSpace BOX3 007.0 — nu este în stoc",
+    "nume": "ELFOSpace BOX3 007.0",
     "pret": 2730,
     "sku": "ELFOSpace-BOX3-007-inverter",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "ELFOSpace BOX3 011.0 — nu este în stoc",
+    "nume": "ELFOSpace BOX3 011.0",
     "pret": 2860,
     "sku": "ELFOSpace-BOX3-011-inverter",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "ELFOSpace BOX3 015.0 — nu este în stoc",
+    "nume": "ELFOSpace BOX3 015.0",
     "pret": 2890,
     "sku": "ELFOSpace-BOX3-015-inverter",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "ELFOSpace BOX3 021.0 — nu este în stoc",
+    "nume": "ELFOSpace BOX3 021.0",
     "pret": 3040,
     "sku": "ELFOSpace-BOX3-021-inverter",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "ELFOSpace BOX3 031.0 — nu este în stoc",
+    "nume": "ELFOSpace BOX3 031.0",
     "pret": 3600,
     "sku": "ELFOSpace-BOX3-031-inverter",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "ELFOSpace BOX3 041.0 — nu este în stoc",
+    "nume": "ELFOSpace BOX3 041.0",
     "pret": 4030,
     "sku": "ELFOSpace-BOX3-041-inverter",
     "stoc": "fara_stoc"
@@ -559,32 +582,32 @@
   "pret_de_la": null,
   "variante": [
    {
-    "nume": "ELFORoom² 003.0 — nu este în stoc",
+    "nume": "ELFORoom² 003.0",
     "pret": 2930,
     "sku": "Clivet-ELFORoom2-003-inverter",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "ELFORoom² 005.0 — nu este în stoc",
+    "nume": "ELFORoom² 005.0",
     "pret": 3250,
     "sku": "Clivet-ELFORoom2-005-inverter",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "ELFORoom² 011.0 — nu este în stoc",
+    "nume": "ELFORoom² 011.0",
     "pret": 3550,
     "sku": "Clivet-ELFORoom2-011-inverter",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "ELFORoom² 015.0 — în stoc",
+    "nume": "ELFORoom² 015.0",
     "pret": 4010,
     "sku": "Clivet-ELFORoom2-015-inverter",
     "cantitate": 1,
     "stoc": "in_stoc"
    },
    {
-    "nume": "ELFORoom² 017.0 — nu este în stoc",
+    "nume": "ELFORoom² 017.0",
     "pret": 4410,
     "sku": "Clivet-ELFORoom2-017-inverter",
     "stoc": "fara_stoc"
@@ -670,49 +693,49 @@
   "pret_de_la": null,
   "variante": [
    {
-    "nume": "AURA 1 (CFFAC) — la comandă",
+    "nume": "AURA 1 (CFFAC)",
     "pret": null,
     "sku": "Clivet-AURA-1-CFFAC",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "AURA 2 (CFFAC) — la comandă",
+    "nume": "AURA 2 (CFFAC)",
     "pret": null,
     "sku": "Clivet-AURA-2-CFFAC",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "AURA 3 (CFFAC) — nu este în stoc",
+    "nume": "AURA 3 (CFFAC)",
     "pret": 1130,
     "sku": "Clivet-AURA-3-CFFAC",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "AURA 4 (CFFAC) — nu este în stoc",
+    "nume": "AURA 4 (CFFAC)",
     "pret": 1190,
     "sku": "Clivet-AURA-4-CFFAC",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "AURA 6 (CFFAC) — nu este în stoc",
+    "nume": "AURA 6 (CFFAC)",
     "pret": 1330,
     "sku": "Clivet-AURA-6-CFFAC",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "AURA 8 (CFFAC) — nu este în stoc",
+    "nume": "AURA 8 (CFFAC)",
     "pret": 1460,
     "sku": "Clivet-AURA-8-CFFAC",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "AURA 10 (CFFAC) — nu este în stoc",
+    "nume": "AURA 10 (CFFAC)",
     "pret": 1760,
     "sku": "Clivet-AURA-10-CFFAC",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "AURA 12 (CFFAC) — în stoc",
+    "nume": "AURA 12 (CFFAC)",
     "pret": 1930,
     "sku": "Clivet-AURA-12-CFFAC",
     "cantitate": 3,
@@ -738,35 +761,37 @@
   "pret_de_la": 2550,
   "variante": [
    {
-    "nume": "MOOD 1 — nu este în stoc",
+    "nume": "MOOD 1",
     "pret": 2270,
     "sku": "Clivet-MOOD-1-cfw2-inverter",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "MOOD 2 — în stoc",
+    "nume": "MOOD 2",
     "pret": 2360,
     "sku": "Clivet-MOOD-2-cfw2-inverter",
-    "cantitate": 1,
+    "cantitate": 5,
     "stoc": "in_stoc"
    },
    {
-    "nume": "MOOD 3 — nu este în stoc",
+    "nume": "MOOD 3",
     "pret": 2510,
     "sku": "Clivet-MOOD-3-cfw2-inverter",
-    "stoc": "fara_stoc"
+    "stoc": "in_stoc",
+    "cantitate": 4
    },
    {
-    "nume": "MOOD 4 — nu este în stoc",
+    "nume": "MOOD 4",
     "pret": 2700,
     "sku": "Clivet-MOOD-4-cfw2-inverter",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "MOOD 5 — nu este în stoc",
+    "nume": "MOOD 5",
     "pret": 2770,
     "sku": "Clivet-MOOD-5-cfw2-inverter",
-    "stoc": "fara_stoc"
+    "stoc": "in_stoc",
+    "cantitate": 1
    }
   ],
   "descriere": "data/descrieri/27.html",
@@ -861,37 +886,37 @@
     "stoc": "fara_stoc"
    },
    {
-    "nume": "AURA 3 (CFFAU) — nu este în stoc",
+    "nume": "AURA 3 (CFFAU)",
     "pret": 920,
     "sku": "Clivet-AURA-3-CFFAU",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "AURA 4 (CFFAU) — nu este în stoc",
+    "nume": "AURA 4 (CFFAU)",
     "pret": 990,
     "sku": "Clivet-AURA-4-CFFAU",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "AURA 6 (CFFAU) — nu este în stoc",
+    "nume": "AURA 6 (CFFAU)",
     "pret": 1150,
     "sku": "Clivet-AURA-6-CFFAU",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "AURA 8 (CFFAU) — nu este în stoc",
+    "nume": "AURA 8 (CFFAU)",
     "pret": 1280,
     "sku": "Clivet-AURA-8-CFFAU",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "AURA 10 (CFFAU) — nu este în stoc",
+    "nume": "AURA 10 (CFFAU)",
     "pret": 1560,
     "sku": "Clivet-AURA-10-CFFAU",
     "stoc": "fara_stoc"
    },
    {
-    "nume": "AURA 12 (CFFAU) — nu este în stoc",
+    "nume": "AURA 12 (CFFAU)",
     "pret": 1720,
     "sku": "Clivet-AURA-12-CFFAU",
     "stoc": "fara_stoc"
@@ -905,5 +930,25 @@
   "cat": "ventiloconvectoare",
   "nume_lung": "Ventiloconvector Clivet AURA necarcasat 3 viteze (CFFAU 3-12)",
   "stoc": "fara_stoc"
+ },
+ {
+  "nr": 90,
+  "slug": "accesorii-aura",
+  "nume": "Accesorii ventiloconvectoare AURA",
+  "nume_lung": "Accesorii ventiloconvectoare Clivet AURA",
+  "sku": null,
+  "categorie": "vcv",
+  "pret_tip": "variante",
+  "pret_de_la": null,
+  "stoc": "ascuns",
+  "variante": [
+   {
+    "nume": "Controler KJRP-86R cu touch screen (montaj pe unitate sau perete, port Modbus)",
+    "pret": 300,
+    "sku": "Clivet-HMIFACX-KJRP86R",
+    "stoc": "in_stoc",
+    "cantitate": 2
+   }
+  ]
  }
 ]

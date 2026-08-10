@@ -25,7 +25,7 @@ table.rx-t img{width:54px;height:54px;object-fit:contain}
 .rx-ha.l{left:18px}.rx-ha.r{right:18px}
 
 .rx-vhero{position:relative;width:100%;height:46vw;max-height:640px;min-height:320px;overflow:hidden;background:#0d2d4e url('/domains2/wwwrixairro/files/files/clivet-wallpaper-fascia-bassa-2257x700-b6429-1733220518.png') center/cover no-repeat}
-.rx-vhero iframe{position:absolute;top:50%;left:50%;width:100vw;height:56.25vw;min-height:103%;min-width:183vh;transform:translate(-50%,-50%);border:0;pointer-events:none}
+.rx-vhero video,.rx-vhero iframe{position:absolute;top:50%;left:50%;width:100vw;height:56.25vw;min-height:103%;min-width:183vh;transform:translate(-50%,-50%);border:0;pointer-events:none;object-fit:cover}
 
 .rx-calc{max-width:1100px;margin:54px auto;padding:0 24px;text-align:center}
 .rx-calc h2{font-size:26px;font-weight:700;color:#333;margin-bottom:8px}
@@ -170,8 +170,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .rx-calcbtn{display:none!important}
 
 /* rx-vhero-fade: ascunde ecranul de incarcare YouTube; video-ul apare dupa ce a pornit */
-.rx-vhero iframe{opacity:0;animation:rxVheroIn 1.2s ease 6.8s forwards}
-@keyframes rxVheroIn{to{opacity:1}}
+
 
 /* rx-nostock: eticheta rosie pe cardurile produselor fara stoc (fara iconita de bifat) */
 [data-rx-nostock] .stock-status{color:#c0392b!important}
@@ -194,3 +193,17 @@ body.rx-cos #shoppingcart h1{margin:14px 0 16px!important}
 
 /* rx-tabele-late: tabelele tehnice din descrieri ocupa toata latimea */
 ._descriptionTab table{width:100%}
+
+/* rx-addon: buton accesoriu optional linga selectorul de model */
+select.rxVar{display:inline-block;vertical-align:middle}
+.rx-addon{display:inline-flex;align-items:center;gap:9px;vertical-align:top;margin-left:10px;padding:0 14px;height:46px;background:#fff;color:#333;border:1px solid #ccc;border-radius:8px;font-family:inherit;font-size:13.5px;font-weight:600;cursor:pointer;transition:border-color .15s}
+.rx-addon:hover{border-color:#999}
+.rx-addon .rx-cb{width:17px;height:17px;flex:none;border:2px solid #aaa;border-radius:4px;background:#fff;display:inline-flex;align-items:center;justify-content:center;font-size:12px;line-height:1;color:#fff}
+.rx-addon.rx-on .rx-cb{background:#1583ab;border-color:#1583ab}
+.rx-addon.rx-on .rx-cb::after{content:'\2713'}
+@media(max-width:700px){.rx-addon{margin:10px 0 0}}
+
+/* butonul Adauga in cos: text centrat + animatie de apasare */
+#wrapper .add2cart{display:inline-flex !important;align-items:center;justify-content:center;text-align:center;gap:8px;transition:transform .12s ease,filter .12s ease;will-change:transform}
+#wrapper .add2cart.rx-press{animation:rxpress .34s ease}
+@keyframes rxpress{0%{transform:scale(1)}40%{transform:scale(.93);filter:brightness(.9)}100%{transform:scale(1)}}
