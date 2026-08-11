@@ -172,10 +172,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 /* rx-vhero-fade: ascunde ecranul de incarcare YouTube; video-ul apare dupa ce a pornit */
 
 
-/* rx-nostock: eticheta rosie pe cardurile produselor fara stoc (fara iconita de bifat) */
-[data-rx-nostock] .stock-status{color:#c0392b!important}
-[data-rx-nostock] .stock-status i{display:none!important}
-[data-rx-nostock] .stock-status, [data-rx-nostock] .stock-status *{color:#c0392b!important}
+
 
 /* rx-hidden-wrap: containerele de carusel/grid ale produselor ascunse dispar complet (fara goluri) */
 .owl-item:has(> .product-box-h > [data-rx-hidden="1"]),
@@ -210,3 +207,12 @@ select.rxVar{display:inline-block;vertical-align:middle}
 
 /* titluri intrebari pe paginile de continut (FAQ, Ajutor etc.) */
 .rx-page-fill h3{font-size:18px;font-weight:700;color:#333;margin:18px 0 6px;line-height:1.35}
+
+/* buton comanda prin email (produse la comanda) */
+#rx-email-buy{margin:14px 0 6px}
+#rx-email-buy .rx-b{display:inline-flex;align-items:center;gap:8px;background:#1583ab;color:#fff;padding:12px 22px;border-radius:24px;font-weight:700;text-decoration:none;font-size:14.5px}
+#rx-email-buy .rx-b:hover{background:#116d8f;text-decoration:none;color:#fff}
+
+/* fara pret vechi taiat (aparea la +/- cantitate) */
+#wrapper .detail-price s{display:none!important}
+#wrapper .product-box s{display:none!important}

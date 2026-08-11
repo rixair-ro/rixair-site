@@ -1,363 +1,1464 @@
 {
- "1": {
+ "100": {
   "pids": [
-   180,
-   193
+   7000
   ],
   "detalii": [
-   "monobloc/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
-   "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
-   "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s.html"
+   "monobloc/pompa-de-caldura-monobloc-edge-evo-2-0-exc-2-1-wisan-yme-r-32.html"
   ],
   "listari": {
-   "193": [
+   "7000": [
     "index.html",
     "monobloc/index.html",
-    "monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
-    "pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
-    "pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
-    "pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
-    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
-    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
-    "pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
-    "pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
-    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
-    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
-    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
-    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
-    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
-    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
-    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
-    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
-    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
-    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
-    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
     "pompe-de-caldura/index.html",
-    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
-    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
-    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
-    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
-    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
-    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
-    "pompe-de-caldura/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
-    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
-    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
-    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
-    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
-    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
-    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
-    "pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
-    "pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
     "produse/clivet/index.html",
     "produse/index.html"
    ]
   }
  },
- "2": {
+ "101": {
   "pids": [
-   493
+   7001
   ],
   "detalii": [
-   "aer-apa-monobloc/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html",
-   "edge-evo-2-0-exc/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html",
-   "pompe-de-caldura-36/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html"
+   "monobloc/pompa-de-caldura-monobloc-edge-evo-2-0-exc-3-1-wisan-yme-r-32.html"
   ],
   "listari": {
-   "493": [
+   "7001": [
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "102": {
+  "pids": [
+   7002
+  ],
+  "detalii": [
+   "monobloc/pompa-de-caldura-monobloc-edge-evo-2-0-exc-4-1-wisan-yme-r-32.html"
+  ],
+  "listari": {
+   "7002": [
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "103": {
+  "pids": [
+   7003
+  ],
+  "detalii": [
+   "monobloc/pompa-de-caldura-monobloc-edge-evo-2-0-exc-5-1-wisan-yme-r-32.html"
+  ],
+  "listari": {
+   "7003": [
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "104": {
+  "pids": [
+   7004
+  ],
+  "detalii": [
+   "monobloc/pompa-de-caldura-monobloc-edge-evo-2-0-exc-6-1-wisan-yme-r-32.html"
+  ],
+  "listari": {
+   "7004": [
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "105": {
+  "pids": [
+   7005
+  ],
+  "detalii": [
+   "monobloc/pompa-de-caldura-monobloc-edge-evo-2-0-exc-7-1-wisan-yme-r-32.html"
+  ],
+  "listari": {
+   "7005": [
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "106": {
+  "pids": [
+   7006
+  ],
+  "detalii": [
+   "monobloc/pompa-de-caldura-monobloc-edge-evo-2-0-exc-8-1-wisan-yme-r-32.html"
+  ],
+  "listari": {
+   "7006": [
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "107": {
+  "pids": [
+   7007
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-evo-2-0-exc-xl-6-1t-wisan-yme-r-32.html"
+  ],
+  "listari": {
+   "7007": [
     "aer-apa-monobloc/index.html",
-    "aer-apa-monobloc/pompă-de-căldură-clivet-edge-pro-monobloc-r-290-wisan-pmp-2-1-14-1.html",
     "edge-evo-2-0-exc/index.html",
-    "edge-pro/pompă-de-căldură-clivet-edge-pro-monobloc-r-290-wisan-pmp-2-1-14-1.html",
-    "pompe-de-caldura-36/index.html",
-    "pompe-de-caldura-36/pompă-de-căldură-clivet-edge-pro-monobloc-r-290-wisan-pmp-2-1-14-1.html",
-    "produse/clivet/index.html",
-    "produse/index.html",
-    "index.html",
-    "pompe-de-caldura/index.html",
-    "monobloc/index.html"
-   ]
-  }
- },
- "3": {
-  "pids": [
-   197
-  ],
-  "detalii": [
-   "monobloc/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
-   "pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html",
-   "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-f-aer-apa-2-1-8-1-odu-wisan-pme-1-s.html"
-  ],
-  "listari": {
-   "197": [
     "index.html",
     "monobloc/index.html",
-    "monobloc/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
-    "pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
-    "pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
-    "pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
-    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
-    "pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
-    "pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
-    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
-    "pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
-    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
-    "pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
-    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
-    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
-    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
-    "pompe-de-caldura-split-hibrid-cu-gaz-si-agent-frigorific/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
-    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
-    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
-    "pompe-de-caldura-tip-split-cu-agent-frigorific/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
+    "pompe-de-caldura-36/index.html",
     "pompe-de-caldura/index.html",
-    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-box-easybox-hqcn-nee-1-bc-odu-edge-evo2-exc-wisan-yme-1-s-2-1-14-1-odu-edge-f-wisan-pme-2-1-8-1.html",
-    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-invisible-easyin-rezervor-dhw-150l-integrat-hqcn-nee-1-tc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
-    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-mini-easymini-rezervor-dhw-50l-integrat-hqcn-nee-1-mc-a-hqcn-nee-1-mc-odu-exc-wisan-yme-1-s-2-1-8-1-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
-    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-190l-250l-hqcn-nee-1-tc-a-190l-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
-    "pompe-de-caldura/pompa-de-caldura-clivet-hydro-split-model-tower-rezervor-dhw-250l-hqcn-nee-1-tc-a-250l-odu-edge-evo-2-exc-wisan-yme-1-s-odu-edge-f-wisan-pme-1-s-2-1-8-1.html",
-    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s-193.html",
-    "pompe-de-caldura/pompa-de-caldura-monobloc-clivet-edge-evo-2-0-exc-aer-apa-2-1-14-1-odu-wisan-yme-1-s.html",
-    "pompe-de-caldura/pompa-de-caldura-split-clivet-model-invisible-sphera-evo-2-0-aer-apa-rezervor-dhw-150l-inclus-sqkn-yee-1-ic-odu-misan-yee-1-s-2-1-5-1.html",
-    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
-    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-box-sphera-evo-2-0-aer-apa-2-1-8-1-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-odu-misan-yee-1-s.html",
-    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-24-4-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
-    "pompe-de-caldura/pompa-de-caldura-split-hybrid-clivet-model-tower-sphera-evo-2-0-aer-apa-2-1-8-1-rezervor-dhw-150l-centrala-pe-gaz-fe-33-4-kw-integrata-sqkn-yee-1-bh-tower-odu-misan-yee-1-s.html",
-    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
-    "pompe-de-caldura/pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
-    "pompă-de-căldură-split-cu-agent-frigorific-clivet-box-sphera-evo-2-0-misan-yee-r-32.html",
-    "pompă-de-căldură-split-cu-agent-frigorific-clivet-tower-sphera-evo-2-0-misan-yee-r-32-cu-rezervor-dhw-190-250l.html",
     "produse/clivet/index.html",
     "produse/index.html"
    ]
   }
  },
- "4": {
+ "108": {
   "pids": [
-   501
+   7008
   ],
   "detalii": [
-   "aer-apa-monobloc/pompă-de-căldură-clivet-edge-pro-monobloc-r-290-wisan-pmp-2-1-14-1.html",
-   "edge-pro/pompă-de-căldură-clivet-edge-pro-monobloc-r-290-wisan-pmp-2-1-14-1.html",
-   "pompe-de-caldura-36/pompă-de-căldură-clivet-edge-pro-monobloc-r-290-wisan-pmp-2-1-14-1.html"
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-evo-2-0-exc-xl-7-1t-wisan-yme-r-32.html"
   ],
   "listari": {
-   "501": [
+   "7008": [
     "aer-apa-monobloc/index.html",
-    "aer-apa-monobloc/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html",
-    "edge-evo-2-0-exc/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html",
-    "edge-pro/index.html",
+    "edge-evo-2-0-exc/index.html",
+    "index.html",
+    "monobloc/index.html",
     "pompe-de-caldura-36/index.html",
-    "pompe-de-caldura-36/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html",
-    "produse/clivet/index.html",
-    "produse/index.html",
-    "index.html",
     "pompe-de-caldura/index.html",
-    "monobloc/index.html"
+    "produse/clivet/index.html",
+    "produse/index.html"
    ]
   }
  },
- "14": {
+ "109": {
   "pids": [
-   409
+   7009
   ],
   "detalii": [
-   "aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
-   "echipamente-de-aer-conditionat/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
-   "single-split/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html"
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-evo-2-0-exc-xl-8-1t-wisan-yme-r-32.html"
   ],
   "listari": {
-   "409": [
-    "aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
-    "aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
-    "aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
-    "aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
-    "echipamente-de-aer-conditionat/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
-    "echipamente-de-aer-conditionat/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
-    "echipamente-de-aer-conditionat/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
-    "echipamente-de-aer-conditionat/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
+   "7009": [
+    "aer-apa-monobloc/index.html",
+    "edge-evo-2-0-exc/index.html",
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "110": {
+  "pids": [
+   7010
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-evo-2-0-exc-xl-9-1-wisan-yme-r-32.html"
+  ],
+  "listari": {
+   "7010": [
+    "aer-apa-monobloc/index.html",
+    "edge-evo-2-0-exc/index.html",
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "111": {
+  "pids": [
+   7011
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-evo-2-0-exc-xl-10-1-wisan-yme-r-32.html"
+  ],
+  "listari": {
+   "7011": [
+    "aer-apa-monobloc/index.html",
+    "edge-evo-2-0-exc/index.html",
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "112": {
+  "pids": [
+   7012
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-evo-2-0-exc-xl-12-1-wisan-yme-r-32.html"
+  ],
+  "listari": {
+   "7012": [
+    "aer-apa-monobloc/index.html",
+    "edge-evo-2-0-exc/index.html",
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "113": {
+  "pids": [
+   7013
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-evo-2-0-exc-xl-14-1-wisan-yme-r-32.html"
+  ],
+  "listari": {
+   "7013": [
+    "aer-apa-monobloc/index.html",
+    "edge-evo-2-0-exc/index.html",
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "114": {
+  "pids": [
+   7014
+  ],
+  "detalii": [
+   "monobloc/pompa-de-caldura-monobloc-edge-f-2-1-wisan-pme-r-290.html"
+  ],
+  "listari": {
+   "7014": [
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "115": {
+  "pids": [
+   7015
+  ],
+  "detalii": [
+   "monobloc/pompa-de-caldura-monobloc-edge-f-3-1-wisan-pme-r-290.html"
+  ],
+  "listari": {
+   "7015": [
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "116": {
+  "pids": [
+   7016
+  ],
+  "detalii": [
+   "monobloc/pompa-de-caldura-monobloc-edge-f-4-1-wisan-pme-r-290.html"
+  ],
+  "listari": {
+   "7016": [
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "117": {
+  "pids": [
+   7017
+  ],
+  "detalii": [
+   "monobloc/pompa-de-caldura-monobloc-edge-f-5-1-wisan-pme-r-290.html"
+  ],
+  "listari": {
+   "7017": [
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "118": {
+  "pids": [
+   7018
+  ],
+  "detalii": [
+   "monobloc/pompa-de-caldura-monobloc-edge-f-6-1-wisan-pme-r-290.html"
+  ],
+  "listari": {
+   "7018": [
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "119": {
+  "pids": [
+   7019
+  ],
+  "detalii": [
+   "monobloc/pompa-de-caldura-monobloc-edge-f-7-1-wisan-pme-r-290.html"
+  ],
+  "listari": {
+   "7019": [
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "120": {
+  "pids": [
+   7020
+  ],
+  "detalii": [
+   "monobloc/pompa-de-caldura-monobloc-edge-f-8-1-wisan-pme-r-290.html"
+  ],
+  "listari": {
+   "7020": [
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "121": {
+  "pids": [
+   7021
+  ],
+  "detalii": [
+   "monobloc/pompa-de-caldura-monobloc-edge-f-6-1t-wisan-pme-r-290.html"
+  ],
+  "listari": {
+   "7021": [
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "122": {
+  "pids": [
+   7022
+  ],
+  "detalii": [
+   "monobloc/pompa-de-caldura-monobloc-edge-f-7-1t-wisan-pme-r-290.html"
+  ],
+  "listari": {
+   "7022": [
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "123": {
+  "pids": [
+   7023
+  ],
+  "detalii": [
+   "monobloc/pompa-de-caldura-monobloc-edge-f-8-1t-wisan-pme-r-290.html"
+  ],
+  "listari": {
+   "7023": [
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "124": {
+  "pids": [
+   7024
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-pro-2-1-wisan-pmp-r-290.html"
+  ],
+  "listari": {
+   "7024": [
+    "aer-apa-monobloc/index.html",
+    "edge-pro/index.html",
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "125": {
+  "pids": [
+   7025
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-pro-3-1-wisan-pmp-r-290.html"
+  ],
+  "listari": {
+   "7025": [
+    "aer-apa-monobloc/index.html",
+    "edge-pro/index.html",
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "126": {
+  "pids": [
+   7026
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-pro-4-1-wisan-pmp-r-290.html"
+  ],
+  "listari": {
+   "7026": [
+    "aer-apa-monobloc/index.html",
+    "edge-pro/index.html",
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "127": {
+  "pids": [
+   7027
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-pro-4-1t-wisan-pmp-r-290.html"
+  ],
+  "listari": {
+   "7027": [
+    "aer-apa-monobloc/index.html",
+    "edge-pro/index.html",
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "128": {
+  "pids": [
+   7028
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-pro-5-1-wisan-pmp-r-290.html"
+  ],
+  "listari": {
+   "7028": [
+    "aer-apa-monobloc/index.html",
+    "edge-pro/index.html",
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "129": {
+  "pids": [
+   7029
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-pro-5-1t-wisan-pmp-r-290.html"
+  ],
+  "listari": {
+   "7029": [
+    "aer-apa-monobloc/index.html",
+    "edge-pro/index.html",
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "130": {
+  "pids": [
+   7030
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-pro-6-1-wisan-pmp-r-290.html"
+  ],
+  "listari": {
+   "7030": [
+    "aer-apa-monobloc/index.html",
+    "edge-pro/index.html",
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "131": {
+  "pids": [
+   7031
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-pro-7-1-wisan-pmp-r-290.html"
+  ],
+  "listari": {
+   "7031": [
+    "aer-apa-monobloc/index.html",
+    "edge-pro/index.html",
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "132": {
+  "pids": [
+   7032
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-pro-8-1-wisan-pmp-r-290.html"
+  ],
+  "listari": {
+   "7032": [
+    "aer-apa-monobloc/index.html",
+    "edge-pro/index.html",
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "133": {
+  "pids": [
+   7033
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-pro-6-1t-wisan-pmp-r-290.html"
+  ],
+  "listari": {
+   "7033": [
+    "aer-apa-monobloc/index.html",
+    "edge-pro/index.html",
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "134": {
+  "pids": [
+   7034
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-pro-7-1t-wisan-pmp-r-290.html"
+  ],
+  "listari": {
+   "7034": [
+    "aer-apa-monobloc/index.html",
+    "edge-pro/index.html",
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "135": {
+  "pids": [
+   7035
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-pro-8-1t-wisan-pmp-r-290.html"
+  ],
+  "listari": {
+   "7035": [
+    "aer-apa-monobloc/index.html",
+    "edge-pro/index.html",
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "136": {
+  "pids": [
+   7036
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-pro-l-12-1-wisan-pmp-r-290.html"
+  ],
+  "listari": {
+   "7036": [
+    "aer-apa-monobloc/index.html",
+    "edge-pro/index.html",
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "137": {
+  "pids": [
+   7037
+  ],
+  "detalii": [
+   "aer-apa-monobloc/pompa-de-caldura-monobloc-edge-pro-l-14-1-wisan-pmp-r-290.html"
+  ],
+  "listari": {
+   "7037": [
+    "aer-apa-monobloc/index.html",
+    "edge-pro/index.html",
+    "index.html",
+    "monobloc/index.html",
+    "pompe-de-caldura-36/index.html",
+    "pompe-de-caldura/index.html",
+    "produse/clivet/index.html",
+    "produse/index.html"
+   ]
+  }
+ },
+ "138": {
+  "pids": [
+   7038
+  ],
+  "detalii": [
+   "aer-conditionat-split-clivet-ezcool-9000-btu-wi-fi-r-32.html"
+  ],
+  "listari": {
+   "7038": [
     "echipamente-de-aer-conditionat/index.html",
     "index.html",
     "produse/clivet/index.html",
     "produse/index.html",
-    "single-split/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
-    "single-split/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
-    "single-split/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
-    "single-split/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
     "single-split/index.html"
    ]
   }
  },
- "15": {
+ "139": {
   "pids": [
-   413
+   7039
   ],
   "detalii": [
-   "aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
-   "echipamente-de-aer-conditionat/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
-   "single-split/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html"
+   "aer-conditionat-split-clivet-ezcool-12000-btu-wi-fi-r-32.html"
   ],
   "listari": {
-   "413": [
-    "aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
-    "aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
-    "aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
-    "aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
-    "echipamente-de-aer-conditionat/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
-    "echipamente-de-aer-conditionat/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
-    "echipamente-de-aer-conditionat/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
-    "echipamente-de-aer-conditionat/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
+   "7039": [
     "echipamente-de-aer-conditionat/index.html",
     "index.html",
     "produse/clivet/index.html",
     "produse/index.html",
-    "single-split/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
-    "single-split/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
-    "single-split/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
-    "single-split/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
     "single-split/index.html"
    ]
   }
  },
- "16": {
+ "140": {
   "pids": [
-   425
+   7040
   ],
   "detalii": [
-   "aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
-   "echipamente-de-aer-conditionat/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
-   "single-split/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html"
+   "aer-conditionat-split-clivet-ezcool-18000-btu-wi-fi-r-32.html"
   ],
   "listari": {
-   "425": [
-    "aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
-    "aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
-    "aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
-    "aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
-    "echipamente-de-aer-conditionat/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
-    "echipamente-de-aer-conditionat/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
-    "echipamente-de-aer-conditionat/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
-    "echipamente-de-aer-conditionat/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
+   "7040": [
     "echipamente-de-aer-conditionat/index.html",
     "index.html",
     "produse/clivet/index.html",
     "produse/index.html",
-    "single-split/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
-    "single-split/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
-    "single-split/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
-    "single-split/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
     "single-split/index.html"
    ]
   }
  },
- "17": {
+ "141": {
   "pids": [
-   429
+   7041
   ],
   "detalii": [
-   "aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
-   "echipamente-de-aer-conditionat/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
-   "single-split/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html"
+   "aer-conditionat-split-clivet-ezcool-24000-btu-wi-fi-r-32.html"
   ],
   "listari": {
-   "429": [
-    "aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
-    "aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
-    "aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
-    "aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
-    "echipamente-de-aer-conditionat/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
-    "echipamente-de-aer-conditionat/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
-    "echipamente-de-aer-conditionat/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
-    "echipamente-de-aer-conditionat/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
+   "7041": [
     "echipamente-de-aer-conditionat/index.html",
     "index.html",
     "produse/clivet/index.html",
     "produse/index.html",
-    "single-split/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
-    "single-split/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
-    "single-split/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
-    "single-split/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
     "single-split/index.html"
    ]
   }
  },
- "18": {
+ "142": {
   "pids": [
-   433
+   7042
   ],
   "detalii": [
-   "aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
-   "echipamente-de-aer-conditionat/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html",
-   "single-split/aer-conditionat-clivet-stelvio-split-inverter-r-32-premium-pentru-încălzire-9000-12000-btu.html"
+   "aer-conditionat-split-clivet-essential-2-9000-btu-r-32.html"
   ],
   "listari": {
-   "433": [
-    "aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
-    "aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
-    "aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
-    "aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
-    "echipamente-de-aer-conditionat/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
-    "echipamente-de-aer-conditionat/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
-    "echipamente-de-aer-conditionat/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
-    "echipamente-de-aer-conditionat/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
+   "7042": [
     "echipamente-de-aer-conditionat/index.html",
     "index.html",
     "produse/clivet/index.html",
     "produse/index.html",
-    "single-split/aer-conditionat-clivet-cristallo-2-split-inverter-r-32-premium-design-cristal-9000-24000-btu-2.html",
-    "single-split/aer-conditionat-clivet-essential-2-split-inverter-r-32-9000-24000-btu-2.html",
-    "single-split/aer-conditionat-clivet-ezcool-split-inverter-r-32-9000-24000-btu-2.html",
-    "single-split/aer-conditionat-clivet-nativ-split-inverter-r-32-design-slivery-9000-24000-btu-2.html",
     "single-split/index.html"
    ]
   }
  },
- "23": {
+ "143": {
   "pids": [
-   326
+   7043
   ],
   "detalii": [
-   "ventiloconvectoare/ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
-   "ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html"
+   "aer-conditionat-split-clivet-essential-2-12000-btu-r-32.html"
   ],
   "listari": {
-   "326": [
+   "7043": [
+    "echipamente-de-aer-conditionat/index.html",
     "index.html",
     "produse/clivet/index.html",
     "produse/index.html",
-    "ventiloconvectoare/index.html",
-    "ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html",
-    "ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html",
-    "ventiloconvectoare/ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
-    "ventiloconvectoare/ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html",
-    "ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html",
-    "ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html",
-    "ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
-    "ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html"
+    "single-split/index.html"
    ]
   }
  },
- "24": {
+ "144": {
   "pids": [
-   321
+   7044
   ],
   "detalii": [
-   "ventiloconvectoare/ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
-   "ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html"
+   "aer-conditionat-split-clivet-essential-2-18000-btu-r-32.html"
   ],
   "listari": {
-   "321": [
+   "7044": [
+    "echipamente-de-aer-conditionat/index.html",
     "index.html",
     "produse/clivet/index.html",
     "produse/index.html",
-    "ventiloconvectoare/index.html",
-    "ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html",
-    "ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html",
-    "ventiloconvectoare/ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
-    "ventiloconvectoare/ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html",
-    "ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html",
-    "ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html",
-    "ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
-    "ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html"
+    "single-split/index.html"
+   ]
+  }
+ },
+ "145": {
+  "pids": [
+   7045
+  ],
+  "detalii": [
+   "aer-conditionat-split-clivet-essential-2-24000-btu-r-32.html"
+  ],
+  "listari": {
+   "7045": [
+    "echipamente-de-aer-conditionat/index.html",
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "single-split/index.html"
+   ]
+  }
+ },
+ "146": {
+  "pids": [
+   7046
+  ],
+  "detalii": [
+   "aer-conditionat-split-clivet-nativ-9000-btu-r-32.html"
+  ],
+  "listari": {
+   "7046": [
+    "echipamente-de-aer-conditionat/index.html",
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "single-split/index.html"
+   ]
+  }
+ },
+ "147": {
+  "pids": [
+   7047
+  ],
+  "detalii": [
+   "aer-conditionat-split-clivet-nativ-12000-btu-r-32.html"
+  ],
+  "listari": {
+   "7047": [
+    "echipamente-de-aer-conditionat/index.html",
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "single-split/index.html"
+   ]
+  }
+ },
+ "148": {
+  "pids": [
+   7048
+  ],
+  "detalii": [
+   "aer-conditionat-split-clivet-nativ-18000-btu-r-32.html"
+  ],
+  "listari": {
+   "7048": [
+    "echipamente-de-aer-conditionat/index.html",
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "single-split/index.html"
+   ]
+  }
+ },
+ "149": {
+  "pids": [
+   7049
+  ],
+  "detalii": [
+   "aer-conditionat-split-clivet-nativ-24000-btu-r-32.html"
+  ],
+  "listari": {
+   "7049": [
+    "echipamente-de-aer-conditionat/index.html",
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "single-split/index.html"
+   ]
+  }
+ },
+ "150": {
+  "pids": [
+   7050
+  ],
+  "detalii": [
+   "aer-conditionat-split-clivet-cristallo-2-9000-btu-r-32.html"
+  ],
+  "listari": {
+   "7050": [
+    "echipamente-de-aer-conditionat/index.html",
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "single-split/index.html"
+   ]
+  }
+ },
+ "151": {
+  "pids": [
+   7051
+  ],
+  "detalii": [
+   "aer-conditionat-split-clivet-cristallo-2-12000-btu-r-32.html"
+  ],
+  "listari": {
+   "7051": [
+    "echipamente-de-aer-conditionat/index.html",
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "single-split/index.html"
+   ]
+  }
+ },
+ "152": {
+  "pids": [
+   7052
+  ],
+  "detalii": [
+   "aer-conditionat-split-clivet-cristallo-2-18000-btu-r-32.html"
+  ],
+  "listari": {
+   "7052": [
+    "echipamente-de-aer-conditionat/index.html",
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "single-split/index.html"
+   ]
+  }
+ },
+ "153": {
+  "pids": [
+   7053
+  ],
+  "detalii": [
+   "aer-conditionat-split-clivet-cristallo-2-24000-btu-r-32.html"
+  ],
+  "listari": {
+   "7053": [
+    "echipamente-de-aer-conditionat/index.html",
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "single-split/index.html"
+   ]
+  }
+ },
+ "154": {
+  "pids": [
+   7054
+  ],
+  "detalii": [
+   "aer-conditionat-split-clivet-stelvio-9000-btu-r-32.html"
+  ],
+  "listari": {
+   "7054": [
+    "echipamente-de-aer-conditionat/index.html",
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "single-split/index.html"
+   ]
+  }
+ },
+ "155": {
+  "pids": [
+   7055
+  ],
+  "detalii": [
+   "aer-conditionat-split-clivet-stelvio-12000-btu-r-32.html"
+  ],
+  "listari": {
+   "7055": [
+    "echipamente-de-aer-conditionat/index.html",
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "single-split/index.html"
+   ]
+  }
+ },
+ "156": {
+  "pids": [
+   7056
+  ],
+  "detalii": [
+   "ventiloconvectoare/caseta-elfospace-box3-007-0-inverter.html"
+  ],
+  "listari": {
+   "7056": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "157": {
+  "pids": [
+   7057
+  ],
+  "detalii": [
+   "ventiloconvectoare/caseta-elfospace-box3-011-0-inverter.html"
+  ],
+  "listari": {
+   "7057": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "158": {
+  "pids": [
+   7058
+  ],
+  "detalii": [
+   "ventiloconvectoare/caseta-elfospace-box3-015-0-inverter.html"
+  ],
+  "listari": {
+   "7058": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "159": {
+  "pids": [
+   7059
+  ],
+  "detalii": [
+   "ventiloconvectoare/caseta-elfospace-box3-021-0-inverter.html"
+  ],
+  "listari": {
+   "7059": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "160": {
+  "pids": [
+   7060
+  ],
+  "detalii": [
+   "ventiloconvectoare/caseta-elfospace-box3-031-0-inverter.html"
+  ],
+  "listari": {
+   "7060": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "161": {
+  "pids": [
+   7061
+  ],
+  "detalii": [
+   "ventiloconvectoare/caseta-elfospace-box3-041-0-inverter.html"
+  ],
+  "listari": {
+   "7061": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "162": {
+  "pids": [
+   7062
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-elforoom2-003-0-inverter.html"
+  ],
+  "listari": {
+   "7062": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "163": {
+  "pids": [
+   7063
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-elforoom2-005-0-inverter.html"
+  ],
+  "listari": {
+   "7063": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "164": {
+  "pids": [
+   7064
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-elforoom2-011-0-inverter.html"
+  ],
+  "listari": {
+   "7064": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "165": {
+  "pids": [
+   7065
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-elforoom2-015-0-inverter.html"
+  ],
+  "listari": {
+   "7065": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "166": {
+  "pids": [
+   7066
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-elforoom2-017-0-inverter.html"
+  ],
+  "listari": {
+   "7066": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "167": {
+  "pids": [
+   7067
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-aura-3-carcasat-3-viteze-cffac.html"
+  ],
+  "listari": {
+   "7067": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "168": {
+  "pids": [
+   7068
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-aura-4-carcasat-3-viteze-cffac.html"
+  ],
+  "listari": {
+   "7068": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "169": {
+  "pids": [
+   7069
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-aura-6-carcasat-3-viteze-cffac.html"
+  ],
+  "listari": {
+   "7069": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "170": {
+  "pids": [
+   7070
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-aura-8-carcasat-3-viteze-cffac.html"
+  ],
+  "listari": {
+   "7070": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "171": {
+  "pids": [
+   7071
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-aura-10-carcasat-3-viteze-cffac.html"
+  ],
+  "listari": {
+   "7071": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "172": {
+  "pids": [
+   7072
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-aura-12-carcasat-3-viteze-cffac.html"
+  ],
+  "listari": {
+   "7072": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "173": {
+  "pids": [
+   7073
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-de-perete-mood-1-inverter-cfw-2.html"
+  ],
+  "listari": {
+   "7073": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "174": {
+  "pids": [
+   7074
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-de-perete-mood-2-inverter-cfw-2.html"
+  ],
+  "listari": {
+   "7074": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "175": {
+  "pids": [
+   7075
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-de-perete-mood-3-inverter-cfw-2.html"
+  ],
+  "listari": {
+   "7075": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "176": {
+  "pids": [
+   7076
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-de-perete-mood-4-inverter-cfw-2.html"
+  ],
+  "listari": {
+   "7076": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "177": {
+  "pids": [
+   7077
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-de-perete-mood-5-inverter-cfw-2.html"
+  ],
+  "listari": {
+   "7077": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "178": {
+  "pids": [
+   7078
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-aura-3-necarcasat-3-viteze-cffau.html"
+  ],
+  "listari": {
+   "7078": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "179": {
+  "pids": [
+   7079
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-aura-4-necarcasat-3-viteze-cffau.html"
+  ],
+  "listari": {
+   "7079": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "180": {
+  "pids": [
+   7080
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-aura-6-necarcasat-3-viteze-cffau.html"
+  ],
+  "listari": {
+   "7080": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "181": {
+  "pids": [
+   7081
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-aura-8-necarcasat-3-viteze-cffau.html"
+  ],
+  "listari": {
+   "7081": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "182": {
+  "pids": [
+   7082
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-aura-10-necarcasat-3-viteze-cffau.html"
+  ],
+  "listari": {
+   "7082": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
+   ]
+  }
+ },
+ "183": {
+  "pids": [
+   7083
+  ],
+  "detalii": [
+   "ventiloconvectoare/ventiloconvector-aura-12-necarcasat-3-viteze-cffau.html"
+  ],
+  "listari": {
+   "7083": [
+    "index.html",
+    "produse/clivet/index.html",
+    "produse/index.html",
+    "ventiloconvectoare/index.html"
    ]
   }
  },
@@ -386,56 +1487,6 @@
    ]
   }
  },
- "26": {
-  "pids": [
-   289
-  ],
-  "detalii": [
-   "ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html",
-   "ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html"
-  ],
-  "listari": {
-   "289": [
-    "index.html",
-    "produse/clivet/index.html",
-    "produse/index.html",
-    "ventiloconvectoare/index.html",
-    "ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html",
-    "ventiloconvectoare/ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
-    "ventiloconvectoare/ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
-    "ventiloconvectoare/ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html",
-    "ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html",
-    "ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
-    "ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
-    "ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html"
-   ]
-  }
- },
- "27": {
-  "pids": [
-   284
-  ],
-  "detalii": [
-   "ventiloconvectoare/ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html",
-   "ventiloconvector-clivet-mood-1-5-cfw-2-incalzire-2-12-5-26-kw-racire-2-70-4-87-kw-pentru-rezidential-comercial-usor-industrial.html"
-  ],
-  "listari": {
-   "284": [
-    "index.html",
-    "produse/clivet/index.html",
-    "produse/index.html",
-    "ventiloconvectoare/index.html",
-    "ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html",
-    "ventiloconvectoare/ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html",
-    "ventiloconvectoare/ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
-    "ventiloconvectoare/ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
-    "ventiloconvector-clivet-aura-1-12-versiune-3-viteze-carcasat-sau-necarcasat-incalzire-1-85-8-50-kw-racire-1-65-8-25-kw-pentru-spatii-rezidentiale-comercial-usoare-industriale-cod-model-cffac-cffau.html",
-    "ventiloconvector-clivet-aura-1-12-versiune-inverter-carcasat-sau-necarcasat-incalzire-1-57-8-70-kw-racire-1-50-8-25-kw-cffc-cffu-pentru-rezidentiale-comercial-usore-industriale.html",
-    "ventiloconvector-clivet-elforoom2-003-0-017-0-versiune-inverter-incalzire-1-02-4-32-kw-racire-0-91-3-71-kw-elforoom2-pentru-spatii-rezidentiale-comercial-usoare-industriale.html",
-    "ventiloconvector-clivet-elfospace-box3-007-0-041-0-versiune-inverter-incalzire-2-61-10-07-kw-racire-2-98-11-2-kw-cfk-pentru-spatii-rezidentiale-comercial-usoare-industriale.html"
-   ]
-  }
- },
  "31": {
   "detalii": [
    "ventiloconvectoare/ventiloconvector-aura-necarcasat-inverter-cffau.html"
@@ -449,41 +1500,19 @@
    ]
   }
  },
- "32": {
-  "detalii": [
-   "ventiloconvectoare/ventiloconvector-aura-necarcasat-3-viteze-cffu.html"
-  ],
-  "listari": {
-   "9032": [
-    "index.html",
-    "produse/clivet/index.html",
-    "produse/index.html",
-    "ventiloconvectoare/index.html"
-   ]
-  }
- },
- "5": {
+ "200": {
   "pids": [
-   502
+   7200
   ],
   "detalii": [
-   "aer-apa-monobloc/pompă-de-căldură-clivet-edge-pro-trifazic-monobloc-r-290-wisan-pmp-6-1t-14-1.html",
-   "edge-pro/pompă-de-căldură-clivet-edge-pro-trifazic-monobloc-r-290-wisan-pmp-6-1t-14-1.html",
-   "pompe-de-caldura-36/pompă-de-căldură-clivet-edge-pro-trifazic-monobloc-r-290-wisan-pmp-6-1t-14-1.html"
+   "recuperator-elfofresh-evo-cpan-yin-size-2.html"
   ],
   "listari": {
-   "502": [
-    "aer-apa-monobloc/index.html",
-    "aer-apa-monobloc/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html",
-    "edge-evo-2-0-exc/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html",
-    "edge-pro/index.html",
-    "pompe-de-caldura-36/index.html",
-    "pompe-de-caldura-36/pompă-de-căldură-clivet-edge-evo-2-0-exc-xl-trifazic-monobloc-r-32-wisan-yme-6-1t-14-1.html",
-    "produse/clivet/index.html",
-    "produse/index.html",
-    "index.html",
+   "7200": [
     "pompe-de-caldura/index.html",
-    "monobloc/index.html"
+    "produse/index.html",
+    "produse/clivet/index.html",
+    "index.html"
    ]
   }
  }

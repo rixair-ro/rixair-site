@@ -46,9 +46,80 @@ def card_span(h, pid):
         if depth == 0: return (j, j + mm.end())
     return None
 
+
+import urllib.parse as UP
+EMAIL="office@rixar.ro"
+def email_block(p):
+    subj=UP.quote("Comand%s: %s (cod %s)"%(chr(0x103),p["nume"],p["sku"]))
+    body=UP.quote("Bun%s ziua,\n\nDoresc s%s comand: %s (cod %s).\n\nNume:\nTelefon:\nJude%s / Localitate:\n"%(chr(0x103),chr(0x103),p["nume"],p["sku"],chr(0x21B)))
+    return ('<div id="rx-email-buy"><a class="rx-b" href="mailto:%s?subject=%s&body=%s">&#9993; Trimite un email pentru acest produs</a>'
+            '<p style="font-size:13px;color:#777;margin-top:8px">Acest model se aduce la comand%s &#8212; scrie-ne %si revenim rapid cu termenul de livrare. Pre%sul afi%sat este informativ, cu TVA.</p></div>')%(
+            EMAIL,subj,body,'&#259;','&#537;','&#539;','&#537;')
+
+def sync_single(nr,p,info):
+    stoc=p.get("stoc","in_stoc")
+    pret=p.get("pret")
+    det_pret=("%s Lei"%fmt(pret)) if pret else "Pre&#539; la cerere"
+    n=p.get("cantitate")
+    for rel in info["detalii"]:
+        h=load(rel)
+        h=re.sub(r'(class="fPrice -g-product-final-price-\d+">)\s*[^<]*', r'\g<1> %s ' % det_pret, h)
+        h=re.sub(r'("pret":)\s*[^,}]+', r'\g<1> %s' % (pret if pret else "null"), h, count=1)
+        val=("%.4f"%pret) if pret else "0.0000"
+        h=re.sub(r'(id="productBasePrice" value=")[^"]*', r'\g<1>%s'%val, h)
+        h=re.sub(r'(id="productFinalPrice" value=")[^"]*', r'\g<1>%s'%val, h)
+        # eticheta stoc
+        if stoc=="in_stoc" and n: txt="In stoc: %d buc."%n
+        else: txt=STOC_TXT.get(stoc,"La comand&#259;")
+        i=h.find("fPrice"); seg=h[i:i+3000]
+        seg2=re.sub(r'(stock-status[^>]*>)(\s*(?:<i[^>]*></i>)?\s*)[^<]*', r'\g<1>\g<2>%s'%txt, seg, count=1)
+        h=h[:i]+seg2+h[i+3000:]
+        # RXSTATIC
+        st='<script id="rx-static">window.RXSTATIC={"stare":"%s","stoc":%s};</script>'%(stoc, n if n is not None else "null")
+        if '<script id="rx-static">' in h: h=re.sub(r'<script id="rx-static">.*?</script>',st,h,flags=re.S)
+        else: h=h.replace('</head>',st+'</head>',1)
+        # stil + buton email
+        h=re.sub(r'<style id="rx-nostock">.*?</style>','',h,flags=re.S)
+        h=re.sub(r'<div id="rx-email-buy">[\s\S]*?</div>','',h)
+        if stoc!="in_stoc":
+            h=h.replace('</head>','<style id="rx-nostock">.add-section{display:none!important}</style></head>',1)
+            # butonul de email intra imediat dupa eticheta de stoc (unde ar fi butonul de cumparare)
+            ip=h.find("fPrice")
+            m2=re.search(r'<(span|div)[^>]*stock-status[^>]*>',h[ip:ip+4000])
+            if m2:
+                tag=m2.group(1); start=ip+m2.start(); depth=0; end=None
+                for mm in re.finditer(r'<%s\b|</%s>'%(tag,tag),h[start:]):
+                    depth+=1 if not mm.group(0).startswith('</') else -1
+                    if depth==0: end=start+mm.end(); break
+                if end: h=h[:end]+email_block(p)+h[end:]
+        # cantitate max
+        if stoc=="in_stoc" and n:
+            h=re.sub(r'(<input[^>]*name="quantity"[^>]*?)(?:\s+max="[^"]*")?(\s*/?>)', r'\g<1> max="%d"\g<2>'%n, h, count=1)
+        save(rel,h)
+    # carduri
+    for pid_s,files in info["listari"].items():
+        pid=int(pid_s)
+        for rel in files:
+            h=load(rel)
+            h=re.sub(r'(-g-product-box-final-price-%d"[^>]*>)\s*[^<]*'%pid, r'\g<1>%s'%det_pret, h)
+            span=card_span(h,pid)
+            if span:
+                blk=h[span[0]:span[1]]
+                if stoc=="in_stoc" and n: txt="In stoc: %d buc."%n
+                else: txt=STOC_TXT.get(stoc,"La comand&#259;")
+                blk=re.sub(r'(stock-status[^>]*>)(\s*(?:<i[^>]*></i>)?\s*)[^<]*', r'\g<1>\g<2>%s'%txt, blk, count=1)
+                op=re.match(r'<div[^>]*>',blk).group(0)
+                op2=re.sub(r'\s*data-rx-(lacomanda|nostock|hidden)="1"','',op).replace(' style="display:none"','')
+                if stoc!="in_stoc": op2=op2[:-1]+' data-rx-lacomanda="1">'
+                blk=op2+blk[len(op):]
+                h=h[:span[0]]+blk+h[span[1]:]
+            save(rel,h)
+
 for nr, p in sorted(PR.items()):
     info = MAP.get(nr)
     if not info: continue
+    if not p.get("variante"):
+        sync_single(nr,p,info); continue
     stoc = p.get("stoc", "in_stoc")
     mn = pmin(p)
     card_pret = ("de la %s Lei" % fmt(mn)) if mn else "Preț la cerere"
@@ -134,7 +205,7 @@ for nr, p in sorted(PR.items()):
     if p.get("stoc", "in_stoc") == "ascuns": continue
     info = MAP.get(nr, {})
     url = "/" + (info.get("detalii") or [""])[0]
-    mn = pmin(p)
+    mn = pmin(p) if p.get("variante") else p.get("pret")
     sd.append({"n": p["nume_lung"], "u": url, "i": "/poze-rx/" + os.path.basename(p["poza"]), "p": (fmt(mn) if mn else None)})
 open(D("docs", "rixair-search-data.js"), "w", encoding="utf-8").write("window.RXP=%s;" % json.dumps(sd, ensure_ascii=False))
 

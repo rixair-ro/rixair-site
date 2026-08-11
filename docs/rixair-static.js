@@ -29,12 +29,14 @@ function rxDoAdd(t){
  if(window.RXPROD){it={sku:RXPROD.sku,nume:RXPROD.nume,pret:RXPROD.pret,img:RXPROD.img,qty:1};
   var q=document.querySelector('input[name="quantity"]');if(q)it.qty=Math.max(1,parseInt(q.value)||1);
   var s=document.querySelector('.rxVar');if(s){var o=s.options[s.selectedIndex];it.sku=o.getAttribute('data-sku')||it.sku;it.varianta=o.text;var pn=(o.getAttribute('data-pret')||'').replace(/\./g,'').replace(',','.');it.pret=pn?parseFloat(pn):null;var st=o.getAttribute('data-stoc');it.stoc=st?parseInt(st):null;if(it.stoc!=null&&it.qty>it.stoc)it.qty=it.stoc;}
+  else if(window.RXSTATIC&&RXSTATIC.stoc!=null){it.stoc=RXSTATIC.stoc;if(it.qty>it.stoc)it.qty=it.stoc;}
  } else {
   var card=t.closest('.product-box');
+  if(card&&card.getAttribute('data-rx-lacomanda')){toast('&#9888; Model la comand&#259; &#8212; deschide pagina produsului &#537;i trimite-ne un email.');return;}
   if(card){var nm=card.querySelector('[data-name]');var im=card.querySelector('img');
    it={sku:'produs-'+(card.getAttribute('data-product-id')||''),nume:(nm?nm.getAttribute('data-name'):(card.textContent.trim().slice(0,80))),pret:null,img:(im?im.getAttribute('src'):''),qty:1};}
  }
- if(window.RXBLOCK){toast('&#9888; Acest model nu este &#238;n stoc.');return;}
+ if(window.RXBLOCK){toast(window.RXSTATIC?'&#9888; Acest model se aduce la comand&#259; &#8212; folose&#537;te butonul &#8222;Trimite un email&#8221;.':'&#9888; Acest model nu este &#238;n stoc.');return;}
  if(it){qadd(it);
   var ad=document.querySelector('.rx-addon.rx-on');
   if(ad)qadd({sku:ad.getAttribute('data-sku'), nume:ad.getAttribute('data-nume'),
@@ -205,9 +207,11 @@ document.addEventListener('DOMContentLoaded',function(){
   if(sk&&w.sku&&sk.textContent!==w.sku) sk.textContent=w.sku;
   if(window.RXPROD&&w.sku) window.RXPROD.sku=w.sku;
   var o=selOpt();
-  var stare=o?(o.getAttribute('data-stare')||'la_comanda'):'la_comanda';
-  var n=o&&o.getAttribute('data-stoc')?parseInt(o.getAttribute('data-stoc')):null;
-  window.RXBLOCK=(stare==='fara_stoc');
+  var stare,n;
+  if(o){stare=o.getAttribute('data-stare')||'la_comanda';n=o.getAttribute('data-stoc')?parseInt(o.getAttribute('data-stoc')):null;}
+  else if(window.RXSTATIC){stare=RXSTATIC.stare;n=(RXSTATIC.stoc!=null)?RXSTATIC.stoc:null;}
+  else{stare='la_comanda';n=null;}
+  window.RXBLOCK=(stare==='fara_stoc')||(!!window.RXSTATIC&&stare!=='in_stoc');
   if(stEl){
    var vrut, culoare;
    if(stare==='fara_stoc'){vrut='Nu este în stoc';culoare='#c0392b';}
