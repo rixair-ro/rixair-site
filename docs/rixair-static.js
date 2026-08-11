@@ -10,10 +10,10 @@ function fmtL(p){if(p==null||isNaN(p))return 'la cerere';var d=(p%1===0)?0:2;ret
 function qadd(it){var l=qget(),k=null;for(var i=0;i<l.length;i++)if(l[i].sku===it.sku)k=l[i];
  var max=(it.stoc!=null)?it.stoc:(k&&k.stoc!=null?k.stoc:null);
  if(k){if(it.stoc!=null)k.stoc=it.stoc;var dorit=k.qty+it.qty;k.qty=(max!=null)?Math.min(dorit,max):dorit;
-  if(max!=null&&dorit>max){qset(l);toast('&#9888; Stoc disponibil: doar '+max+' buc. &#8212; <a href="/cos-de-cumparaturi">vezi cererea</a>');return;}}
- else{if(max!=null&&it.qty>max){it.qty=max;l.push(it);qset(l);toast('&#9888; Stoc disponibil: doar '+max+' buc. &#8212; <a href="/cos-de-cumparaturi">vezi cererea</a>');return;}l.push(it);}
+  if(max!=null&&dorit>max){qset(l);toast('&#9888; Stoc disponibil: doar '+max+' buc. &#8212; <a href="/cos-de-cumparaturi">vezi co&#537;ul</a>');return;}}
+ else{if(max!=null&&it.qty>max){it.qty=max;l.push(it);qset(l);toast('&#9888; Stoc disponibil: doar '+max+' buc. &#8212; <a href="/cos-de-cumparaturi">vezi co&#537;ul</a>');return;}l.push(it);}
  qset(l);
- toast('&#10003; Ad&#259;ugat la cererea de ofert&#259; &#8212; <a href="/cos-de-cumparaturi">vezi cererea</a>');}
+ toast('&#10003; Ad&#259;ugat &#238;n co&#537; &#8212; <a href="/cos-de-cumparaturi">vezi co&#537;ul</a>');}
 /* adauga in cos -> cerere (cu animatie de apasare + mic delay) */
 document.addEventListener('click',function(e){
  var t=e.target.closest('[onclick*="addToCart"],[href*="addToCart"],.__productAddToCart');
@@ -77,13 +77,13 @@ function bindSearch(inp){
 function renderCerere(host){
  document.body.classList.add('rx-cos');
  var l=qget();
- if(!l.length){host.innerHTML='<h1 style="font-size:24px;margin:10px 0">Cererea mea de ofert&#259;</h1><p style="padding:20px 0">Lista e goal&#259;. Alege produse din <a href="/" style="font-weight:700">catalog</a>.</p>';return;}
- var t='<h1 style="font-size:24px;margin:10px 0">Cererea mea de ofert&#259;</h1><table class="rx-t"><tr><th></th><th>Produs</th><th>Variant&#259; / Cod</th><th>Pre&#539; orientativ</th><th>Cant.</th><th></th></tr>',tot=0,inc=true;
+ if(!l.length){host.innerHTML='<h1 style="font-size:24px;margin:10px 0">Co&#537;ul meu</h1><p style="padding:20px 0">Lista e goal&#259;. Alege produse din <a href="/" style="font-weight:700">catalog</a>.</p>';return;}
+ var t='<h1 style="font-size:24px;margin:10px 0">Co&#537;ul meu</h1><table class="rx-t"><tr><th></th><th>Produs</th><th>Variant&#259; / Cod</th><th>Pre&#539;</th><th>Cant.</th><th></th></tr>',tot=0,inc=true;
  l.forEach(function(i,x){if(i.pret)tot+=i.pret*i.qty;else inc=false;
   t+='<tr><td>'+(i.img?'<img src="'+i.img+'">':'')+'</td><td>'+i.nume+'</td><td>'+(i.varianta||'')+'<br><small>'+i.sku+'</small></td><td>'+fmtL(i.pret)+'</td>'+
   '<td><span class="rx-qty"><button class="rx-x" data-a="m" data-x="'+x+'">&#8722;</button><b>'+i.qty+'</b><button class="rx-x" style="color:#2e7d32" data-a="p" data-x="'+x+'">+</button></span>'+(i.stoc!=null?'<br><small style="color:#789">stoc: '+i.stoc+' buc.</small>':'')+'</td>'+
   '<td><button class="rx-x" data-a="d" data-x="'+x+'">&#10005;</button></td></tr>';});
- t+='</table><p style="font-size:16px"><b>Total orientativ'+(inc?'':' (par&#539;ial)')+': '+fmtL(tot)+'</b> <small>cu TVA &#183; pre&#539;ul final se confirm&#259; prin ofert&#259;</small></p>';
+ t+='</table><p style="font-size:16px"><b>Total'+(inc?'':' (par&#539;ial)')+': '+fmtL(tot)+'</b> <small>cu TVA</small></p>';
  var toate_cu_pret = l.length>0 && l.every(function(i){return i.pret;});
  t+='<p>';
  if(toate_cu_pret) t+='<button class="rx-b" id="rxPay" style="background:#f4c340">&#128179; Pl&#259;te&#537;te cu cardul</button>';

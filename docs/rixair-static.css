@@ -207,3 +207,6 @@ select.rxVar{display:inline-block;vertical-align:middle}
 #wrapper .add2cart{display:inline-flex !important;align-items:center;justify-content:center;text-align:center;gap:8px;transition:transform .12s ease,filter .12s ease;will-change:transform}
 #wrapper .add2cart.rx-press{animation:rxpress .34s ease}
 @keyframes rxpress{0%{transform:scale(1)}40%{transform:scale(.93);filter:brightness(.9)}100%{transform:scale(1)}}
+
+/* titluri intrebari pe paginile de continut (FAQ, Ajutor etc.) */
+.rx-page-fill h3{font-size:18px;font-weight:700;color:#333;margin:18px 0 6px;line-height:1.35}
