@@ -216,3 +216,6 @@ select.rxVar{display:inline-block;vertical-align:middle}
 /* fara pret vechi taiat (aparea la +/- cantitate) */
 #wrapper .detail-price s{display:none!important}
 #wrapper .product-box s{display:none!important}
+
+/* poza controlerului in butonul de accesoriu */
+.rx-addon .rx-ai{height:34px;width:34px;object-fit:contain;flex:none;border-radius:6px}

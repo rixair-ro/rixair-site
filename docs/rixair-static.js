@@ -40,7 +40,7 @@ function rxDoAdd(t){
  if(it){qadd(it);
   var ad=document.querySelector('.rx-addon.rx-on');
   if(ad)qadd({sku:ad.getAttribute('data-sku'), nume:ad.getAttribute('data-nume'),
-              pret:parseFloat(ad.getAttribute('data-pret')), img:'', qty:1,
+              pret:parseFloat(ad.getAttribute('data-pret')), img:'/poze-rx/p36.png', qty:1,
               stoc:parseInt(ad.getAttribute('data-stoc')||'2')});
  }
 }
@@ -48,7 +48,7 @@ function rxDoAdd(t){
 (function(){
  document.querySelectorAll('.rx-addon').forEach(function(b){
   var base=(b.textContent||'').replace(/^\s*\+\s*/,'').trim();
-  b.innerHTML='<span class="rx-cb"></span><span class="rx-lb"></span>';
+  b.innerHTML='<span class="rx-cb"></span><img class="rx-ai" src="/poze-rx/p36.png" alt=""><span class="rx-lb"></span>';
   var lb=b.querySelector('.rx-lb');
   function paint(){lb.textContent=(b.classList.contains('rx-on')?'+ ':'')+base;}
   paint();
