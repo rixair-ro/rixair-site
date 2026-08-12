@@ -59,7 +59,7 @@ def email_block(p):
 def sync_single(nr,p,info):
     stoc=p.get("stoc","in_stoc")
     pret=p.get("pret")
-    det_pret=("%s Lei"%fmt(pret)) if pret else "Pre&#539; la cerere"
+    det_pret=("%s Lei"%fmt(pret)) if pret is not None else "Pre&#539; la cerere"
     n=p.get("cantitate")
     for rel in info["detalii"]:
         h=load(rel)

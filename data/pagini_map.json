@@ -1509,10 +1509,69 @@
   ],
   "listari": {
    "7200": [
-    "pompe-de-caldura/index.html",
+    "recuperatoare/index.html",
     "produse/index.html",
-    "produse/clivet/index.html",
-    "index.html"
+    "produse/clivet/index.html"
+   ]
+  }
+ },
+ "301": {
+  "pids": [
+   7301
+  ],
+  "detalii": [
+   "boiler-cu-pompa-de-caldura-aqua-f-190-dsdh-p-aq-1-s-190.html"
+  ],
+  "listari": {
+   "7301": [
+    "boilere-acm/index.html",
+    "produse/index.html",
+    "produse/clivet/index.html"
+   ]
+  }
+ },
+ "302": {
+  "pids": [
+   7302
+  ],
+  "detalii": [
+   "boiler-cu-pompa-de-caldura-aqua-f-190s-cu-serpentina-dsdh-p-aq-1-s-190s.html"
+  ],
+  "listari": {
+   "7302": [
+    "boilere-acm/index.html",
+    "produse/index.html",
+    "produse/clivet/index.html"
+   ]
+  }
+ },
+ "303": {
+  "pids": [
+   7303
+  ],
+  "detalii": [
+   "boiler-cu-pompa-de-caldura-aqua-f-300-dsdh-p-aq-1-s-300.html"
+  ],
+  "listari": {
+   "7303": [
+    "boilere-acm/index.html",
+    "produse/index.html",
+    "produse/clivet/index.html"
+   ]
+  }
+ },
+ "304": {
+  "pids": [
+   7304
+  ],
+  "detalii": [
+   "boiler-cu-pompa-de-caldura-aqua-f-300s-cu-serpentina-dsdh-p-aq-1-s-300s.html"
+  ],
+  "listari": {
+   "7304": [
+    "boilere-acm/index.html",
+    "produse/index.html",
+    "produse/clivet/index.html"
    ]
   }
  }
