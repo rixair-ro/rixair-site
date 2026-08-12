@@ -219,3 +219,12 @@ select.rxVar{display:inline-block;vertical-align:middle}
 
 /* poza controlerului in butonul de accesoriu */
 .rx-addon .rx-ai{height:34px;width:34px;object-fit:contain;flex:none;border-radius:6px}
+
+/* rx-hover-verde: contur verde gros la hover pe carduri, mai inchis la apasare */
+@media(hover:hover){
+#wrapper .product-box .box-holder{position:relative}
+#wrapper .product-box:hover .box-holder{border-color:#f4c340!important}
+#wrapper .product-box:hover .box-holder::after{content:"";position:absolute;inset:-1px;border:3.5px solid #f4c340;border-radius:inherit;pointer-events:none;z-index:9}
+#wrapper .product-box:active .box-holder{border-color:#c8961a!important}
+#wrapper .product-box:active .box-holder::after{border-color:#c8961a}
+}
