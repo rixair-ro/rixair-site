@@ -266,6 +266,9 @@ select.rxVar{display:inline-block;vertical-align:middle}
 #wrapper .top-head .row{height:auto!important;margin-top:0!important;margin-bottom:0!important;padding:0!important}
 #wrapper .top-head .row>div{height:auto!important;margin-top:0!important;margin-bottom:0!important;padding-top:0!important;padding-bottom:0!important}
 #wrapper .top-head .row>div,#wrapper .top-head .row>div>a{height:auto!important}
-#wrapper .top-head img{height:132px!important;max-height:132px!important;width:auto!important}
+#wrapper .top-head img{height:66px!important;max-height:66px!important;width:auto!important}
 #wrapper .landing-content{padding-top:10px!important}
 }
+
+/* rx-logo-desktop: logo decupat, inaltime potrivita pe ecran mare */
+@media(min-width:992px){#wrapper .top-head img{height:96px!important;max-height:96px!important;width:auto!important}}

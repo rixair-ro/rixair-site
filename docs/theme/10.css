@@ -410,7 +410,7 @@ body {font-family: 'Signika', sans-serif;}
 
 
 
-#logo img{content: url('https://gomagcdn.ro/domains2/wwwrixairro/files/company/rixair-logo-vector2609.svg');}
+#logo img{content: url('/poze-rx/rixair-logo.svg');}
 :root {--container-width:1264px};
 h1{font-size:1.4em !important;}h2{font-size:1.3em !important;}.detail-title .title span{font-size:1.15em !important;}
 #wrapper .btn:not(.filter-trg){font-size: 12px!important;line-height:30px!important;padding: 0px 15px!important;}
