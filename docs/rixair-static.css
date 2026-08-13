@@ -271,4 +271,4 @@ select.rxVar{display:inline-block;vertical-align:middle}
 }
 
 /* rx-logo-desktop: logo decupat, inaltime potrivita pe ecran mare */
-@media(min-width:992px){#wrapper .top-head img{height:96px!important;max-height:96px!important;width:auto!important}}
+@media(min-width:992px){#wrapper .top-head img{height:62px!important;max-height:62px!important;width:auto!important}}
