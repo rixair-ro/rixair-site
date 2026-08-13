@@ -103,7 +103,8 @@ function showErr(m){var e=document.getElementById('err');e.textContent=m;e.style
     fetch(FN,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
       items:l.map(function(i){return {sku:i.sku,qty:i.qty};}),
       email:v('f-email').value.trim(), nume:v('f-nume').value.trim(), telefon:v('f-tel').value.trim(),
-      adresa:{judet:v('f-judet').value, localitate:v('f-loc').value.trim(), adresa:v('f-adr').value.trim()}
+      judet:v('f-judet').value, localitate:v('f-loc').value.trim(), adresa:v('f-adr').value.trim(),
+      adresa_full:{judet:v('f-judet').value, localitate:v('f-loc').value.trim(), adresa:v('f-adr').value.trim()}
     })})
     .then(function(r){return r.json();})
     .then(function(d){

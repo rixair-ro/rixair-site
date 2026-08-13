@@ -50,11 +50,11 @@ def card_span(h, pid):
 import urllib.parse as UP
 EMAIL="office@rixar.ro"
 def email_block(p):
-    subj=UP.quote("Comand%s: %s (cod %s)"%(chr(0x103),p["nume"],p["sku"]))
-    body=UP.quote("Bun%s ziua,\n\nDoresc s%s comand: %s (cod %s).\n\nNume:\nTelefon:\nJude%s / Localitate:\n"%(chr(0x103),chr(0x103),p["nume"],p["sku"],chr(0x21B)))
-    return ('<div id="rx-email-buy"><a class="rx-b" href="mailto:%s?subject=%s&body=%s">&#9993; Trimite un email pentru acest produs</a>'
-            '<p style="font-size:13px;color:#777;margin-top:8px">Acest model se aduce la comand%s &#8212; scrie-ne %si revenim rapid cu termenul de livrare. Pre%sul afi%sat este informativ, cu TVA.</p></div>')%(
-            EMAIL,subj,body,'&#259;','&#537;','&#539;','&#537;')
+    return ('<div id="rx-email-buy"><a class="rx-b" href="/ajutor">&#9993; Cere oferta pentru acest produs</a>'
+            '<p style="font-size:13px;color:#777;margin-top:8px">Acest model se aduce la comand&#259; &#8212; sun&#259;-ne la '
+            '<a href="tel:+40722975518" style="color:#1583ab;font-weight:700">0722 975 518</a> sau scrie-ne la '
+            '<a href="mailto:office@rixar.ro" style="color:#1583ab;font-weight:700">office@rixar.ro</a> &#537;i revenim rapid cu termenul de livrare. '
+            'Pre&#539;ul afi&#537;at este informativ, cu TVA.</p></div>')
 
 def sync_single(nr,p,info):
     stoc=p.get("stoc","in_stoc")
