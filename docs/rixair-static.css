@@ -228,3 +228,30 @@ select.rxVar{display:inline-block;vertical-align:middle}
 #wrapper .product-box:active .box-holder{border-color:#c8961a!important}
 #wrapper .product-box:active .box-holder::after{border-color:#c8961a}
 }
+
+/* rx-vhero-mobil: pe telefon ascundem video-ul si aratam bannerul Clivet la proportia lui reala */
+@media(max-width:760px){
+.rx-vhero{height:auto;aspect-ratio:1920/644;min-height:0;max-height:none;background-size:cover;background-position:center}
+.rx-vhero video{display:none!important}
+}
+
+/* rx-cos-mobil: pe telefon tabelul cosului devine card, ca sa incapa in ecran */
+@media(max-width:700px){
+#wrapper .rx-t{display:block;font-size:14px;margin:14px 0 22px}
+#wrapper .rx-t tbody{display:block}
+#wrapper .rx-t tr:first-child{display:none}
+#wrapper .rx-t tr{position:relative;display:grid;grid-template-columns:70px 1fr;
+ grid-template-areas:"img nume" "img var" "pret qty";
+ gap:7px 12px;align-items:center;border:1px solid #e6ecf0;border-radius:14px;
+ padding:12px 34px 12px 12px;margin-bottom:12px;background:#fff}
+#wrapper .rx-t td{display:block;border:0;padding:0}
+#wrapper .rx-t td:nth-child(1){grid-area:img;align-self:start}
+#wrapper .rx-t img{width:70px;height:70px}
+#wrapper .rx-t td:nth-child(2){grid-area:nume;align-self:start;font-weight:700;font-size:14px;line-height:1.35}
+#wrapper .rx-t td:nth-child(3){grid-area:var;font-size:11.5px;color:#8a99a3;line-height:1.4}
+#wrapper .rx-t td:nth-child(3) small{font-size:11.5px}
+#wrapper .rx-t td:nth-child(4){grid-area:pret;padding-top:4px;font-weight:700;font-size:15px;color:#1583ab;white-space:nowrap}
+#wrapper .rx-t td:nth-child(5){grid-area:qty;justify-self:end;text-align:right}
+#wrapper .rx-t td:nth-child(6){position:absolute;top:6px;right:4px}
+#wrapper .rx-b{display:block;width:100%;margin:10px 0 0;text-align:center}
+}
