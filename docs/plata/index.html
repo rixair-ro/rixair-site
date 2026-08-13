@@ -69,7 +69,7 @@ var FN='https://uyynocwfvwmgttckgvzu.supabase.co/functions/v1/btipay-create-orde
 var JUDETE=["Alba","Arad","Argeș","Bacău","Bihor","Bistrița-Năsăud","Botoșani","Brașov","Brăila","București","Buzău","Caraș-Severin","Călărași","Cluj","Constanța","Covasna","Dâmbovița","Dolj","Galați","Giurgiu","Gorj","Harghita","Hunedoara","Ialomița","Iași","Ilfov","Maramureș","Mehedinți","Mureș","Neamț","Olt","Prahova","Satu Mare","Sălaj","Sibiu","Suceava","Teleorman","Timiș","Tulcea","Vaslui","Vâlcea","Vrancea"];
 function lei(n){if(n==null||isNaN(n))return '—';return Number(n).toLocaleString('ro-RO',{minimumFractionDigits:(n%1===0)?0:2,maximumFractionDigits:2})+' Lei';}
 function cart(){try{return JSON.parse(localStorage.getItem('rx_cerere')||'[]')}catch(e){return[]}}
-function showErr(m){var e=document.getElementById('err');e.textContent=m;e.style.display='block';e.scrollIntoView({behavior:'smooth',block:'center'});}
+function showErr(m){var e=document.getElementById('err');if(/nu este configurata|neconfigurat|BTIPAY|credentialele/i.test(m)){e.innerHTML='Plata online cu cardul se activeaz\u0103 \u00een cur\u00e2nd. P\u00e2n\u0103 atunci po\u021bi comanda telefonic la <a href="tel:+40722975518" style="color:#b3261e;font-weight:700">0722 975 518</a> sau pe email la <a href="mailto:office@rixar.ro" style="color:#b3261e;font-weight:700">office@rixar.ro</a> \u2014 te ajut\u0103m imediat.';}else{e.textContent=m;}e.style.display='block';e.scrollIntoView({behavior:'smooth',block:'center'});}
 
 (function(){
   var l=cart();
