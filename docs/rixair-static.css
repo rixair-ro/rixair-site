@@ -132,7 +132,7 @@ body.rx-cos table.rx-t td:nth-child(5){white-space:nowrap}
 
 /* rx-heading-accent: titluri de sectiune cu bara galbena de brand */
 .title-carousel .title{color:#0d2d4e}
-.title-carousel hr{display:block!important;width:56px!important;margin:10px 0 4px!important;border:none!important;border-top:4px solid #f4c340!important;border-radius:2px;background:none!important;height:0!important}
+.title-carousel hr{display:block!important;width:56px!important;margin:10px 0 4px!important;border:none!important;border-top:4px solid #1583ab!important;border-radius:2px;background:none!important;height:0!important}
 
 /* rx-card-clean: FARA umbre si FARA miscare pe cardurile de produs — ramane doar chenarul galben la hover (din tema) */
 .product-listing .product-box .box-holder,.carousel-slide .product-box .box-holder{border-radius:17px;background:#fff;box-shadow:none!important;transform:none!important}
@@ -164,7 +164,7 @@ body.rx-cos table.rx-t td:nth-child(5){white-space:nowrap}
 .footer-holder a{position:relative;z-index:2}
 
 /* rx-focus: accesibilitate — contur vizibil la navigarea cu tastatura */
-a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #f4c340;outline-offset:2px}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #1583ab;outline-offset:2px}
 
 /* rx-temp-hide: butonul de calculator din header ascuns temporar (sterge blocul ca sa revina) */
 .rx-calcbtn{display:none!important}
@@ -223,10 +223,10 @@ select.rxVar{display:inline-block;vertical-align:middle}
 /* rx-hover-verde: contur verde gros la hover pe carduri, mai inchis la apasare */
 @media(hover:hover){
 #wrapper .product-box .box-holder{position:relative}
-#wrapper .product-box:hover .box-holder{border-color:#f4c340!important}
-#wrapper .product-box:hover .box-holder::after{content:"";position:absolute;inset:-1px;border:3.5px solid #f4c340;border-radius:inherit;pointer-events:none;z-index:9}
-#wrapper .product-box:active .box-holder{border-color:#c8961a!important}
-#wrapper .product-box:active .box-holder::after{border-color:#c8961a}
+#wrapper .product-box:hover .box-holder{border-color:#1583ab!important}
+#wrapper .product-box:hover .box-holder::after{content:"";position:absolute;inset:-1px;border:3.5px solid #1583ab;border-radius:inherit;pointer-events:none;z-index:9}
+#wrapper .product-box:active .box-holder{border-color:#0e5a75!important}
+#wrapper .product-box:active .box-holder::after{border-color:#0e5a75}
 }
 
 /* rx-vhero-mobil: pe telefon ascundem video-ul si aratam bannerul Clivet la proportia lui reala */
@@ -272,3 +272,52 @@ select.rxVar{display:inline-block;vertical-align:middle}
 
 /* rx-logo-desktop: logo decupat, inaltime potrivita pe ecran mare */
 @media(min-width:992px){#wrapper .top-head img{height:62px!important;max-height:62px!important;width:auto!important}}
+
+
+/* rx-hero-ov: text peste video (varianta testabila) */
+.rx-vhero{--ho-align:flex-start;--ho-text:left}
+.rx-hero-ov{position:absolute;inset:0;z-index:3;display:flex;align-items:center;justify-content:var(--ho-align);
+ background:linear-gradient(90deg,rgba(8,40,70,.72) 0%,rgba(8,40,70,.38) 45%,rgba(8,40,70,0) 75%);padding:0 6vw}
+.rx-ho-in{max-width:560px;color:#fff;text-align:var(--ho-text)}
+.rx-ho-badge{display:inline-block;background:#1583ab;color:#fff;font-weight:700;font-size:14px;letter-spacing:.4px;
+ border-radius:20px;padding:6px 16px;margin-bottom:14px}
+.rx-ho-title{font-size:42px;line-height:1.12;font-weight:700;margin:0 0 12px;color:#fff;text-shadow:none}
+.rx-ho-sub{font-size:16.5px;line-height:1.5;color:#e8f1f8;margin:0 0 22px;text-shadow:none}
+.rx-ho-cta{display:inline-block;background:#1583ab;color:#fff;font-weight:700;font-size:16px;border-radius:26px;
+ padding:13px 34px;text-decoration:none}
+.rx-ho-cta:hover{background:#116d8d;color:#fff}
+@media(max-width:991px){.rx-hero-ov{display:none}}
+/* varianta 2: centrat */
+.rx-vhero.ho-center{--ho-align:center;--ho-text:center}
+.rx-vhero.ho-center .rx-hero-ov{background:linear-gradient(180deg,rgba(8,40,70,.15),rgba(8,40,70,.55))}
+/* varianta 3: jos-stanga, minimal */
+.rx-vhero.ho-bottom .rx-hero-ov{align-items:flex-end;padding-bottom:44px;
+ background:linear-gradient(0deg,rgba(8,40,70,.78) 0%,rgba(8,40,70,.25) 40%,rgba(8,40,70,0) 65%)}
+.rx-vhero.ho-bottom .rx-ho-title{font-size:34px}
+.rx-vhero.ho-bottom .rx-ho-sub{margin-bottom:0}
+.rx-vhero.ho-bottom .rx-ho-cta{display:none}
+
+/* variante orizontale: text pe toata latimea, sus sau jos */
+.rx-vhero.ho-top .rx-hero-ov,.rx-vhero.ho-band .rx-hero-ov{justify-content:center;padding:0}
+.rx-vhero.ho-top .rx-ho-in,.rx-vhero.ho-band .rx-ho-in{max-width:none;width:100%;text-align:center}
+.rx-vhero.ho-top .rx-hero-ov{align-items:flex-start;
+ background:linear-gradient(180deg,rgba(8,40,70,.72) 0%,rgba(8,40,70,.30) 30%,rgba(8,40,70,0) 55%)}
+.rx-vhero.ho-top .rx-ho-in{padding-top:34px}
+.rx-vhero.ho-top .rx-ho-title{font-size:34px;margin-bottom:8px}
+.rx-vhero.ho-top .rx-ho-sub{margin-bottom:0}
+.rx-vhero.ho-top .rx-ho-cta{display:none}
+.rx-vhero.ho-band .rx-hero-ov{align-items:flex-end;
+ background:linear-gradient(0deg,rgba(8,40,70,.88) 0%,rgba(8,40,70,.45) 30%,rgba(8,40,70,0) 52%)}
+.rx-vhero.ho-band .rx-ho-in{padding-bottom:28px}
+.rx-vhero.ho-band .rx-ho-badge{margin-bottom:8px}
+.rx-vhero.ho-band .rx-ho-title{font-size:32px;margin-bottom:6px}
+.rx-vhero.ho-band .rx-ho-sub{margin-bottom:0}
+.rx-vhero.ho-band .rx-ho-cta{display:none}
+
+/* rx-hero-above: titlul deasupra video-ului, pe fundal alb */
+.rx-hero-above{text-align:center;padding:30px 20px 26px;background:#fff}
+.rx-hero-above .rx-ho-badge{display:inline-block;background:#1583ab;color:#fff;font-weight:700;font-size:14px;letter-spacing:.4px;border-radius:20px;padding:6px 16px;margin-bottom:12px}
+.rx-ha-title{font-size:36px;font-weight:700;color:#123a5e;margin:0 0 8px;line-height:1.15}
+.rx-ha-sub{font-size:16px;color:#5a6b7a;margin:0}
+@media(max-width:991px){.rx-hero-above{padding:18px 16px 16px}.rx-ha-title{font-size:24px}.rx-ha-sub{font-size:14px}}
+

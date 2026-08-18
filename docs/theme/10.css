@@ -2,7 +2,7 @@
 :root {
     --providence-main-color: #5BA75A;
 	--providence-main-light: #5BA75A10;
-	--providence-secondary-color: #F4C340;
+	--providence-secondary-color: #1583ab;
 	--container-width: 1200px;
 }
 .bg-main {background:var(--providence-main-color)!important;}

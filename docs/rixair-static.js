@@ -88,7 +88,7 @@ function renderCerere(host){
  t+='</table><p style="font-size:16px"><b>Total'+(inc?'':' (par&#539;ial)')+': '+fmtL(tot)+'</b> <small>cu TVA</small></p>';
  var toate_cu_pret = l.length>0 && l.every(function(i){return i.pret;});
  t+='<p>';
- if(toate_cu_pret) t+='<button class="rx-b" id="rxPay" style="background:#f4c340">&#128179; Pl&#259;te&#537;te cu cardul</button>';
+ if(toate_cu_pret) t+='<button class="rx-b" id="rxPay" style="background:#1583ab">&#128179; Pl&#259;te&#537;te cu cardul</button>';
  if(!toate_cu_pret) t+='<button class="rx-b" id="rxSend">&#9993; Trimite cererea pe email</button>';
  t+='<button class="rx-b o" id="rxClear">Gole&#537;te</button></p>';
  if(!toate_cu_pret && l.some(function(i){return !i.pret;})) t+='<p style="font-size:13px;color:#888">Unele produse au pre&#539; la cerere &#8212; pentru ele trimite cererea pe email.</p>';
@@ -136,6 +136,7 @@ document.addEventListener('DOMContentLoaded',function(){
  var h2=document.getElementById('rxCautaHost');if(h2)renderCauta(h2);
 });
 })();
+
 
 /* rxLazyFix: incarca imaginile lazy daca lazysizes nu a pornit */
 setTimeout(function(){document.querySelectorAll('img[data-src]').forEach(function(i){
