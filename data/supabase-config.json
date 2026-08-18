@@ -5,6 +5,6 @@
   "proiect": "rixair-site",
   "organizatie": "RIXAIR",
   "tabele": {
-    "comenzi": "id, numar, created_at, user_id, email, nume, telefon, adresa(jsonb), produse(jsonb), total, status, stripe_session - RLS activ: clientii isi vad doar propriile comenzi"
+    "comenzi": "id, numar, created_at, user_id, email, nume, telefon, adresa(jsonb), produse(jsonb), total, status, bt_order_id - RLS activ: clientii isi vad doar propriile comenzi"
   }
 }

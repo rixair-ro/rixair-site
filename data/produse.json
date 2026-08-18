@@ -1475,5 +1475,18 @@
   "poza": "poze/p35.png",
   "nume_lung": "Boiler cu pompă de căldură AQUA F 300S cu serpentină (DSDH-P AQ 1 S 300S)",
   "cat": "boilere-acm"
+ },
+ {
+  "nr": 999,
+  "slug": "produs-test-plata",
+  "nume": "Produs de test plata (intern)",
+  "sku": "TEST-BT-1LEU",
+  "categorie": "intern",
+  "pret_tip": "fix",
+  "pret": 1,
+  "stoc": "in_stoc",
+  "cantitate": 99,
+  "descriere_scurta": "Produs intern pentru testarea platii BT iPay. Nu apare pe site.",
+  "poza": null
  }
 ]

@@ -1,6 +1,5 @@
 # Plăți cu cardul prin BT iPay (Banca Transilvania) — ghid
 
-Site-ul folosește acum **BT iPay** în locul Stripe. Fluxul: clientul completează datele pe
 `/plata/` → e redirecționat pe pagina securizată a Băncii Transilvania → după plată revine pe
 `/plata-reusita.html`, care verifică starea și trimite emailurile de confirmare.
 
@@ -41,9 +40,6 @@ Supabase → proiectul **rixair-site** → Edge Functions → Secrets:
 - BT activează comerciantul pe mediul live după semnarea contractului.
 - În Supabase Secrets: pui credențialele de producție și `BTIPAY_ENV` = `prod`. Atât.
 
-## Notă despre vechiul Stripe
-Funcțiile Stripe (`create-payment-intent`, `stripe-checkout`, `stripe-webhook`) încă există dar
-NU mai sunt folosite de site. Le putem șterge după ce BT merge în producție.
 
 ## POS fizic
 POS-ul fizic pentru showroom e un contract separat cu BT (terminal fizic) — nu implică site-ul.
