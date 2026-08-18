@@ -203,6 +203,7 @@ for nr, p in sorted(PR.items()):
 sd = []
 for nr, p in sorted(PR.items()):
     if p.get("stoc", "in_stoc") == "ascuns": continue
+    if p.get("categorie") == "intern" or not p.get("nume_lung") or not p.get("poza"): continue
     info = MAP.get(nr, {})
     url = "/" + (info.get("detalii") or [""])[0]
     mn = pmin(p) if p.get("variante") else p.get("pret")
